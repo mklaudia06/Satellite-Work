@@ -1,0 +1,222 @@
+{
+    "Amateur radio":{
+        "satellites":661,
+        "debris":1
+    },
+    "Beidou Navigation System":{
+        "satellites":58,
+        "debris":0
+    },
+    "Brightest":{
+        "satellites":57,
+        "debris":1
+    },
+    "Celestis":{
+        "satellites":3,
+        "debris":0
+    },
+    "Chinese Space Station":{
+        "satellites":10,
+        "debris":0
+    },
+    "CubeSats":{
+        "satellites":152,
+        "debris":0
+    },
+    "Disaster monitoring":{
+        "satellites":26,
+        "debris":0
+    },
+    "Earth resources":{
+        "satellites":137,
+        "debris":0
+    },
+    "Education":{
+        "satellites":28,
+        "debris":0
+    },
+    "Engineering":{
+        "satellites":63,
+        "debris":0
+    },
+    "Experimental":{
+        "satellites":142,
+        "debris":0
+    },
+    "Flock":{
+       "satellites":126,
+        "debris":0 
+    },
+    "GOES":{
+        "satellites":18,
+        "debris":0
+    },
+    "Galileo":{
+        "satellites":32,
+        "debris":0
+    },
+    "Geodetic":{
+        "satellites":49,
+        "debris":0
+    },
+    "Geostationary":{
+        "satellites":1023,
+        "debris":0
+    },
+    "Global Positioning System (GPS) Constellation":{
+        "satellites":76,
+        "debris":0
+    },
+    "Global Positioning System (GPS) Operational":{
+        "satellites":31,
+        "debris":0
+    },
+    "Globalstar":{
+        "satellites":85,
+        "debris":0
+    },
+    "Glonass Constellation":{
+       "satellites":141,
+       "debris":0
+    },
+    "Glonass Operational":{
+        "satellites":26,
+        "debris":0
+    },
+    "Gonets":{
+        "satellites":21,
+        "debris":0
+    },
+    "Gorizont":{
+        "satellites":33,
+        "debris":0
+    },
+    "IRNSS":{
+        "satellites":8,
+        "debris":0
+    },
+    "ISS":{
+        "satellites":17,
+        "debris":0
+    },
+    "Intelsat":{
+        "satellites":90,
+        "debris":0
+    },
+    "Iridium":{
+        "satellites":109,
+        "debris":0
+    },
+    "Lemur":{
+        "satellites":64,
+        "debris":0
+    },
+    "Military":{
+        "satellites":560,
+        "debris":4
+    },
+    "Molniya":{
+        "satellites":35,
+        "debris":0
+    },
+    "NOAA":{
+        "satellites":26,
+        "debris":0
+    },
+    "Navy Navigation Satellite System":{
+        "satellites":37,
+        "debris":0
+    },
+    "O3B Networks":{
+        "satellites":20,
+        "debris":0
+    },
+    "OneWeb":{
+        "satellites":648,
+        "debris":0
+    },
+    "Orbcomm":{
+        "satellites":61,
+        "debris":0
+    },
+    "Parus":{
+        "satellites":95,
+        "debris":0
+    },
+    "QZSS":{
+        "satellites":95,
+        "debris":0
+    },
+    "Qianfan":{
+        "satellites":84,
+        "debris":0
+    },
+    "Radar Calibration":{
+        "satellites":24,
+        "debris":0
+    },
+    "Raduga":{
+        "satellites":44,
+        "debris":0
+    },
+    "Russian LEO Navigation":{
+        "satellites":15,
+        "debris":0
+    },
+    "Satellite-Based Augmentation System":{
+        "satellites":14,
+        "debris":0
+    },
+    "Search & rescue":{
+        "satellites":16,
+        "debris":0
+    },
+    "Space & Earth Science":{
+        "satellites":516,
+        "debris":0
+    },
+    "Starlink":{
+        "satellites":7085,
+        "debris":0
+    },
+    "Strela":{
+        "satellites":565,
+        "debris":0
+    },
+    "TV":{
+        "satellites":410,
+        "debris":0
+    },
+    "Tracking and Data Relay Satellite System":{
+        "satellites":22,
+        "debris":0
+    },
+    "Tselina":{
+        "satellites":52,
+        "debris":0
+    },
+    "Tsikada":{
+        "satellites":22,
+        "debris":0
+    },
+    "Tsiklon":{
+        "satellites":28,
+        "debris":0
+    },
+    "Weather":{
+        "satellites":111,
+        "debris":0
+    },
+    "Westford Needles":{
+        "satellites":43,
+        "debris":0
+    },
+    "XM and Sirius":{
+        "satellites":9,
+        "debris":0
+    },
+    "Yaogan":{
+        "satellites":62,
+        "debris":0
+    }
+}

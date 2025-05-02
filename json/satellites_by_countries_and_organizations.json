@@ -1,0 +1,369 @@
+{
+    "by_countries":[
+        {
+            "country":"ALGERIA",
+            "satellites":6
+        },
+        {
+            "country":"ARGENTINA",
+            "satellites":36
+        },
+        {
+            "country":"AUSTRALIA",
+            "satellites":31
+        },
+        {
+            "country":"AZERBAIJAN",
+            "satellites":2
+        },
+        {
+            "country": "BANGLADESH",
+            "satellites":1
+        },
+        {
+            "country":"BELARUS",
+            "satellites":1
+        },
+        {
+            "country":"BOLIVIA",
+            "satellites":1
+        },
+        {
+            "country":"BOTSWANA",
+            "satellites":1
+        },
+        {
+            "country": "BRAZIL",
+            "satellites":19
+        },
+        {
+            "country":"BULGARIA",
+            "satellites":6
+        },
+        {
+            "country":"CANADA",
+            "satellites":65
+        },
+        {
+            "country":"CHILE",
+            "satellites":2
+        },
+        {
+            "country":"CZECH REPUBLIC (FORMER CZECHOSLOVAKIA)",
+            "satellites":5
+        },
+        {
+            "country": "CZECHIA",
+            "satellites":2
+        },
+        {
+            "country": "DENMARK",
+            "satellites":7
+        },
+        {
+            "country":"DJIBOUTI",
+            "satellites":1
+        },
+        {
+            "country":"ECUADOR",
+            "satellites":2
+        },
+        {
+            "country":"EGYPT",
+            "satellites":11
+        },
+        {
+            "country":"ESTONIA",
+            "satellites":1
+        },
+        {
+            "country":"FRANCE",
+            "satellites":124
+        },
+        {
+            "country":"GERMANY",
+            "satellites":80
+        },
+        {
+            "country":"GREECE",
+            "satellites":3
+        },
+        {
+            "country":"HUNGARY",
+            "satellites":1
+        },
+        {
+            "country":"INDIA",
+            "satellites":106
+        },
+        {
+            "country":"INDONESIA",
+            "satellites":19
+        },
+        {
+            "country":"IRAN",
+            "satellites":4
+        },
+        {
+            "country": "IRAQ",
+            "satellites":1
+        },
+        {
+            "country": "ISRAEL",
+            "satellites":18
+        },
+        {
+            "country":"ITALY",
+            "satellites":52
+        },
+        {
+            "country":"JAPAN",
+            "satellites":201
+        },
+        {
+            "country":"KAZAKHSTAN",
+            "satellites":8
+        },
+        {
+            "country":"KENYA",
+            "satellites":1
+        },
+        {
+            "country":"KUWAIT",
+            "satellites":1
+        },
+        {
+            "country": "LAOS",
+            "satellites":1
+        },
+        {
+            "country":"LITHUANIA",
+            "satellites":4
+        },
+        {
+            "country":"LUXEMBOURG",
+            "satellites":12
+        },
+        {
+            "country":"MALAYSIA",
+            "satellites":9
+        },
+        {
+            "country":"MOROCCO",
+            "satellites":4
+        },
+        {
+            "country": "NETHERLANDS",
+            "satellites":8
+        },
+        {
+            "country":"NEW ZEALAND",
+            "satellites":3
+        },
+        {
+            "country":"NIGERIA",
+            "satellites":5
+        },
+        {
+            "country":"NORTH KOREA",
+            "satellites":1
+        },
+        {
+            "country":"NORWAY",
+            "satellites":19
+        },
+        {
+            "country":"PAKISTAN",
+            "satellites":8
+        },
+        {
+            "country":"PEOPLE'S REPUBLIC OF CHINA",
+            "satellites":885
+        },
+        {
+            "country":"PERU",
+            "satellites":2
+        },
+        {
+            "country": "PHILIPPINES (REPUBLIC OF THE PHILIPPINES)",
+            "satellites":2
+        },
+        {
+            "country":"PORTUGAL",
+            "satellites":3
+        },
+        {
+            "country":"QATAR",
+            "satellites":1
+        },
+        {
+            "country":"REPUBLIC OF RWANDA",
+            "satellites":6
+        },
+        {
+            "country":"REPUBLIC OF SLOVENIA",
+            "satellites":2
+        },
+        {
+            "country":"REPUBLIC OF TUNISIA",
+            "satellites":1
+        },
+        {
+            "country":"SAUDI ARABIA",
+            "satellites":15
+        },
+        {
+            "country":"SINGAPORE",
+            "satellites":17
+        },
+        {
+            "country":"SINGAPORE/TAIWAN",
+            "satellites":2
+        },
+        {
+            "country": "SOUTH AFRICA",
+            "satellites":5
+        },
+        {
+            "country":"SOUTH KOREA",
+            "satellites":42
+        },
+        {
+            "country":"SPAIN",
+            "satellites":49
+        },
+        {
+            "country":"SWEDEN",
+            "satellites":13
+        },
+        {
+            "country":"TAIWAN (REPUBLIC OF CHINA)",
+            "satellites":16
+        },
+        {
+            "country": "THAILAND",
+            "satellites":12
+        },
+        {
+            "country":"TURKEY",
+            "satellites":29
+        },
+        {
+            "country":"UNITED ARAB EMIRATES",
+            "satellites":12
+        },
+        {
+            "country":"UNITED KINGDOM",
+            "satellites":659
+        },
+        {
+            "country": "UNITED STATES",
+            "satellites":9271
+        },
+        {
+            "country":"URUGUAY",
+            "satellites":1
+        },
+        {
+            "country":"VENEZUELA",
+            "satellites":3
+        },
+        {
+            "country":"VIETNAM",
+            "satellites":3
+        }
+    ],
+    "satellites_partners_countries":[
+        {
+            "country_one":"CHINA",
+            "country_two":"BRAZIL",
+            "satellites":3
+        },
+        {
+            "country_one":"FRANCE",
+            "country_two":"GERMANY",
+            "satellites":2
+        },
+        {
+            "country_one":"FRANCE",
+            "country_two":"ITALY",
+            "satellites":2
+        },
+        {
+            "country_one":"TURKMENISTAN",
+            "country_two":"MONACO",
+            "satellites":1
+        },
+        {
+            "country_one":"UNITED STATES",
+            "country_two":"BRAZIL",
+            "satellites":1
+        }
+    ],
+    "by_organizations":[
+        {
+            "organization":"ARAB SATELLITE COMMUNICATIONS ORGANIZATION",
+            "satellites":15
+        },
+        {
+            "organization":"ASIA SATELLITE TELECOMMUNICATIONS COMPANY (ASIASAT)",
+            "satellites":8
+        },
+        {
+            "organization":"COMMONWEALTH OF INDEPENDENT STATES (FORMER USSR)",
+            "satellites":1563
+        },
+        {
+            "organization":"EUROPEAN ORGANISATION FOR THE EXPLOITATION OF METEOROLOGICAL SATELLITES",
+            "satellites":10
+        },
+        {
+            "organization":"EUROPEAN SPACE AGENCY",
+            "satellites":97
+        },
+        {
+            "organization":"EUROPEAN TELECOMMUNICATIONS SATELLITE ORGANIZATION",
+            "satellites":57
+        },
+        {
+            "organization":"GLOBALSTAR",
+            "satellites":84
+        },
+        {
+            "organization":"INTERNATIONAL MOBILE SATELLITE ORGANIZATION (INMARSAT)",
+            "satellites":20
+        },
+        {
+            "organization": "INTERNATIONAL SPACE STATION",
+            "satellites":5
+        },
+        {
+            "organization":"INTERNATIONAL TELECOMMUNICATIONS SATELLITE ORGANIZATION",
+            "satellites":87
+        },
+        {
+            "organization":"NORTH ATLANTIC TREATY ORGANIZATION",
+            "satellites":8
+        },
+        {
+            "organization":"O3B NETWORKS",
+            "satellites":20
+        },
+        {
+            "organization":"ORBCOMM",
+            "satellites":41
+        },
+        {
+            "organization":"REGIONAL AFRICAN SATELLITE COMMUNICATIONS ORGANIZATION",
+            "satellites":2
+        },
+        {
+            "organization":"SEA LAUNCH",
+            "satellites":1
+        },
+        {
+            "organization":"SOCIETE EUROPEENNE DES SATELLITES",
+            "satellites":71
+        }
+    ]
+}
