@@ -11,13 +11,15 @@ def main(page: ft.Page):
     def route_change(e: ft.RouteChangeEvent):
         comps.route_change(e)
 
-    def view_pop(view):
-        page.views.pop()
-        top_view = page.views[-1]
-        page.go(top_view.route)
+    # Later Check view_pop function
+
+    # def view_pop(view):
+    #     page.views.pop()
+    #     top_view = page.views[-1]
+    #     page.go(top_view.route)
     
     page.on_route_change = route_change
-    page.on_view_pop = view_pop
+    # page.on_view_pop = view_pop
     page.go(page.route)
 
 ft.app(main)

@@ -7,8 +7,10 @@
             {"text": "B) Un objeto creado por humanos que orbita la Tierra"},
             {"text": "C) Una luna natural creada en laboratorio"}
         ],
+        "correct_answer": 1,
         "description": "¡El pináculo de la ingeniería espacial! ¡Un satélite artificial es básicamente un \"yo\" humano flotante en el espacio!",
-        "difficult": "ez"
+        "difficult": "ez",
+        "points": 2
     },
     {
         "id": 2,
@@ -18,8 +20,10 @@
             {"text": "B) Apollo 11"},
             {"text": "C) Voyager 2"}
         ],
+        "correct_answer": 0,
         "description": "¡El pionero, el OG, el primer satélite que hizo historia! ¡Sputnik 1 abrió las puertas a todo lo que vino después!",
-        "difficult": "ez"
+        "difficult": "ez",
+        "points": 2
     },
     {
         "id": 3,
@@ -29,8 +33,10 @@
             {"text": "B) Enviar señales de televisión, teléfono e internet"},
             {"text": "C) Medir terremotos"}
         ],
+        "correct_answer": 1,
         "description": "¡Los satélites son los reyes y reinas de la comunicación! ¡Gracias a ellos, puedes ver videos de gatitos en cualquier lugar del mundo!",
-        "difficult": "ez"
+        "difficult": "ez",
+        "points": 2
     },
     {
         "id": 4,
@@ -40,8 +46,10 @@
             {"text": "B) Satélite espía"},
             {"text": "C) Satélite meteorológico"}
         ],
+        "correct_answer": 2,
         "description": "¡Estos satélites son como oráculos espaciales! ¡Nos ayudan a saber si necesitamos paraguas mañana!",
-        "difficult": "ez"
+        "difficult": "ez",
+        "points": 2
     },
     {
         "id": 5,
@@ -51,8 +59,10 @@
             {"text": "B) 1"},
             {"text": "C) 4"}
         ],
+        "correct_answer": 2,
         "description": "¡Con solo 4 satélites GPS, puedes conquistar cualquier ciudad! ¡Nunca más te perderás!",
-        "difficult": "ez"
+        "difficult": "ez",
+        "points": 2
     },
     {
         "id": 6,
@@ -62,8 +72,10 @@
             {"text": "B) Unión Soviética"},
             {"text": "C) Cuba"}
         ],
+        "correct_answer": 1,
         "description": "¡La Unión Soviética plantó la primera bandera en la órbita terrestre! ¡Un momento épico en la historia!",
-        "difficult": "ez"
+        "difficult": "ez",
+        "points": 2
     },
     {
         "id": 7,
@@ -73,8 +85,10 @@
             {"text": "B) Enviar mensajes entre teléfonos"},
             {"text": "C) Encender redes eléctricas"}
         ],
+        "correct_answer": 0,
         "description": "¡Los satélites no solo nos conectan, sino que también nos ayudan a proteger la Tierra! ¡Son nuestros ojos en el cielo!",
-        "difficult": "ez"
+        "difficult": "ez",
+        "points": 2
     },
     {
         "id": 8,
@@ -84,8 +98,10 @@
             {"text": "B) Una órbita que va en línea recta hacia el Sol"},
             {"text": "C) Una órbita que cambia cada día"}
         ],
+        "correct_answer": 0,
         "description": "¡Imagínate tener tu propio satélite personal que siempre te está mirando! ¡Así de geniales son las órbitas geoestacionarias!",
-        "difficult": "ez"
+        "difficult": "ez",
+        "points": 2
     },
     {
         "id": 9,
@@ -95,8 +111,10 @@
             {"text": "B) Entre 5 y 15 años"},
             {"text": "C) Unos pocos meses"}
         ],
+        "correct_answer": 1,
         "description": "¡Los satélites tienen una vida útil como la de un superhéroe! ¡Luego, toca un merecido descanso!",
-        "difficult": "ez"
+        "difficult": "ez",
+        "points": 2
     },
     {
         "id": 10,
@@ -106,8 +124,10 @@
             {"text": "B) Se reciclan en el espacio"},
             {"text": "C) Se convierten en basura espacial"}
         ],
+        "correct_answer": 2,
         "description": "¡No todo en el espacio es brillante y reluciente! ¡Hay que ser responsables con nuestros residuos orbitales!",
-        "difficult": "ez"
+        "difficult": "ez",
+        "points": 2
     },
     {
         "id": 11,
@@ -117,8 +137,10 @@
             {"text": "B) Ofrecen una cobertura global y continua"},
             {"text": "C) Pueden volar más cerca de la superficie terrestre"}
         ],
-        "description": "¡Reconoces que los satélites son como ojos gigantes que ven el mundo entero!",
-        "difficult": "mid"
+        "correct_answer": 1,
+        "description": "¡Los satélites son como ojos gigantes que ven el mundo entero!",
+        "difficult": "mid",
+        "points": 6
     },
     {
         "id": 12,
@@ -128,8 +150,10 @@
             {"text": "B) Un tipo de interferencia en la señal"},
             {"text": "C) Una técnica para encriptar la señal"}
         ],
+        "correct_answer": 0,
         "description": "¡Las ondas eléctricas emitidas por estos dispositivos de navegación cambian de longitud, lo que permite deducir la distancia a los satélites!",
-        "difficult": "mid"
+        "difficult": "mid",
+        "points": 6
     },
     {
         "id": 13,
@@ -139,8 +163,10 @@
             {"text": "B) El polvo cósmico acumulado en las órbitas terrestres"},
             {"text": "C) Satélites inoperativos y fragmentos de cohetes que orbitan la Tierra, representando un peligro para las misiones espaciales"}
         ],
+        "correct_answer": 2,
         "description": "¡Las consecuencias que puede provocar esta basura espacial van desde inutilizar nuestros actuales sistemas de comunicación a sufrir en la superficie terrestre el impacto de piezas de estos despojos envueltas en llamas, pasando por poner en riesgo el futuro de los vuelos espaciales",
-        "difficult": "mid"
+        "difficult": "mid",
+        "points": 6
     },
     {
         "id": 14,
@@ -150,8 +176,10 @@
             {"text": "B) Energía eólica"},
             {"text": "C) Energía nuclear"}
         ],
-        "description": " ¡Perfecto! Los satelites son alimentados por el astro rey",
-        "difficult": "mid"
+        "correct_answer": 0,
+        "description": " ¡Los satelites son alimentados por el astro rey!",
+        "difficult": "mid",
+        "points": 6
     },
     {
         "id": 15,
@@ -161,8 +189,10 @@
             {"text": "B) Los LEO orbitan más cerca de la Tierra y se mueven más rápido, mientras que los GEO parecen estar fijos sobre un punto"},
             {"text": "C) Los LEO solo se usan para comunicaciones y los GEO para observación"}
         ],
+        "correct_answer": 1,
         "description": "GEO (Órbita Geoestacionaria): ¡Imagina un satélite pegado al cielo! Está muy lejos, pero siempre mira el mismo punto de la Tierra. ¡Es como un amigo que nunca se mueve! Ideal para TV y comunicaciones.\n\nLEO (Órbita Baja Terrestre): ¡Piensa en satélites que corren alrededor de la Tierra! Están cerca, ven muchas cosas diferentes y se mueven rápido. ¡Son como mensajeros veloces! Útiles para observación y conectividad rápida.",
-        "difficult": "mid"
+        "difficult": "mid",
+        "points": 6
     },
     {
         "id": 16,
@@ -172,8 +202,10 @@
             {"text": "B) El panel solar que genera energía para el satélite"},
             {"text": "C) Un dispositivo que recibe, amplifica y retransmite señales de radio"}
         ],
+        "correct_answer": 2,
         "description": "¡Un transpondedor es como el DJ espacial del satélite! Recibe una señal de radio bajita y tímida, le sube el volumen al máximo (¡boom!), y la lanza de nuevo a la Tierra con toda la energía. ¡Es el rey de la amplificación, asegurando que tus series favoritas lleguen a tu pantalla sin problemas!",
-        "difficult": "hard"
+        "difficult": "hard",
+        "points": 10
     },
     {
         "id": 17,
@@ -183,8 +215,10 @@
             {"text": "B) Seguimiento de la basura espacial y maniobras de evasión por parte de los satélites"},
             {"text": "C) Recolección de la basura espacial con redes gigantes"}
         ],
+        "correct_answer": 1,
         "description": "Imagina que la órbita de la Tierra es una autopista llena de autos (satélites) y escombros (basura espacial). Para evitar choques, hacemos lo siguiente:\n\n1. ¡Radar al máximo! Rastreamos la basura espacial como si fueran ovnis. ¡Sabemos dónde están y hacia dónde van!\n2. ¡Maniobras de esquive! Si un satélite está a punto de chocar con algo, ¡hacemos que se mueva! Es como un baile espacial para evitar el desastre.\n3. ¡Satélites suicidas (pero buenos)! Diseñamos satélites que se quemen al entrar en la atmósfera terrestre cuando ya no sirven. ¡Así no dejan más basura atrás!\n4. ¡Cazadores de basura! En el futuro, podríamos tener naves espaciales que recolecten la basura. ¡Como los basureros del espacio!\n\n¡En resumen, evitamos chocar con la basura espacial como si estuviéramos jugando a un videojuego de esquivar asteroides! ¡La seguridad espacial es lo primero",
-        "difficult": "hard"
+        "difficult": "hard",
+        "points": 10
     },
     {
         "id": 18,
@@ -194,8 +228,10 @@
             {"text": "B) Utiliza rayos láser para medir la distancia a la superficie terrestre"},
             {"text": "C) Utiliza la luz visible para crear imágenes en color de la Tierra"}
         ],
+        "correct_answer": 0,
         "description": "¡Interferometría de Apertura Sintética, o SAR, es como darle superpoderes a la visión de un satélite! Normalmente, para ver algo pequeño necesitas un \"ojo\" (lente) muy grande. Pero los satélites no pueden tener lentes gigantes, ¡serían demasiado pesados!\n\nSAR lo soluciona siendo astuto: el satélite envía ondas de radio hacia la Tierra y \"escucha\" el eco. Toma muchas \"fotos\" (datos de radar) mientras viaja. Luego, ¡combina todas esas fotos como si fueran piezas de un rompecabezas! ¡Este truco crea una imagen súper detallada, como si el satélite tuviera un \"ojo\" enorme! ✨ ¡Incluso puede ver a través de las nubes y en la oscuridad!",
-        "difficult": "hard"
+        "difficult": "hard",
+        "points": 10
     },
     {
         "id": 19,
@@ -205,8 +241,10 @@
             {"text": "B) Satélites antiguos que han sido dejados en órbitas específicas para su preservación"},
             {"text": "C) Agrupaciones de satélites de diferentes países que trabajan juntos"}
         ],
+        "correct_answer": 0,
         "description": "¡Imagina una banda de superhéroes, pero en el espacio! Eso es una constelación de satélites: ¡un grupo de satélites que trabajan juntos como un equipo!\n\n¿Por qué son importantes? ¡Porque juntos son mucho más poderosos! En lugar de un solo satélite haciendo un trabajo, tienes muchos cubriendo una área enorme, con mucho mejor cobertura, y si uno falla, ¡los otros lo respaldan!\n\nEs como tener un ejército de mensajeros, observadores, o comunicadores en el cielo. ¡Nos dan internet en todo el mundo, imágenes detalladas de la Tierra, y mejoran nuestra navegación! ¡Las constelaciones de satélites son el futuro del espacio!",
-        "difficult": "hard"
+        "difficult": "hard",
+        "points": 10
     },
     {
         "id": 20,
@@ -216,7 +254,9 @@
             {"text": "B) La falta de energía solar"},
             {"text": "C) La dificultad de mantener la comunicación con la Tierra debido a las grandes distancias"}
         ],
+        "correct_answer": 2,
         "description": "¡Viajar al espacio profundo es súper difícil! El gran reto es comunicarse: ¡las señales tardan en llegar y son débiles! Además, hay que proteger al satélite del frío extremo y de la radiación cósmica, ¡y asegurarse de que tenga suficiente energía para funcionar por años, allá donde el Sol es mucho más tenue! ¡Es una aventura tecnológica épica!",
-        "difficult": "hard"
+        "difficult": "hard",
+        "points": 10
     }
 ]

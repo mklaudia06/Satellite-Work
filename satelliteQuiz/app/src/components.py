@@ -1,5 +1,8 @@
 import flet as ft
 from typing import List, Dict, Any
+from .funcs import createUserJson, updateJson, readJson
+import random
+import os
 
 class Components:
     def __init__(self, page: ft.Page, main_data: List[Dict[str, Any]], text_data):
@@ -8,19 +11,70 @@ class Components:
         self.main_data = main_data
         self.text_data = text_data
         self.question_count = len(main_data)
+        self.radio_group = None
+        self.info_dlg = None
+        self.correct_answers_responses = ["Exacto", "Asi es", "Perfecto", "Eres un/a crack"]
+        self.incorrect_answers_responses = ["Nope", "Casi, pero no", "No es correcto"]
+
+    def createDlg(self, title: str, content: str, question_number: int = None):
+        def close_and_continue(e):
+            self.page.close(self.info_dlg)
+            self.page.go(f"/question{question_number + 1}")
+
+        self.info_dlg = ft.AlertDialog(
+            modal=True,
+            title=ft.Text(title),
+            content=ft.Text(content),
+            alignment=ft.alignment.center,
+            actions=[
+                ft.TextButton("Cerrar", on_click=close_and_continue)
+            ]
+        )
+
+    def validateAnswers(self, question_number: int):
+        question_data = self.main_data[question_number - 1] # No list index out of range
+        try:
+            if self.radio_group.value is not None:
+                if self.radio_group.value == question_data["answers"][question_data["correct_answer"]]["text"].lower():
+                    self.createDlg(
+                        title=random.choice(self.correct_answers_responses),
+                        content=question_data["description"],
+                        question_number=question_number
+                    )
+                    updateJson("./utils/userResults.json", question_data["points"])
+                    self.page.open(self.info_dlg)
+                else:
+                    self.createDlg(
+                        title=random.choice(self.incorrect_answers_responses),
+                        content=question_data["description"],
+                        question_number=question_number
+                    )
+                self.page.open(self.info_dlg)
+            else:
+                self.createDlg(
+                    title=">:/",
+                    content="No has marcado ninguna opcion, asegurate de marcar aunque sea una",
+                )
+                self.page.open(self.info_dlg)
+        except Exception as e:
+            print(e)
 
     def buttonContinueOrFinish(self, question_number: int):
         if question_number < 20:
-            return ft.ElevatedButton("Siguiente Pregunta", on_click=lambda _: self.page.go(f"/question{question_number + 1}"))
+            return ft.ElevatedButton("Siguiente Pregunta", on_click=lambda _: self.validateAnswers(question_number))
         return ft.ElevatedButton("Finish", on_click=lambda _: self.page.go("/results"))
     
-    def displayAnswers(self, answers: List[Dict[str, bool]]):
+    def displayAnswers(self, answers: List[Dict[str, str]]):
         radios = []
         for all_answers in answers:
-            radios.append(ft.Radio(label=all_answers["text"]))
+            radios.append(ft.Radio(value=all_answers["text"].lower(), label=all_answers["text"]))
         
         return radios
-    
+
+    def start(self, e):
+        createUserJson("./utils/userResults.json")
+        self.page.go("/question1")
+
     def createHomeView(self):
         return ft.View(
             "/",
@@ -33,7 +87,7 @@ class Components:
                             ft.Text("Veamos cuanto sabes acerca de los satélites😼", text_align="center", size=35),
                             ft.ResponsiveRow(
                                 [
-                                    ft.ElevatedButton("Comenzar Quiz", on_click=lambda _: self.page.go("/question1")),
+                                    ft.ElevatedButton("Comenzar Quiz", on_click=self.start),
                                     ft.ElevatedButton("Acerca de...", on_click=lambda _: self.page.go("/about_us"))
                                 ]
                             )
@@ -62,17 +116,26 @@ class Components:
             ]
         )
     
+    def finish(self, e):
+        os.remove("./utils/userResults.json")
+        self.page.go("/")
+    
     def createResultsView(self):
+        result = readJson("./utils/userResults.json")["points"]
         return ft.View(
             "/results",
             [
                 ft.AppBar(title=ft.Text("Resultados del Quiz"), center_title=True),
-                ft.Text("¡Aquí mostrarías la puntuación final!"), # Reemplaza con la lógica de puntuación
+                ft.Text(result),
+                ft.ElevatedButton("Regresar al Menu Principal", on_click=self.finish)
             ]
         )
 
     def createQuestionView(self, question_number: int):
-        question_data = self.main_data[question_number - 1]
+        question_data = self.main_data[question_number - 1] # No list index out of range
+        self.radio_group = ft.RadioGroup(
+                            content=ft.Column(self.displayAnswers(question_data["answers"]))
+                        )
         return ft.View(
             f"/question{question_number}",
             [
@@ -80,9 +143,7 @@ class Components:
                 ft.Column(
                     [
                         ft.Text(value=question_data["question"], text_align=self.text_align),
-                        ft.RadioGroup(
-                            content=ft.Column(self.displayAnswers(question_data["answers"]))
-                        ),
+                        self.radio_group,
                         self.buttonContinueOrFinish(question_number)
                     ], 
                     horizontal_alignment=self.text_align
@@ -100,7 +161,7 @@ class Components:
                 if 1 <= question_number <= self.question_count:
                     self.page.views.append(self.createQuestionView(question_number))
                 else:
-                    self.page.views.append(self.createNotFoundView()) # Manejo de error para preguntas fuera de rango
+                    self.page.views.append(self.createNotFoundView())
             except ValueError:
                 self.page.views.append(self.createNotFoundView())  
 
