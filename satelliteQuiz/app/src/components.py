@@ -1,12 +1,13 @@
 import flet as ft
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Callable
 from .funcs import createUserJson, updateJson, readJson
 import random
 import os
 
 class Components:
-    def __init__(self, page: ft.Page, main_data: List[Dict[str, Any]], text_data):
-        self.text_align = "center"
+    def __init__(self, page: ft.Page, main_data: List[Dict[str, str|int]], text_data: Dict[str, str]):
+        self.text_align = ft.TextAlign.CENTER
+        self.alignment = ft.CrossAxisAlignment.CENTER
         self.page = page
         self.main_data = main_data
         self.text_data = text_data
@@ -14,12 +15,15 @@ class Components:
         self.radio_group = None
         self.info_dlg = None
         self.correct_answers_responses = ["Exacto", "Asi es", "Perfecto", "Eres un/a crack"]
-        self.incorrect_answers_responses = ["Nope", "Casi, pero no", "No es correcto"]
+        self.incorrect_answers_responses = ["Nope", "Casi, pero no", "No es correcto", "Hmmm, no lo creo"]
 
     def createDlg(self, title: str, content: str, question_number: int = None):
         def close_and_continue(e):
             self.page.close(self.info_dlg)
-            self.page.go(f"/question{question_number + 1}")
+            if question_number < 20:
+                self.page.go(f"/question{question_number + 1}")
+            else:
+                self.page.go("/results")
 
         self.info_dlg = ft.AlertDialog(
             modal=True,
@@ -62,12 +66,19 @@ class Components:
     def buttonContinueOrFinish(self, question_number: int):
         if question_number < 20:
             return ft.ElevatedButton("Siguiente Pregunta", on_click=lambda _: self.validateAnswers(question_number))
-        return ft.ElevatedButton("Finish", on_click=lambda _: self.page.go("/results"))
+        return ft.ElevatedButton("Finish", on_click=lambda _: self.validateAnswers(question_number))
     
     def displayAnswers(self, answers: List[Dict[str, str]]):
         radios = []
         for all_answers in answers:
-            radios.append(ft.Radio(value=all_answers["text"].lower(), label=all_answers["text"]))
+            radios.append(
+                ft.Container(
+                    ft.Radio(value=all_answers["text"].lower(), 
+                             label=all_answers["text"],
+                             label_style=ft.TextStyle(size=15)), 
+                    expand=2,
+                    )
+                )
         
         return radios
 
@@ -84,7 +95,7 @@ class Components:
                     ft.Column(
                         [   
                             ft.Image(src="https://media.istockphoto.com/id/466727938/photo/communication-satellite-orbiting-earth.jpg?s=612x612&w=0&k=20&c=dQN649CS_VGkqUmutFNhRmltil9uHFvDIZR3ttkeHtc="),
-                            ft.Text("Veamos cuanto sabes acerca de los satélites😼", text_align="center", size=35),
+                            ft.Text("Veamos cuanto sabes acerca de los satélites😼", text_align=self.text_align, size=35),
                             ft.ResponsiveRow(
                                 [
                                     ft.ElevatedButton("Comenzar Quiz", on_click=self.start),
@@ -92,7 +103,7 @@ class Components:
                                 ]
                             )
                         ],
-                        horizontal_alignment="center"
+                        horizontal_alignment=self.alignment
                 )
                 )
             ]
@@ -134,22 +145,26 @@ class Components:
     def createQuestionView(self, question_number: int):
         question_data = self.main_data[question_number - 1] # No list index out of range
         self.radio_group = ft.RadioGroup(
-                            content=ft.Column(self.displayAnswers(question_data["answers"]))
+                            content=ft.Column(self.displayAnswers(question_data["answers"]), tight=True),
                         )
         return ft.View(
             f"/question{question_number}",
             [
                 ft.AppBar(title=ft.Text(value=f"Pregunta #{question_number}"), center_title=True),
-                ft.Column(
-                    [
-                        ft.Text(value=question_data["question"], text_align=self.text_align),
-                        self.radio_group,
-                        self.buttonContinueOrFinish(question_number)
-                    ], 
-                    horizontal_alignment=self.text_align
+                ft.ResponsiveRow(
+                    [        
+                        ft.Column(
+                            [
+                                ft.Text(value=question_data["question"], text_align=self.text_align),
+                                self.radio_group,
+                                self.buttonContinueOrFinish(question_number)
+                            ], 
+                            horizontal_alignment=self.alignment
+                        )
+                    ]
                 )
             ],
-            horizontal_alignment=self.text_align
+            horizontal_alignment=self.alignment
         )
     
     def route_change(self, e: ft.RouteChangeEvent):
