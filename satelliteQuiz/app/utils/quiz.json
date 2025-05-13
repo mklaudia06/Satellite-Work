@@ -29,9 +29,9 @@
         "id": 3,
         "question": "¿Para qué se usan principalmente los satélites de comunicaciones?",
         "answers": [
-            {"text": "A) Controlar el clima"},
+            {"text": "A) Hacer predicciones de clima, y ademas\ncomunicarlo al noticiero"},
             {"text": "B) Enviar señales de televisión, teléfono e\nInternet"},
-            {"text": "C) Medir terremotos"}
+            {"text": "C) Medir terremotos para comunicarlo a\nlos geografos"}
         ],
         "correct_answer": 1,
         "description": "¡Los satélites son los reyes y reinas de la comunicación! ¡Gracias a ellos, puedes ver videos de gatitos en cualquier lugar del mundo!",
@@ -43,7 +43,7 @@
         "question": "¿Qué tipo de satélite se usa para predecir el clima?",
         "answers": [
             {"text": "A) Satélite GPS"},
-            {"text": "B) Satélite espía"},
+            {"text": "B) Satélite climatico"},
             {"text": "C) Satélite meteorológico"}
         ],
         "correct_answer": 2,
@@ -82,8 +82,8 @@
         "question": "¿Cuál de estos es un uso de los satélites de observación?",
         "answers": [
             {"text": "A) Monitorear deforestación"},
-            {"text": "B) Enviar mensajes entre teléfonos"},
-            {"text": "C) Encender redes eléctricas"}
+            {"text": "B) Chequear avances medicos"},
+            {"text": "C) Observar el area 51"}
         ],
         "correct_answer": 0,
         "description": "¡Los satélites no solo nos conectan, sino que también nos ayudan a proteger la Tierra! ¡Son nuestros ojos en el cielo!",
@@ -95,8 +95,8 @@
         "question": "¿Qué es una órbita geoestacionaria?",
         "answers": [
             {"text": "A) Una órbita en la que el satélite parece estar\nfijo sobre un punto de la Tierra"},
-            {"text": "B) Una órbita que va en línea recta hacia el Sol"},
-            {"text": "C) Una órbita que cambia cada día"}
+            {"text": "B) Una órbita que va en línea recta hacia el Sol,\npero nunca termina llegando a el"},
+            {"text": "C) Una órbita que cambia cada día, y con el\ncambia toda la infraestructura del satelite"}
         ],
         "correct_answer": 0,
         "description": "¡Imagínate tener tu propio satélite personal que siempre te está mirando! ¡Así de geniales son las órbitas geoestacionarias!",
@@ -120,7 +120,7 @@
         "id": 10,
         "question": "¿Qué sucede con muchos satélites cuando dejan de funcionar?",
         "answers": [
-            {"text": "A) Se evaporan completamente"},
+            {"text": "A) Se autopropulsan hacia la Tierra"},
             {"text": "B) Se reciclan en el espacio"},
             {"text": "C) Se convierten en basura espacial"}
         ],
@@ -133,7 +133,7 @@
         "id": 11,
         "question": "¿Cuál es la principal ventaja de utilizar satélites para la observación de la Tierra en comparación con aviones?",
         "answers": [
-            {"text": "A) Son más baratos de operar"},
+            {"text": "A) Son más baratos de operar, gastan\nmenos combustible"},
             {"text": "B) Ofrecen una cobertura global y continua"},
             {"text": "C) Pueden volar más cerca de la superficie\nterrestre"}
         ],
@@ -147,8 +147,8 @@
         "question": "¿Qué es el \"efecto Doppler\" en el contexto de las señales de los satélites GPS?",
         "answers": [
             {"text": "A) El cambio en la frecuencia de la\nseñal debido al movimiento relativo\ndel satélite y el receptor"},
-            {"text": "B) Un tipo de interferencia en la\nseñal"},
-            {"text": "C) Una técnica para encriptar la\nseñal"}
+            {"text": "B) Un tipo de interferencia en la\nseñal que conlleva a la expulsion de\ndiferentes tipos de gases"},
+            {"text": "C) Una técnica para encriptar la\nseñal de comunicacion, evitando\nque se filtren las llamadas privadas"}
         ],
         "correct_answer": 0,
         "description": "¡Las ondas eléctricas emitidas por estos dispositivos de navegación cambian de longitud, lo que permite deducir la distancia a los satélites!",
@@ -159,8 +159,8 @@
         "id": 13,
         "question": "¿Qué es la basura espacial y por qué es un problema?",
         "answers": [
-            {"text": "A) Desechos enviados al espacio para su\nalmacenamiento"},
-            {"text": "B) El polvo cósmico acumulado en las órbitas\nterrestres"},
+            {"text": "A) Desechos de la Tierra enviados al espacio\npara su almacenamiento, liberando a nuestro\nplaneta de basura"},
+            {"text": "B) El polvo cósmico acumulado en las órbitas\nterrestres que previamente fueron\nbarridos por una escoba espacial\nque contiene el satelite"},
             {"text": "C) Satélites inoperativos y fragmentos de\ncohetes que orbitan la Tierra, representando\nun peligro para las misiones espaciales"}
         ],
         "correct_answer": 2,
@@ -185,8 +185,8 @@
         "id": 15,
         "question": "¿Cuál es la diferencia entre un satélite de órbita baja (LEO) y un satélite geoestacionario (GEO)?",
         "answers": [
-            {"text": "A) Los LEO son más grandes y los GEO\nmás pequeños"},
-            {"text": "B) Los LEO orbitan más cerca de la Tierra y se\nmueven más rápido, mientras que los GEO\nparecen estar fijos sobre un punto"},
+            {"text": "A) Los LEO son más grandes, del tamaño\ndel pentagono y los GEO más pequeños,\nllegando a ser del tamaño de un\ngrano de arroz"},
+            {"text": "B) Los LEO orbitan más cerca de la Tierra\ny se mueven más rápido, mientras que los\nGEO parecen estar fijos sobre un punto"},
             {"text": "C) Los LEO solo se usan para comunicaciones\ny los GEO para observación"}
         ],
         "correct_answer": 1,
@@ -196,10 +196,10 @@
     },
     {
         "id": 16,
-        "question": "¿Qué es un transpondedor en un satélite de comunicaciones y cuál es su función?",
+        "question": "¿Qué es un transpondedor y cuál es su función?",
         "answers": [
             {"text": "A) El sistema de propulsión del satélite"},
-            {"text": "B) El panel solar que genera energía para\nel satélite"},
+            {"text": "B) El panel solar que genera energía para\nel satélite y que se pueda mantener\nfuncionando"},
             {"text": "C) Un dispositivo que recibe, amplifica y\nretransmite señales de radio"}
         ],
         "correct_answer": 2,
@@ -212,8 +212,8 @@
         "question": "¿Qué técnicas se utilizan para mitigar el riesgo de colisiones con basura espacial?",
         "answers": [
             {"text": "A) Diseño de satélites que se desintegren\ncompletamente al reingresar a la atmósfera"},
-            {"text": "B) Seguimiento de la basura espacial\nmaniobras de evasión por parte de los satélites"},
-            {"text": "C) Recolección de la basura espacial\ncon redes gigantes"}
+            {"text": "B) Seguimiento de la basura espacial\nmaniobras de evasión por parte de los\nsatélites"},
+            {"text": "C) Recolección de la basura espacial\ncon redes gigantes, donadas por las diferentes\norganizaciones (NASA, SpaceX, Roscosmos)"}
         ],
         "correct_answer": 1,
         "description": "Imagina que la órbita de la Tierra es una autopista llena de autos (satélites) y escombros (basura espacial). Para evitar choques, hacemos lo siguiente:\n\n1. ¡Radar al máximo! Rastreamos la basura espacial como si fueran ovnis. ¡Sabemos dónde están y hacia dónde van!\n2. ¡Maniobras de esquive! Si un satélite está a punto de chocar con algo, ¡hacemos que se mueva! Es como un baile espacial para evitar el desastre.\n3. ¡Satélites suicidas (pero buenos)! Diseñamos satélites que se quemen al entrar en la atmósfera terrestre cuando ya no sirven. ¡Así no dejan más basura atrás!\n4. ¡Cazadores de basura! En el futuro, podríamos tener naves espaciales que recolecten la basura. ¡Como los basureros del espacio!\n\n¡En resumen, evitamos chocar con la basura espacial como si estuviéramos jugando a un videojuego de esquivar asteroides! ¡La seguridad espacial es lo primero",
@@ -225,7 +225,7 @@
         "question": "¿Cómo funciona la interferometría de apertura sintética (SAR) utilizada en algunos satélites de observación de la Tierra?",
         "answers": [
             {"text": "A) Combina múltiples imágenes de radar\ntomadas en diferentes momentos para\ncrear una imagen de alta resolución"},
-            {"text": "B) Utiliza rayos láser para medir la distancia a\nla superficie terrestre"},
+            {"text": "B) Utiliza rayos láser para medir la distancia a\nla superficie terrestre y asi precalcular la imagen\nque generara en una muy alta resolucion"},
             {"text": "C) Utiliza la luz visible para crear imágenes\nen color de la Tierra"}
         ],
         "correct_answer": 0,

@@ -45,7 +45,7 @@ class Components:
                         content=question_data["description"],
                         question_number=question_number
                     )
-                    updateJson("./utils/userResults.json", question_data["points"])
+                    updateJson("./user/userResults.json", question_data["points"])
                     self.page.open(self.info_dlg)
                 else:
                     self.createDlg(
@@ -83,7 +83,7 @@ class Components:
         return radios
 
     def start(self, e):
-        createUserJson("./utils/userResults.json")
+        createUserJson("./user/userResults.json")
         self.page.go("/question1")
 
     def createHomeView(self):
@@ -128,11 +128,11 @@ class Components:
         )
     
     def finish(self, e):
-        os.remove("./utils/userResults.json")
+        os.remove("./user/userResults.json")
         self.page.go("/")
     
     def createResultsView(self):
-        result = readJson("./utils/userResults.json")["points"]
+        result = readJson("./user/userResults.json")["points"]
         return ft.View(
             "/results",
             [

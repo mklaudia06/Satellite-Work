@@ -2,10 +2,9 @@ import flet as ft
 from src.components import Components
 from src.funcs import readJson
 
-
 def main(page: ft.Page):
-    mainData = readJson("./utils/quiz.json")
-    textData = readJson("./utils/text.json")
+    mainData = readJson("./app/utils/quiz.json")
+    textData = readJson("./app/utils/text.json")
     comps = Components(page, mainData, textData)
 
     def route_change(e: ft.RouteChangeEvent):
@@ -22,4 +21,4 @@ def main(page: ft.Page):
     # page.on_view_pop = view_pop
     page.go(page.route)
 
-ft.app(main)
+ft.app(main, view=ft.WEB_BROWSER)
