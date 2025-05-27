@@ -540,7 +540,7 @@
     },
     {
         "name":"OMAN LENS-1 (OL 1)",
-        "country":"(for Oman)",
+        "country":"Oman",
         "launch_date":"11/11/2024",
         "status":"in orbit",
         "function":null
@@ -1065,14 +1065,14 @@
     },
     {
         "name":"ARCTIC WEATHER SATELLITE",
-        "country":"(for Norway)",
+        "country":"Noruega",
         "launch_date":"16/8/2024",
         "status":"in orbit",
         "function":null
     },
     {
         "name":"Hyperfield-1A\u00a0",
-        "country":"Finland",
+        "country":"Finlandia",
         "launch_date":"16/8/2024",
         "status":"in orbit",
         "function":"Earth observation satellite carrying a hyperspectral imager"
@@ -1296,7 +1296,7 @@
     },
     {
         "name":"Advanced Land Observing Satellite-4 (ALOS-4) \"DAICHI-4\"\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"1/7/2024",
         "status":"in orbit",
         "function":"The Advanced Land Observing Satellite-4 (ALOS-4) is a satellite to observe the Earth's surface using its onboard phased array type L-band synthetic aperture radar (PALSAR-3)."
@@ -1618,7 +1618,7 @@
     },
     {
         "name":"MicroOrbiter-1\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"11/4/2024",
         "status":"in orbit",
         "function":"Satellite receives LoRa modulated sensor data from LoRa ground sensor terminals in 920MHz or 400MHz frequency band and then forward to the earth station.  "
@@ -1716,14 +1716,14 @@
     },
     {
         "name":"StriX-3\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"12/3/2024",
         "status":"in orbit",
         "function":"StriX-3 is the fourth SAR (Synthetic Aperture Radar) satellite made by Synspective Inc. for commercial SAR imagery (remote sensing) provision services, including the upload and download functionality and clear imaging."
     },
     {
         "name":"ICEYE-X38\u00a0",
-        "country":"Finland",
+        "country":"Finlandia",
         "launch_date":"4/3/2024",
         "status":"in orbit",
         "function":"Earth observation satellite, carrying a synthetic aperture radar. Data will be provided commercially."
@@ -1898,10 +1898,10 @@
     },
     {
         "name":"ADRAS-J\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"18/2/2024",
         "status":"in orbit",
-        "function":"The ADRAS-J satellite is designed to rendezvous with a Japanese upper stage rocket body, demonstrate proximity operations, and obtain images, delivering observational data to better understand the debris environment.\u202f"
+        "function":"The ADRAS-J satellite is designed to rendezvous with a Japonese upper stage rocket body, demonstrate proximity operations, and obtain images, delivering observational data to better understand the debris environment.\u202f"
     },
     {
         "name":"Progress MS-26\u00a0",
@@ -2038,10 +2038,10 @@
     },
     {
         "name":"IGS O-8",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"12/1/2024",
         "status":"in orbit",
-        "function":"Satellite conducting missions assigned by the Government of Japan "
+        "function":"Satellite conducting missions assigned by the Government of Japon "
     },
     {
         "name":"TIANXING 1-02",
@@ -2178,14 +2178,14 @@
     },
     {
         "name":"BEAK\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"18/12/2023",
         "status":"decayed",
         "function":"Engineering experimental satellite for 1)Orbital maneuvering by aerodynamic drag on deployed membrane aeroshell, 2) Deployment of an aeroshell supported by shape memory alloy frames, 3)Evaluation of a Nano-sized water resistojet propulsion system, 4)Operation using Iridium/GPS.  "
     },
     {
         "name":"CLARKSAT-1\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"18/12/2023",
         "status":"decayed",
         "function":"Clark sat-1 is an educational satellite with following functions.\r\n(1)  Receiving commands and transmitting telemetry\r\n(2)  Taking and transmitting images\r\n(3)  Transmitting voice messages and images recorded before launch\r\n"
@@ -2388,14 +2388,14 @@
     },
     {
         "name":"ICEYE-X35\u00a0",
-        "country":"Finland",
+        "country":"Finlandia",
         "launch_date":"11/11/2023",
         "status":"in orbit",
         "function":"Earth observation satellite, carrying a synthetic aperture radar. Data will be provided commercially."
     },
     {
         "name":"ICEYE-X31\u00a0",
-        "country":"Finland",
+        "country":"Finlandia",
         "launch_date":"11/11/2023",
         "status":"in orbit",
         "function":"Earth observation satellite, carrying a synthetic aperture radar. Data will be provided commercially."
@@ -2423,7 +2423,7 @@
     },
     {
         "name":"ICEYE-X32\u00a0",
-        "country":"Finland",
+        "country":"Finlandia",
         "launch_date":"11/11/2023",
         "status":"deorbited",
         "function":"Earth observation satellite, carrying a synthetic aperture radar. Data will be provided commercially."
@@ -2500,14 +2500,14 @@
     },
     {
         "name":"ESTCUBE 2",
-        "country":"(for Estonia)",
+        "country":"Estonia",
         "launch_date":"9/10/2023",
         "status":"in orbit",
         "function":null
     },
     {
         "name":"MACSAT\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"9/10/2023",
         "status":"in orbit",
         "function":"Telecommunications, Internet of Things (IoT)"
@@ -3179,14 +3179,14 @@
     },
     {
         "name":"ICEYE X25\u00a0",
-        "country":"Finland",
+        "country":"Finlandia",
         "launch_date":"12/6/2023",
         "status":"in orbit",
         "function":"Earth observation satellite carrying a synthetic aperture radar. Data will be provided commercially."
     },
     {
         "name":"ICEYE X23\u00a0",
-        "country":"Finland",
+        "country":"Finlandia",
         "launch_date":"12/6/2023",
         "status":"in orbit",
         "function":"Earth observation satellite carrying a synthetic aperture radar. Data will be provided commercially."
@@ -3949,7 +3949,7 @@
     },
     {
         "name":"HORUS 2",
-        "country":"(for Egypt)",
+        "country":"Egypt",
         "launch_date":"13/3/2023",
         "status":"in orbit",
         "function":null
@@ -4271,7 +4271,7 @@
     },
     {
         "name":"DRUMS TARGET-1\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"12/2/2023",
         "status":"in orbit",
         "function":"This object was separated from the DRUMS micro-satellite for demonstration of approach and capture technologies"
@@ -4299,10 +4299,10 @@
     },
     {
         "name":"-\u00a0(IGS R-7)",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"26/1/2023",
         "status":"in orbit",
-        "function":"Satellite conducting missions assigned by the Government of Japan"
+        "function":"Satellite conducting missions assigned by the Government of Japon"
     },
     {
         "name":"LUOJIA 3-01",
@@ -4768,70 +4768,70 @@
     },
     {
         "name":"OPTIMAL 1\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"6/1/2023",
         "status":"decayed",
         "function":"Earth observation; store-and-forward communication; and demonstration of the propulsion system"
     },
     {
         "name":"ICEYE X21\u00a0",
-        "country":"Finland",
+        "country":"Finlandia",
         "launch_date":"3/1/2023",
         "status":"in orbit",
         "function":"Earth observation satellite, carrying a synthetic aperture radar. Data will be provided commercially."
     },
     {
         "name":"KSF3 A\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"3/1/2023",
         "status":"in orbit",
         "function":"Passive geolocation of radio transmissions for the purpose of supplying Radio Frequency (RF) reconnaissance data to the maritime situation awareness domain"
     },
     {
         "name":"FM168 (LEMUR 2 SteveAlbers)\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"3/1/2023",
         "status":"in orbit",
         "function":"Earth exploration and meteorology"
     },
     {
         "name":"KSF3 B\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"3/1/2023",
         "status":"in orbit",
         "function":"Passive geolocation of radio transmissions for the purpose of supplying Radio Frequency (RF) reconnaissance data to the maritime situation awareness domain"
     },
     {
         "name":"KSF3 D\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"3/1/2023",
         "status":"in orbit",
         "function":"Passive geolocation of radio transmissions for the purpose of supplying Radio Frequency (RF) reconnaissance data to the maritime situation awareness domain"
     },
     {
         "name":"KSF3 C\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"3/1/2023",
         "status":"in orbit",
         "function":"Passive geolocation of radio transmissions for the purpose of supplying Radio Frequency (RF) reconnaissance data to the maritime situation awareness domain"
     },
     {
         "name":"FM169 (LEMUR 2 FuenteTaja-01)\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"3/1/2023",
         "status":"decayed",
         "function":"Earth exploration and meteorology"
     },
     {
         "name":"FM165 (LEMUR 2 Disclaimer)\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"3/1/2023",
         "status":"decayed",
         "function":"Earth exploration and meteorology"
     },
     {
         "name":"FM167 (LEMUR 2 Mmolo)\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"3/1/2023",
         "status":"decayed",
         "function":"Earth exploration and meteorology"
@@ -4845,7 +4845,7 @@
     },
     {
         "name":"FM164 (LEMUR 2 Emmaculate)\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"3/1/2023",
         "status":"deorbited",
         "function":"Earth exploration and meteorology"
@@ -4859,7 +4859,7 @@
     },
     {
         "name":"FM166 (LEMUR 2 Philari)\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"3/1/2023",
         "status":"decayed",
         "function":"Earth exploration and meteorology"
@@ -4880,7 +4880,7 @@
     },
     {
         "name":"SPHERE 1\u00a0(STAR SPHERE-1, EYE)",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"3/1/2023",
         "status":"decayed",
         "function":"The satellite is 6U in size with solar panels and a water resistojet thruster system. The satellite\u2019s mission is to take pictures with a camera and lens."
@@ -4971,7 +4971,7 @@
     },
     {
         "name":"HAKUTO-R Mission 1 Lunar Lander\u00a0(HAKUTO R-M1)",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"11/12/2022",
         "status":"on Moon",
         "function":"The main functions are to perform soft landing on the lunar surface, and to transport payloads including customer rover and static payloads"
@@ -5335,14 +5335,14 @@
     },
     {
         "name":"TAKA\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"2/12/2022",
         "status":"decayed",
         "function":"1. Automatic Packet Reporting System (APRS) -digipeater demonstration on a cubesat\r\n2. Demonstration of ground data acquisition using store-and-forward\r\n3. Demonstration of a mobile phone application displaying BIRDS satellite data\r\n4. Measurement of high-energy electrons precipitation in the radiation belt\r\n5. Demonstration of attitude visualization of the satellite\r\n6. Demonstration of image classification programme by machine learning algorithms\r\n7. Demonstration of land use and cover by commercial off-the-shelf (COTS) multi-spectrum camera\r\n8. Demonstration of water quality evaluation of dams and lakes by COTS multi-spectrum camera\r\n9. Demonstration of analysis of soil nitrogen / fertility levels by COTS multi-spectrum camera"
     },
     {
         "name":"SpaceTuna1\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"2/12/2022",
         "status":"decayed",
         "function":"(1) Measuring the basic reflective characteristics of retroreflective material sheets mounted on the satellite by irradiating the sheets with a laser from the ground.\r\n(2) Orbit tracking by ground-based telescopes through the observation of pulsed blue light emitting diodes (LEDs) on board the satellite. \r\n"
@@ -5454,14 +5454,14 @@
     },
     {
         "name":"Outstanding Moon Exploration Technologies Demonstrated By Nano Semi-Hard Impactor (OMOTENASHI)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"16/11/2022",
         "status":"in orbit",
         "function":"OMOTENASHI demonstrates cubesat lunar landing technologies. Because its original plan to land on the moon surface has failed, the technologies are demonstrated in a heliocentric orbit. The orbiter carries the Rocket Motor and the Surface Probe.\r\nThe Rocket Motor was planned to be used to cancel the velocity of the Surface Probe in the vicinity of the Moon. As at the current plan, an ignition experiment of the Rocket Motor in orbit will be conducted\r\n"
     },
     {
         "name":"Equilibrium Lunar-Earth Point 6U Spacecraft (EQUULEUS)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"16/11/2022",
         "status":"in orbit",
         "function":"EQUULEUS is a JAXA and University of Tokyo technology demonstration mission with the primary objective of demonstrating trajectory control techniques exploiting Sun-Earth-Moon dynamics, with the possibility of reaching an Earth-Moon libration orbit. It will also perform scientific observations with a suite of instruments"
@@ -5895,7 +5895,7 @@
     },
     {
         "name":"StriX 1\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"15/9/2022",
         "status":"in orbit",
         "function":"StriX-1 is the third synthetic aperture radar (SAR) satellite made by Synspective Inc. for commercial SAR imagery (remote sensing) provision services, including upload and download functionality and antenna signal strength"
@@ -6000,14 +6000,14 @@
     },
     {
         "name":"FUTABA\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"12/8/2022",
         "status":"decayed",
         "function":"Radio-frequency communication with amateur radio (435 MHz band); capture the Earth\u2019s image; engineering mission relating to crystal growth; and measurement of ultra-violet rays in low Earth orbit"
     },
     {
         "name":"HSU SAT1\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"12/8/2022",
         "status":"decayed",
         "function":"The objectives of the HSU-SAT1 satellite are technology demonstration of an electrical power supply, on-board computer and other bus components; \r\nperform three-axis attitude control by combining aerodynamic stabilization and magnetic torquers; and use of modulated infrared light emitted from the operator\u2019s ground station is experimented as a command transmission link. The command format conforms to the infrared remote-control system used in electrical appliances.\r\nThe camera image is downlinked by Slow Scan Television (SSTV). The camera takes a photograph of the Earth with a resolution of is 320\u00d7240 pixels. The taken photograph is converted into an analogue SSTV signal, transferred to communication and sent by a FM-SSTV downlink.\r\nTechnology demonstration of a gyro sensor and magnetic sensor whose operation in space has not been confirmed.\r\n"
@@ -6210,7 +6210,7 @@
     },
     {
         "name":"ALE-DOM\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"27/7/2022",
         "status":"decayed",
         "function":"The DOM is a de-orbit device that deploys a thin film to increase atmospheric drag and it is mounted on the ALE-1 satellite. The ALE-1 will deploy this DOM and descend from the launch insertion altitude to an operational altitude of 400 km. After the ALE-1 reaches the operational altitude, the DOM will be detached from the ALE-1."
@@ -6448,21 +6448,21 @@
     },
     {
         "name":"ICEYE X20\u00a0",
-        "country":"Finland",
+        "country":"Finlandia",
         "launch_date":"25/5/2022",
         "status":"in orbit",
         "function":"Earth observation satellite, carrying a synthetic aperture radar. Data will be provided commercially."
     },
     {
         "name":"FM162 (LEMUR 2 TennysonLily)\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"25/5/2022",
         "status":"decayed",
         "function":"Earth exploration and meteorology"
     },
     {
         "name":"FM163 (LEMUR 2 Karen_B)\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"25/5/2022",
         "status":"decayed",
         "function":"Earth exploration and meteorology"
@@ -6476,21 +6476,21 @@
     },
     {
         "name":"FM161 (LEMUR 2 Hancom-1)\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"25/5/2022",
         "status":"decayed",
         "function":"Earth exploration and meteorology"
     },
     {
         "name":"FM155 (LEMUR 2 VanDenDries)\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"25/5/2022",
         "status":"decayed",
         "function":"Earth exploration and meteorology"
     },
     {
         "name":"FM156 (LEMUR 2 Mimi1307)\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"25/5/2022",
         "status":"decayed",
         "function":"Earth exploration and meteorology"
@@ -6539,14 +6539,14 @@
     },
     {
         "name":"KSF2 B\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"9/5/2022",
         "status":"decayed",
         "function":"Passive geolocation of radio transmissions for the purpose of supplying Radio Frequency (RF) reconnaissance data to the maritime situation awareness domain\r\n"
     },
     {
         "name":"KSF2 A\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"9/5/2022",
         "status":"decayed",
         "function":"Passive geolocation of radio transmissions for the purpose of supplying Radio Frequency (RF) reconnaissance data to the maritime situation awareness domain\r\n"
@@ -6882,14 +6882,14 @@
     },
     {
         "name":"KSF2 C\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"11/4/2022",
         "status":"decayed",
         "function":"Passive geolocation of radio transmissions for the purpose of supplying Radio Frequency (RF) reconnaissance data to the maritime situation awareness domain\r\n"
     },
     {
         "name":"KSF2 D\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"11/4/2022",
         "status":"decayed",
         "function":"Passive geolocation of radio transmissions for the purpose of supplying Radio Frequency (RF) reconnaissance data to the maritime situation awareness domain\r\n"
@@ -6987,14 +6987,14 @@
     },
     {
         "name":"KITSUNE\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"24/3/2022",
         "status":"in orbit",
         "function":"1. Earth observation with 5-metre class resolution colour images;\r\n2. Total electron content measurements in the ionosphere;\r\n3. Store-and-forward of remote sensor data from ground terminals to ground station;\r\n4. Demonstration of a C-band communication system\r\n"
     },
     {
         "name":"IHI SAT\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"24/3/2022",
         "status":"decayed",
         "function":"IHI-SAT is equipped with a UHF receiver for uplink, SHF transmitter for downlink and AIS receiver for mission."
@@ -7078,7 +7078,7 @@
     },
     {
         "name":"StriX \u03b2\u00a0STRIX BETA",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"28/2/2022",
         "status":"in orbit",
         "function":"StriX-\u03b2 is the second Synthetic Aperture Rader (SAR) satellite made by Synspective Inc. to test capability of the SAR imagery (remote sensing) technology, including the uplink and downlink functionality and antenna signal strength."
@@ -7512,7 +7512,7 @@
     },
     {
         "name":"ICEYE X16\u00a0",
-        "country":"Finland",
+        "country":"Finlandia",
         "launch_date":"13/1/2022",
         "status":"in orbit",
         "function":"Earth observation satellite, carrying a synthetic aperture radar. Data will be provided commercially."
@@ -8422,56 +8422,56 @@
     },
     {
         "name":"ASTERISC\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"9/11/2021",
         "status":"in orbit",
         "function":"The satellite observes cosmic dust and space debris using a film type dust sensor"
     },
     {
         "name":"Rapid Innovative payload demonstration Satellite 2 (RAISE 2)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"9/11/2021",
         "status":"in orbit",
         "function":"RAISE-2 is the technology demonstration satellite equipped with six experimental components provided by private companies, university and research institution. The technology demonstration aims to acquire various and innovative data in space."
     },
     {
         "name":"HIBARI\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"9/11/2021",
         "status":"in orbit",
         "function":"Technology demonstration: variable-shape attitude control, ultraviolet rays camera, star tracker (STT), etc."
     },
     {
         "name":"DRUMS\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"9/11/2021",
         "status":"in orbit",
         "function":"This satellite will demonstrate debris removal technology in orbit by releasing and approaching a small target and performing simulated capture"
     },
     {
         "name":"ARICA\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"9/11/2021",
         "status":"in orbit",
         "function":"Demonstrate a real-time alert system of transient astrophysical objects using commercial satellite networks"
     },
     {
         "name":"Z Sat\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"9/11/2021",
         "status":"in orbit",
         "function":"Earth observation"
     },
     {
         "name":"KOSEN 1\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"9/11/2021",
         "status":"in orbit",
         "function":"KOSEN-1 will demonstrate three new spaceborne technologies for the CubeSat system: (1) a performance of a dual reaction wheel, (2) a usage of the Raspberry Pi CM1-based on-board computer, and (3) an expansion of a 6.6-m long dipole antenna. \r\nFurthermore, KOSEN-1 will observe Jupiter's decametric radio emissions to investigate the beaming characteristics.\r\n"
     },
     {
         "name":"TeikyoSat 4\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"9/11/2021",
         "status":"in orbit",
         "function":"Demonstration of satellite bus system which can carry out space environment utilization experiments; \r\nDemonstration of high speed communication using ham radio;\r\nDemonstration of electrical power system for new technological demonstration;\r\nDemonstration of de-orbit system after the end of all missions\r\n"
@@ -8527,7 +8527,7 @@
     },
     {
         "name":"QZS 1R\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"26/10/2021",
         "status":"in orbit",
         "function":"The QZS 1R navigation satellite will be a part of the Quasi-zenith Satellite System (QZSS), providing satellite positioning, navigation and timing services. The QZS 1R will replace the first satellite (QZS 1) of the QZSS which had already exceeded its design life. After that, the plans are set to add three more satellites to the QZSS in 2024"
@@ -8541,7 +8541,7 @@
     },
     {
         "name":"SES 17\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"24/10/2021",
         "status":"in GSO",
         "function":"Encrypted and unencrypted transmission of radio, television, multimedia data, very small aperture terminal (VSAT) and broadband services \r\n"
@@ -9164,7 +9164,7 @@
     },
     {
         "name":"ELSA D CLIENT\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"25/8/2021",
         "status":"in orbit",
         "function":"The End-of-Life Services by Astroscale (ELSA) programme is a spacecraft retrieval service for satellite operators. ELSA-d (a demonstration mission) is the first mission to demonstrate the core technologies necessary for debris docking and removal\r\nELSA-d consists of two spacecraft: a servicer satellite (mass of approximately 175 kg) and a client satellite (mass of approximately 17 kg), launched together in a stack. The servicer satellite has been developed to safely remove debris objects from orbit and is equipped with proximity rendezvous technologies and a magnetic docking mechanism. The client satellite is a piece of replica debris fitted with a ferromagnetic plate that enables the docking\r\nThe servicer will repeatedly release and dock with the client in a series of technical demonstrations, proving the capability to find and dock with defunct satellites and other debris. Demonstrations include client search, inspection and rendezvous, and both non-tumbling and tumbling docking manoeuvres\r\n"
@@ -9878,28 +9878,28 @@
     },
     {
         "name":"KSF1 C\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"30/6/2021",
         "status":"decayed",
         "function":"Passive geolocation of radio transmissions for the purpose of supplying Radio Frequency (RF) reconnaissance data to the maritime situation awareness domain"
     },
     {
         "name":"KSF1 D\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"30/6/2021",
         "status":"decayed",
         "function":"Passive geolocation of radio transmissions for the purpose of supplying Radio Frequency (RF) reconnaissance data to the maritime situation awareness domain"
     },
     {
         "name":"KSF1 A\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"30/6/2021",
         "status":"decayed",
         "function":"Passive geolocation of radio transmissions for the purpose of supplying Radio Frequency (RF) reconnaissance data to the maritime situation awareness domain"
     },
     {
         "name":"KSF1 B\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"30/6/2021",
         "status":"decayed",
         "function":"Passive geolocation of radio transmissions for the purpose of supplying Radio Frequency (RF) reconnaissance data to the maritime situation awareness domain"
@@ -9927,28 +9927,28 @@
     },
     {
         "name":"ICEYE X12\u00a0",
-        "country":"Finland",
+        "country":"Finlandia",
         "launch_date":"30/6/2021",
         "status":"in orbit",
         "function":"Earth observation satellite, carrying a synthetic aperture radar. Data will be provided commercially. "
     },
     {
         "name":"ICEYE X15\u00a0",
-        "country":"Finland",
+        "country":"Finlandia",
         "launch_date":"30/6/2021",
         "status":"in orbit",
         "function":"Earth observation satellite, carrying a synthetic aperture radar. Data will be provided commercially. "
     },
     {
         "name":"ICEYE X13\u00a0",
-        "country":"Finland",
+        "country":"Finlandia",
         "launch_date":"30/6/2021",
         "status":"in orbit",
         "function":"Earth observation satellite, carrying a synthetic aperture radar. Data will be provided commercially. "
     },
     {
         "name":"ICEYEX11\u00a0",
-        "country":"Finland",
+        "country":"Finlandia",
         "launch_date":"30/6/2021",
         "status":"in orbit",
         "function":"Earth observation satellite, carrying a synthetic aperture radar. Data will be provided commercially. "
@@ -9962,7 +9962,7 @@
     },
     {
         "name":"G Satellite2\u00a0BD 28",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"22/6/2021",
         "status":"in orbit",
         "function":"Deployment of figurines and message display; take pictures of figurines, space, Earth and cheerful messages"
@@ -10382,7 +10382,7 @@
     },
     {
         "name":"NorSat 3\u00a0",
-        "country":"Norway",
+        "country":"Noruega",
         "launch_date":"29/4/2021",
         "status":"in orbit",
         "function":"Satellite for maritime surveillance by automatic identification system (AIS). Auxiliary technology demonstration payload for navigation radar detection"
@@ -11033,42 +11033,42 @@
     },
     {
         "name":"GRUS 1C\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"22/3/2021",
         "status":"in orbit",
         "function":"GRUS-1C is a next-generation optical remote-sensing microsatellite. The mass is 112kg and the ground resolution is 2.5m."
     },
     {
         "name":"GRUS 1B\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"22/3/2021",
         "status":"in orbit",
         "function":"GRUS-1B is a next-generation optical remote-sensing microsatellite. The mass is 112kg and the ground resolution is 2.5m."
     },
     {
         "name":"GRUS 1D\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"22/3/2021",
         "status":"in orbit",
         "function":"GRUS-1D is a next-generation optical remote-sensing microsatellite. The mass is 112kg and the ground resolution is 2.5m."
     },
     {
         "name":"GRUS 1E\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"22/3/2021",
         "status":"in orbit",
         "function":"GRUS-1E is a next-generation optical remote-sensing microsatellite. The mass is 112kg and the ground resolution is 2.5m."
     },
     {
         "name":"MMSATS 1\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"22/3/2021",
         "status":"in orbit",
         "function":"To image the Earth\u2019s surface utilizing a high-resolution telescope system; To monitor the Earth\u2019s surface and forest areas by means of a middle-resolution, super-spectral multi-colour camera in \r\n600 different spectral bands; To provide imagery of disaster areas; To monitor weather by utilizing a camera with a fish-eye lens \r\n"
     },
     {
         "name":"ELSA D\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"22/3/2021",
         "status":"in orbit",
         "function":"The End-of-Life Services by Astroscale (ELSA) programme is a spacecraft retrieval service for satellite operators. ELSA-d (a demonstration mission) is the first mission to demonstrate the core technologies necessary for debris docking and removal\r\nELSA-d consists of two spacecraft: a servicer satellite (mass of approximately 175 kg) and a client satellite (mass of approximately 17 kg), launched together in a stack. The servicer satellite has been developed to safely remove debris objects from orbit and is equipped with proximity rendezvous technologies and a magnetic docking mechanism. The client satellite is a piece of replica debris fitted with a ferromagnetic plate that enables the docking\r\nThe servicer will repeatedly release and dock with the client in a series of technical demonstrations, proving the capability to find and dock with defunct satellites and other debris. Demonstrations include client search, inspection and rendezvous, and both non-tumbling and tumbling docking manoeuvres\r\n"
@@ -11082,14 +11082,14 @@
     },
     {
         "name":"Tsuru\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"14/3/2021",
         "status":"decayed",
         "function":"Short message transmission by means of a continuous wave beacon; store-and-forward communication of remote sensing data from ground terminals to ground station; Earth photography using a commercial, \r\noff-the-shelf camera module; demonstration of a commercial, off-the-shelf glue; demonstration of active attitude determination and control; demonstration of Perovskite solar cells; demonstration of a loop antenna design using the satellite\u2019s structure as an antenna; demonstration of on-board image processing and classification; and demonstration of a \r\nlatch-up detection circuit"
     },
     {
         "name":"STARS EC\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"14/3/2021",
         "status":"decayed",
         "function":"3U CubeSat with an ultra-small orbital elevator \r\nThe tether extends from 1U CubeSats positioned at both ends (each portion of the tether is 11 metre in length, for a total of 22 metres in length). The middle 1U CubeSat moves along the tether"
@@ -11110,21 +11110,21 @@
     },
     {
         "name":"RSP 01\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"14/3/2021",
         "status":"decayed",
         "function":"RSP-01 is 1U CubeSat mission that: (a) sends pictures of the satellite itself taken by an on-board camera; (b) sends high-definition pictures taken by an on-board camera; and (c) demonstrates autonomous operation by means of machine learning "
     },
     {
         "name":"WARP 01\u00a0(NICHIRIN)",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"14/3/2021",
         "status":"decayed",
         "function":"To demonstrate new satellite bus components; To carry wedding memorial plates into space; To gather images of the Earth and space; To survey the radiation environment in space; To survey the radio environment in space\r\n"
     },
     {
         "name":"OPUSAT II\u00a0(HIROGARI)",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"14/3/2021",
         "status":"decayed",
         "function":"Attitude control, communication and deployment"
@@ -11159,7 +11159,7 @@
     },
     {
         "name":"Exposed Pallet of HTV9\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"11/3/2021",
         "status":"in orbit",
         "function":"This payload is an equipment of HTV9 to transport exposed cargo to the International Space Station (ISS)."
@@ -11236,7 +11236,7 @@
     },
     {
         "name":"ICEYE X9\u00a0",
-        "country":"Finland",
+        "country":"Finlandia",
         "launch_date":"24/1/2021",
         "status":"decayed",
         "function":"Earth observation satellite, carrying a synthetic aperture radar. Data will be\r\nprovided commercially."
@@ -11292,14 +11292,14 @@
     },
     {
         "name":"QPS SAR-2 Izanami\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"24/1/2021",
         "status":"in orbit",
         "function":"Earth observation"
     },
     {
         "name":"ICEYE X8\u00a0",
-        "country":"Finland",
+        "country":"Finlandia",
         "launch_date":"24/1/2021",
         "status":"in orbit",
         "function":"Earth observation satellite, carrying a synthetic aperture radar. Data will be\r\nprovided commercially."
@@ -11635,7 +11635,7 @@
     },
     {
         "name":"StriX \u03b1\u00a0(STRIX ALPHA)",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"15/12/2020",
         "status":"decayed",
         "function":"StriX-\u03b1 is the first SAR (Synthetic Aperture Rader) satellite made by Synspective Inc. to test capability of the SAR imagery (remote sensing) technology, including the uplink and downlink functionality and antenna signal strength. "
@@ -11669,11 +11669,11 @@
         "function":"Optical satellite for Earth observation on a Sun synchronous orbit"
     },
     {
-        "name":"Japanese Data Relay System (JDRS)\u00a0LUCAS (JDRS-1)",
-        "country":"Japan",
+        "name":"Japonese Data Relay System (JDRS)\u00a0LUCAS (JDRS-1)",
+        "country":"Japon",
         "launch_date":"29/11/2020",
         "status":"in GSO",
-        "function":"Satellite conducting missions assigned by the Government of Japan "
+        "function":"Satellite conducting missions assigned by the Government of Japon "
     },
     {
         "name":"Chang'E 5\u00a0CHANG'E 5 ORBITER",
@@ -11796,7 +11796,7 @@
     },
     {
         "name":"CE-SAT IIB\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"28/10/2020",
         "status":"in orbit",
         "function":"Earth remote sensing using an ultra-high sensitivity camera that can capture images with a ground-sample-distance (GSD) resolution of 5 metres, a visible-band camera that can capture images with a GSD resolution of 5 metres and a wide-angle camera that can capture images with a GSD resolution of 40 to 120 metres"
@@ -11852,14 +11852,14 @@
     },
     {
         "name":"ICEYE X6\u00a0",
-        "country":"Finland",
+        "country":"Finlandia",
         "launch_date":"28/9/2020",
         "status":"in orbit",
         "function":"Earth observation satellite carrying a synthetic aperture radar. Data will be provided commercially."
     },
     {
         "name":"ICEYE X7\u00a0",
-        "country":"Finland",
+        "country":"Finlandia",
         "launch_date":"28/9/2020",
         "status":"in orbit",
         "function":"Earth observation satellite carrying a synthetic aperture radar. Data will be provided commercially."
@@ -12041,7 +12041,7 @@
     },
     {
         "name":"BSAT 4B\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"15/8/2020",
         "status":"in GSO",
         "function":"Satellite communications and domestic broadcasting services"
@@ -12181,7 +12181,7 @@
     },
     {
         "name":"H-II Transfer Vehicle \"KOUNOTORI9\" (HTV9)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"20/5/2020",
         "status":"deorbited",
         "function":"HTV9 is an uncrewed resupply vehicle to transport various cargos, including research materials, equipment for replacement and daily commodities, to ISS"
@@ -12216,7 +12216,7 @@
     },
     {
         "name":"G satellite\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"28/4/2020",
         "status":"decayed",
         "function":"G-satellite is one of the initiatives to celebrate the Tokyo Olympic Games. It will capture images of the dolls housed inside the satellite and send images and messages to the ground"
@@ -12496,10 +12496,10 @@
     },
     {
         "name":"Inter-orbit Communication System - Exposed  Facility\u3000subsystem (ICS-EF)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"21/2/2020",
         "status":"decayed",
-        "function":"This system was used for on-orbit communication between the exposed section of the ISS Japanese Experiment Module and the JAXA Data Relay Test Satellite  (DRTS). "
+        "function":"This system was used for on-orbit communication between the exposed section of the ISS Japonese Experiment Module and the JAXA Data Relay Test Satellite  (DRTS). "
     },
     {
         "name":"New technology test satellite C\u00a0XJS C",
@@ -12545,17 +12545,17 @@
     },
     {
         "name":"JCSAT 17\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"18/2/2020",
         "status":"in GSO",
         "function":"Satellite telecommunications"
     },
     {
         "name":"IGS",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"9/2/2020",
         "status":"in orbit",
-        "function":"Satellite conducting missions assigned by the Government of Japan "
+        "function":"Satellite conducting missions assigned by the Government of Japon "
     },
     {
         "name":"OWLID00009 (SL0020)\u00a0ONEWEB 0020",
@@ -12951,7 +12951,7 @@
     },
     {
         "name":"JCSAT 18\u00a0(KACIFIC 1)",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"17/12/2019",
         "status":"in GSO",
         "function":"Satellite telecommunications"
@@ -12972,7 +12972,7 @@
     },
     {
         "name":"QPS SAR-1 Izanagi\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"11/12/2019",
         "status":"decayed",
         "function":"Earth observation"
@@ -13035,7 +13035,7 @@
     },
     {
         "name":"ALE 2\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"6/12/2019",
         "status":"decayed",
         "function":"To create an artificial meteor shower, \r\nALE-2 contains a release mechanism that deploys 400 particles, one at a time, in a controlled fashion, that become artificial meteors when they re-enter the atmosphere\r\nThe mission details were presented at the thirty-sixth meeting of the Inter-Agency Space Debris Coordination Committee Working Group 4"
@@ -13063,14 +13063,14 @@
     },
     {
         "name":"RWASAT 1 \u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"20/11/2019",
         "status":"decayed",
         "function":"Earth observation and store-and-forward communication \r\n"
     },
     {
         "name":"AQT D\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"20/11/2019",
         "status":"decayed",
         "function":"AQT-D is a 3U-size CubeSat. It has a water-based propulsion system, a visible light camera and a store-and-forward device"
@@ -13357,14 +13357,14 @@
     },
     {
         "name":"P 03\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"11/7/2019",
         "status":"on Ryugu",
         "function":"P-03 is a small object designed to make contact with the surface of Ryugu, with the aim of collecting surface material"
     },
     {
         "name":"ICEYE X5\u00a0",
-        "country":"Finland",
+        "country":"Finlandia",
         "launch_date":"5/7/2019",
         "status":"in orbit",
         "function":"Earth observation satellite carrying a synthetic aperture radar. Data will be provided commercially."
@@ -13399,7 +13399,7 @@
     },
     {
         "name":"ICEYE X4\u00a0",
-        "country":"Finland",
+        "country":"Finlandia",
         "launch_date":"5/7/2019",
         "status":"in orbit",
         "function":"Earth observation satellite carrying a synthetic aperture radar. Data will be provided commercially."
@@ -13574,7 +13574,7 @@
     },
     {
         "name":"SCI\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"5/4/2019",
         "status":"on Ryugu",
         "function":"SCI is a small object designed to create an artificial crater on Ryugu, with the aim of collecting pristine subsurface material. It created a crater of approximately 10 metres in diameter."
@@ -13651,7 +13651,7 @@
     },
     {
         "name":"P 01\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"21/2/2019",
         "status":"on Ryugu",
         "function":"P-01 is a small object designed to make contact with the surface of Ryugu, with the aim of collecting surface material"
@@ -13714,21 +13714,21 @@
     },
     {
         "name":"OrigamiSat 1\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"18/1/2019",
         "status":"decayed",
-        "function":"OrigamiSat-1 is a Japanese 3U CubeSat for demonstrating high-speed amateur radio communication and deployable membrane structure technology. At the end of membrane deploy mission, the membrane will be separated from the satellite."
+        "function":"OrigamiSat-1 is a Japonese 3U CubeSat for demonstrating high-speed amateur radio communication and deployable membrane structure technology. At the end of membrane deploy mission, the membrane will be separated from the satellite."
     },
     {
         "name":"RAPIS 1\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"18/1/2019",
         "status":"decayed",
-        "function":"RAPid Innovative payload demonstration Satellite 1 (RAPIS-1) is a Japanese test satellite to demonstrate seven pieces of experimental equipment."
+        "function":"RAPid Innovative payload demonstration Satellite 1 (RAPIS-1) is a Japonese test satellite to demonstrate seven pieces of experimental equipment."
     },
     {
         "name":"AOBA VELOX-IV\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"18/1/2019",
         "status":"decayed",
         "function":"The main objective of this mission is technological demonstration of taking Earth glow images in low Earth orbit by using a low-light camera and pulsed plasma thruster (PPT) towards observation of the lunar horizon glow during a future moon mission."
@@ -13924,7 +13924,7 @@
     },
     {
         "name":"ICEYE X2\u00a0",
-        "country":"Finland",
+        "country":"Finlandia",
         "launch_date":"3/12/2018",
         "status":"in orbit",
         "function":"Experimental satellite, carrying a synthetic aperture radar. Data will be provided commercially."
@@ -14155,14 +14155,14 @@
     },
     {
         "name":"RSP 00\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"6/10/2018",
         "status":"decayed",
         "function":"Technology demonstration of a transmitter that realizes transmissions at a higher speed than a conventional transmitter by sending photos of the Earth taken by RSP-00 itself. A conventional transmitter is also installed and sends photos"
     },
     {
         "name":"STARS-Me\u00a0(TENRYU)",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"6/10/2018",
         "status":"decayed",
         "function":"STARS-Me consists of two 1U CubeSats that have independent basic functionality, each satellite communicating independently with the ground station. The two CubeSats are connected by a tether. STARS-Me is first secured together and put into orbit followed by deployment of the tether resulting in the separation of the two satellites. Thereafter, a \u201cclimber\u201d will traverse the deployed tether. The climber, using Bluetooth, will transmit data to a ground station via a STARS-Me CubeSat"
@@ -14323,10 +14323,10 @@
     },
     {
         "name":"IGS R-6",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"12/6/2018",
         "status":"in orbit",
-        "function":"Satellite conducting missions assigned by the Government of Japan"
+        "function":"Satellite conducting missions assigned by the Government of Japon"
     },
     {
         "name":"Fengyun 2H\u00a0FY 2H",
@@ -14519,10 +14519,10 @@
     },
     {
         "name":"2018-021A\u00a0IGS 6",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"27/2/2018",
         "status":"in orbit",
-        "function":"Satellite conducting missions assigned by the Government of Japan"
+        "function":"Satellite conducting missions assigned by the Government of Japon"
     },
     {
         "name":"BD 4\u00a0BEIDOU 4",
@@ -14701,7 +14701,7 @@
     },
     {
         "name":"ASNARO 2\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"17/1/2018",
         "status":"in orbit",
         "function":"Earth observation satellite"
@@ -14722,7 +14722,7 @@
     },
     {
         "name":"ICEYE-X1\u00a0POC 1",
-        "country":"Finland",
+        "country":"Finlandia",
         "launch_date":"12/1/2018",
         "status":"decayed",
         "function":"Experimental satellite, carrying a synthetic aperture radar. Data will be provided\r\ncommercially."
@@ -14806,7 +14806,7 @@
     },
     {
         "name":"Super Low Altitude Test Satellite (SLATS/TSUBAME)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"23/12/2017",
         "status":"deorbited",
         "function":"SLATS will demonstrate the technology for orbit control at super low altitudes using ion engine technology developed by JAXA. technical data related to the atmosphere  acquired by SLATS will also be used for the design of future satellites. Furthermore, SLATS will photograph the Earth and its technology will be evaluated for future Earth observation satellites."
@@ -14918,10 +14918,10 @@
     },
     {
         "name":"Fourth Quasi-Zenith Satellite \"Michibiki\"\u00a0QZS-4",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"9/10/2017",
         "status":"in orbit",
-        "function":"The fourth satellite employed in the Quasi-Zenith Satellite System, a Japanese satellite navigation system operating from an inclined elliptical geosynchronous orbit to achieve optimal high-elevation visibility in urban canyons and mountainous areas"
+        "function":"The fourth satellite employed in the Quasi-Zenith Satellite System, a Japonese satellite navigation system operating from an inclined elliptical geosynchronous orbit to achieve optimal high-elevation visibility in urban canyons and mountainous areas"
     },
     {
         "name":"Yaogan 30B\r\n\u00a0YAOGAN 30 (02)",
@@ -14946,7 +14946,7 @@
     },
     {
         "name":"BSAT 4A\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"29/9/2017",
         "status":"in GSO",
         "function":"Satellite telecommunication and direct broadcasting services"
@@ -14967,10 +14967,10 @@
     },
     {
         "name":"Third Quasi-Zenith Satellite \"Michibiki\"\u00a0QZS 3",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"19/8/2017",
         "status":"in GSO",
-        "function":"The third satellite employed in the Quasi-Zenith Satellite System, a Japanese satellite navigation system operating from a geostationary orbit."
+        "function":"The third satellite employed in the Quasi-Zenith Satellite System, a Japonese satellite navigation system operating from a geostationary orbit."
     },
     {
         "name":"OPTSAT 3000\u00a0",
@@ -14981,21 +14981,21 @@
     },
     {
         "name":"NorSat-2\u00a0",
-        "country":"Norway",
+        "country":"Noruega",
         "launch_date":"14/7/2017",
         "status":"in orbit",
         "function":"Satellite for maritime surveillance by the Automatic Identification System (AIS).\r\nAuxiliary technology demonstration payload for very-high frequency data exchange.\r\n"
     },
     {
         "name":"NorSat-1\u00a0",
-        "country":"Norway",
+        "country":"Noruega",
         "launch_date":"14/7/2017",
         "status":"in orbit",
         "function":"Satellite for maritime surveillance by the Automatic Identification System (AIS).\r\nScientific auxiliary payloads for sun irradiation and plasma monitoring.\r\n"
     },
     {
         "name":"TOKI\u00a0BIRDS",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"7/7/2017",
         "status":"decayed",
         "function":"Earth observation, outreach by sound signal transmission, and single event detection."
@@ -15016,7 +15016,7 @@
     },
     {
         "name":"Aalto-1\u00a0",
-        "country":"Finland",
+        "country":"Finlandia",
         "launch_date":"23/6/2017",
         "status":"in orbit",
         "function":"Aalto-1 is an educational satellite project with mission goal in technology\r\ndemonstration of three payloads; demonstration of miniature hyperspectral Earth\r\nObservation camera; demonstration of miniature radiation monitoring instrument;\r\ndemonstration of electrostatic deorbiting device."
@@ -15100,10 +15100,10 @@
     },
     {
         "name":"Second Quasi-Zenith Satellite \"Michibiki\"\u00a0QZS-2",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"1/6/2017",
         "status":"in orbit",
-        "function":"The second satellite employed in the Quasi-Zenith Satellite System, a Japanese satellite navigation system operating from an inclined elliptical geosynchronous orbit to achieve optimal high-elevation visibility in urban canyons and mountainous areas"
+        "function":"The second satellite employed in the Quasi-Zenith Satellite System, a Japonese satellite navigation system operating from an inclined elliptical geosynchronous orbit to achieve optimal high-elevation visibility in urban canyons and mountainous areas"
     },
     {
         "name":"Eutelsat 172B\u00a0",
@@ -15163,10 +15163,10 @@
     },
     {
         "name":"------\u00a0IGS RADAR-5",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"17/3/2017",
         "status":"in orbit",
-        "function":"Satellite conducting missions assigned by the Government of Japan"
+        "function":"Satellite conducting missions assigned by the Government of Japon"
     },
     {
         "name":"Echostar 23\u00a0ECHOSTAR XXIII",
@@ -15212,35 +15212,35 @@
     },
     {
         "name":"ITF 2\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"16/1/2017",
         "status":"decayed",
         "function":"ITF-2 sends a 435 MHz telemetry beacon by means of a Morse code audio tone on a frequency modulation (FM) transmitter running at 300 milliwatts output. The audio tone can be received using simple equipment such as a handheld transceiver with a simple Yagi-Uda antenna. Verification of a new type of transmitter in the space environment. Verification of a new type of small patch antenna"
     },
     {
         "name":"De-Orbit Mechanism Demonstration (DOM) Cubesat \"Freedom\"\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"16/1/2017",
         "status":"decayed",
         "function":"To demonstrate a thin-film deployment mechanism called the De-Orbit Mechanism (DOM)"
     },
     {
         "name":"EGG\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"16/1/2017",
         "status":"decayed",
         "function":"Experimental engineering satellite for inflatable aeroshell deployment, orbital decay by means of aerodynamic drag and operations using the Global Positioning System and the Iridium Global Cellular Telecommunications System"
     },
     {
         "name":"AOBA Velox III\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"16/1/2017",
         "status":"decayed",
         "function":"In-orbit demonstration of a pulsed plasma thruster (PPT)-driven electric propulsion system. Detection of nuclear radiation-induced failure of microprocessors"
     },
     {
         "name":"Waseda-Sat3\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"16/1/2017",
         "status":"decayed",
         "function":"Test of an experimental de-orbit system that uses folding membranes"
@@ -15310,7 +15310,7 @@
     },
     {
         "name":"JCSAT 15\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"21/12/2016",
         "status":"in GSO",
         "function":"Satellite telecommunications and broadcasting"
@@ -15345,7 +15345,7 @@
     },
     {
         "name":"ARASE (ERG)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"20/12/2016",
         "status":"in orbit",
         "function":"The main objective of ARASE (ERG) is to understand acceleration, transportation and loss of energetic particles in the Van Allen belts. ARASE (ERG) directly observes plasma/particles and field/waves inside the Van Allen belts and provides the new information about the Van Allen belts\u2019 activity. ARASE (EGR) will contribute to the space weather research by measuring the near-Earth plasma environment, which will be useful to reduce the risk of satellite damage."
@@ -15513,7 +15513,7 @@
     },
     {
         "name":"JCSAT 16\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"14/8/2016",
         "status":"in GSO",
         "function":"Satellite telecommunications"
@@ -15653,7 +15653,7 @@
     },
     {
         "name":"JCSAT 14\u00a0(JCSAT 2B)",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"6/5/2016",
         "status":"in GSO",
         "function":"Satellite telecommunications"
@@ -15737,14 +15737,14 @@
     },
     {
         "name":"ChubuSat 3\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"17/2/2016",
         "status":"in orbit",
         "function":"ChubuSat 3 is a demonstration satellite for optical remote-sensing of the Earth "
     },
     {
         "name":"Hitomi (ASTRO-H)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"17/2/2016",
         "status":"in orbit",
         "function":"Hitomi (ASTRO-H) is an X-ray astronomy satellite for exploring energetic processes in the universe. It carries four telescopes and six detectors to collect data on soft X-rays, hard X-rays and gamma rays. "
@@ -16178,7 +16178,7 @@
     },
     {
         "name":"Thor 7\u00a0",
-        "country":"Norway",
+        "country":"Noruega",
         "launch_date":"26/4/2015",
         "status":"in GSO",
         "function":"Telecommunications"
@@ -16227,10 +16227,10 @@
     },
     {
         "name":"INFORMATION GATHERING SATELLITE (IGS)",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"26/3/2015",
         "status":"in orbit",
-        "function":"Satellite conducting missions assigned by the Government of Japan"
+        "function":"Satellite conducting missions assigned by the Government of Japon"
     },
     {
         "name":"Express AM7\u00a0",
@@ -16248,10 +16248,10 @@
     },
     {
         "name":"INFORMATION GATHERING SATELLITE (GS)",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"1/2/2015",
         "status":"in orbit",
-        "function":"Satellite conducting missions assigned by the Government of Japan"
+        "function":"Satellite conducting missions assigned by the Government of Japon"
     },
     {
         "name":"Inmarsat 5 F2\u00a0",
@@ -16318,7 +16318,7 @@
     },
     {
         "name":"Hayabusa2\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"3/12/2014",
         "status":"heliocentric",
         "function":"New function: Rendezvous mission to asteroid 1998 KY26 to explore the fast-rotating small asteroid, including a fly-by of asteroid 2001 CC21. Original function: Sample return from a C-type asteroid asteroid \"1999 JU3\" known as \u201cRyugu\u201d to study the origin and evolution of the solar system, as well as materials for life"
@@ -16353,14 +16353,14 @@
     },
     {
         "name":"Advanced Satellite with New system Architecture for Observation (ASNARO)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"6/11/2014",
         "status":"in orbit",
         "function":"Satellite mission to demonstrate new system architecture for Earth observation."
     },
     {
         "name":"Technology Demonstration Small Satellite \u201cTsubame\u201d\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"6/11/2014",
         "status":"in orbit",
         "function":"High-speed attitude manoeuvring by means of micro control moment gyros; Earth observation by means of a small high-resolution optical camera; polarized gamma-ray observation by means of a hard X-ray Compton polarimeter."
@@ -16633,28 +16633,28 @@
     },
     {
         "name":"RISING 2\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"24/5/2014",
         "status":"in orbit",
         "function":"1. Earth observation with a high resolution multi-spectrum telescope. 2. Observation of cumulonimbus clouds with a near infra-red bolometer array sensor. 3. Observation of sprites and other transient luminous events. 4. Use of high-precision 3-axis attitude control system."
     },
     {
         "name":"Combined Membrane Structure Satellite \"SPROUT\"\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"24/5/2014",
         "status":"in orbit",
         "function":"SPROUTS\u2019s missions are to demonstrate deployment of a combined membrane structure, to demonstrate attitude determination and control, to evaluate orbital decay of the membrane structure, and to share use of an onboard camera and other devices with the amateur radio community."
     },
     {
         "name":"Advanced Land Observing Satellite-2 \"DAICHI 2\"\uff08ALOS 2\uff09\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"24/5/2014",
         "status":"in orbit",
         "function":"ALOS-2 is an Earth observation satellite equipped with a phased-array type L-band synthetic aperture radar (PALSAR-2). PALSAR-2 transmits L-band radio waves and receives the scattering signal from the Earth\u2019s surface to acquire information for disaster monitoring, land management, resource management and resource exploration."
     },
     {
         "name":"SOCRATES\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"24/5/2014",
         "status":"in orbit",
         "function":"1. Demonstration of the small satellite standard bus. 2. Provision of an environment to demonstrate advanced missions and mission- elements technologies in orbit."
@@ -16724,7 +16724,7 @@
     },
     {
         "name":"ASTRA 3C (formerly ASTRA 5B)\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"22/3/2014",
         "status":"in GSO",
         "function":"Encrypted and unencrypted transmission of radio, television, multimedia data, VSAT and broadband services "
@@ -16759,52 +16759,52 @@
     },
     {
         "name":"First Art Satellite \"ARTSAT1: INVADER\"\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"27/2/2014",
         "status":"decayed",
         "function":"The Interactive satellite for Art and Design Experimental Research (INVADER) one-unit cubesat is an art project of the Tama Art University. It is the first mission of the \"ARTSAT: Art and Satellite Project\". The satellite will contribute to the amateur radio community from the art field\u2019s viewpoint. The satellite features some sensors that provide data for use in artworks."
     },
     {
         "name":"ShindaiSat(Ginrei)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"27/2/2014",
         "status":"decayed",
         "function":"The main mission of ShindaiSat (nicknamed \"Ginrei\") is the technology demonstration of Light Emitting Diode (LED) Visible Light Communication (VLC) for very long distances (a few hundred kilometres) by frequency-shift keying (FSK) and continuous wave (CW) modulation. ShindaiSat is controlled by 2 reaction wheels and 3 magnetic torquers for pointing the LED emitting panel (the +Z axis) in the direction towards nadir or an arbitrary ground station. Because of the wide irradiation angles of emitting lights (6 degrees), an area of approximately 40-kilometres diameter can observe the lights simultaneously. For the de-modulation of the FSK signals, a large aperture telescope (1 metre-class in diameter) is necessary."
     },
     {
         "name":"Microbe Observation Satellite TeikyoSat-3\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"27/2/2014",
         "status":"decayed",
         "function":"The mission of TeikyoSat-3 is to observe the behaviour of the fruiting body of cellular slime mould \"Dictyostelium discoideum\" during its differentiation phase in the low gravity and intense radiation environment of outer space. Specifically, an onboard camera will take pictures of the fruiting body and send them to the ground in order to compare with those on Earth. The results are expected to give new insights into biological processes."
     },
     {
         "name":"OPUSAT (CosMoz)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"27/2/2014",
         "status":"decayed",
         "function":"OPUSAT\u2019s missions are to develop, experiment and verify in orbit an advanced hybrid electrical power supply system using a Lithium-ion capacitor and a Lithium-ion battery."
     },
     {
         "name":"Space Tethered Autonomous Robotic Satellite-2 (STARS-II, Gennai)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"27/2/2014",
         "status":"decayed",
         "function":"1. Tether deployment using gravity gradient forces. 2. Electric current generation by the Electro Dynamic Tether. 3. Robot attitude control using long tether tension. 4. Relative motion control by tether tension."
     },
     {
         "name":"ITF 1 (YUI)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"27/2/2014",
         "status":"decayed",
         "function":"1. ITF-1 uses a 435 MHz telemetry beacon to transmit a Morse Code audio tone on an FM transmitter running at 300 kilowatts output. The audio tone can be received using simple equipment such as handheld transceiver with a simple Yagi-Uda antenna. 2. Verification of a new type of microprocessor in the space environment. 3. Verification of new a type of small patch-type antenna."
     },
     {
         "name":"KSAT 2\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"27/2/2014",
         "status":"decayed",
-        "function":"1. Observe atmospheric water vapour distribution and disturbances using a newly developed technique. 2. Take Earth images from space. 3. Conduct basic experiments for a low Earth orbit satellite positioning system. 4. Conduct orbital determination experiments using a radio interferometer. 5. Operate the satellite at a very low Earth orbit, i.e. below 250 kilometres. 6. Conduct in space a demonstration test of a newly developed boom structure. 7. Carry \u201cMessages of Encouragement from Space to Japan\u201d into orbit. In addition, its mission includes education in the areas of space science and engineering."
+        "function":"1. Observe atmospheric water vapour distribution and disturbances using a newly developed technique. 2. Take Earth images from space. 3. Conduct basic experiments for a low Earth orbit satellite positioning system. 4. Conduct orbital determination experiments using a radio interferometer. 5. Operate the satellite at a very low Earth orbit, i.e. below 250 kilometres. 6. Conduct in space a demonstration test of a newly developed boom structure. 7. Carry \u201cMessages of Encouragement from Space to Japon\u201d into orbit. In addition, its mission includes education in the areas of space science and engineering."
     },
     {
         "name":"TURKSAT 4A\u00a0",
@@ -17004,7 +17004,7 @@
     },
     {
         "name":"HINCUBE\u00a0",
-        "country":"Norway",
+        "country":"Noruega",
         "launch_date":"21/11/2013",
         "status":"in orbit",
         "function":"Educational and experimental"
@@ -17018,7 +17018,7 @@
     },
     {
         "name":"WNISAT 1\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"21/11/2013",
         "status":"in orbit",
         "function":"1. Sea ice monitoring of the Arctic Sea and other areas and 2. Carbon Dioxide monitoring."
@@ -17175,7 +17175,7 @@
         "country":"Rusia",
         "launch_date":"7/11/2013",
         "status":"recovered",
-        "function":"Delivery to the International Space Station of the crew of Expeditions 38 and 39, consisting of Mikhail Tyurin (Russian Federation), commander, and Richard Mastracchio (United States of America) and Koichi Wakata (Japan), flight engineers"
+        "function":"Delivery to the International Space Station of the crew of Expeditions 38 and 39, consisting of Mikhail Tyurin (Russian Federation), commander, and Richard Mastracchio (United States of America) and Koichi Wakata (Japon), flight engineers"
     },
     {
         "name":"Yaogan 18 (YG-18)\u00a0",
@@ -17193,7 +17193,7 @@
     },
     {
         "name":"ASTRA 2E\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"29/9/2013",
         "status":"in GSO",
         "function":"Encrypted and unencrypted transmission of radio, television, multimedia data, VSAT and broadband services"
@@ -17221,7 +17221,7 @@
     },
     {
         "name":"SPRINT A (HISAKI)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"14/9/2013",
         "status":"in orbit",
         "function":"Space telescope for remote observation of planets such as Venus, Mars and Jupiter from Earth orbit. SPRINT-A will observe Jupiter\u2019s Io torus and planetary exospheric escape via extreme ultraviolet spectroscopy"
@@ -17284,7 +17284,7 @@
     },
     {
         "name":"KOUNOTORI4 (HTV 4)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"3/8/2013",
         "status":"deorbited",
         "function":"HTV4 is an unmanned resupply vehicle to transport various forms of cargo, including research materials, replacement equipment and daily commodities to the International Space Station (ISS)"
@@ -17571,17 +17571,17 @@
     },
     {
         "name":"IGS 8A",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"27/1/2013",
         "status":"in orbit",
-        "function":"Satellite conducting missions assigned by the Government of Japan"
+        "function":"Satellite conducting missions assigned by the Government of Japon"
     },
     {
         "name":"IGS 8B",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"27/1/2013",
         "status":"decayed",
-        "function":"Satellite conducting missions assigned by the Government of Japan"
+        "function":"Satellite conducting missions assigned by the Government of Japon"
     },
     {
         "name":"SOYUZ TMA-7M\u00a0",
@@ -17774,21 +17774,21 @@
     },
     {
         "name":"RAIKO\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"4/10/2012",
         "status":"decayed",
         "function":"Earth imaging using a fish-eye camera; using the camera to measure relative motion of the ISS upon satellite release; space demonstration of a star sensor; de-orbit experiment using a deployable membrane; serve as a mobile earth station for small satellites and provide reception to the international community; orbit determination using Doppler frequency measurement of Ku-band radio beacons; and high-speed data communication by Ku-band transmitter."
     },
     {
         "name":"FITSAT 1 (NIWAKA)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"4/10/2012",
         "status":"decayed",
         "function":"High-speed data transmission (115.2 kbps) using 5.84 GHz and flashing high-power light-emitting diodes (LEDs) for optical communications."
     },
     {
         "name":"WE WISH\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"4/10/2012",
         "status":"decayed",
         "function":"The satellite\u2019s mission is to observe the thermal distribution of the Earth\u2019s surface."
@@ -17809,7 +17809,7 @@
     },
     {
         "name":"ASTRA 2F\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"28/9/2012",
         "status":"in GSO",
         "function":"Encrypted and unencrypted transmission of radio, television, multimedia data, VSAT and broadband services."
@@ -17844,10 +17844,10 @@
     },
     {
         "name":"PROITERES\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"9/9/2012",
         "status":"in orbit",
-        "function":"The missions of PROITERES are to demonstrate powered-flight technology for an ultra-small satellite and observation of the Kansai District in Japan using a high-resolution camera"
+        "function":"The missions of PROITERES are to demonstrate powered-flight technology for an ultra-small satellite and observation of the Kansai District in Japon using a high-resolution camera"
     },
     {
         "name":"SFERA 53\u00a0",
@@ -18005,14 +18005,14 @@
     },
     {
         "name":"Small Demonstration Satellite 4 (SDS-4)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"17/5/2012",
         "status":"in orbit",
         "function":"Demonstration of newly developed technology devices and components, such as the Space-based Automatic Identification System Experiment; the Flat-Plate Heat Pipe On-orbit Experiment; the in-flight experiment of space materials using THERME; and the Quartz Crystal Microbalance. The demonstrations will help improve the reliability of operational and science satellites."
     },
     {
         "name":"High Voltage Technology Demonstration Satellite (Horyu-2)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"17/5/2012",
         "status":"in orbit",
         "function":"The mission of the High Voltage Technology Demonstration Satellite is to carry out photovoltaic power generation at 300V in low Earth orbit and verify that electrostatic discharges do not occur on solar arrays that are specially designed to mitigate discharge even when the satellite generates the power at 300V."
@@ -18033,7 +18033,7 @@
     },
     {
         "name":"Global Change Observation Mission \u2014 Water \u201cShizuku\u201d\u00a0(GCOM W1)",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"17/5/2012",
         "status":"in orbit",
         "function":"The Global Change Observation Mission \u2014 Water (GCOM-W) \u201cShizuku\u201d is an Earth observation satellite whose mission is to observe the Earth\u2019s water cycle mechanism. It is equipped with Advanced Microwave Scanning Radiometer 2 (AMSR2) for observing precipitation, water vapour, cloud liquid water, seawater, sea surface temperature, wind speed, soil moisture and snow depth."
@@ -18054,7 +18054,7 @@
     },
     {
         "name":"JCSAT 13\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"15/5/2012",
         "status":"in GSO",
         "function":"Satellite telecommunications and broadcasting"
@@ -18208,7 +18208,7 @@
     },
     {
         "name":"VESSELSAT 2\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"9/1/2012",
         "status":"decayed",
         "function":"Automatic Identification System (AIS) data collection"
@@ -18320,10 +18320,10 @@
     },
     {
         "name":"IGS 7A",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"12/12/2011",
         "status":"in orbit",
-        "function":"Satellite conducting missions assigned by the Government of Japan"
+        "function":"Satellite conducting missions assigned by the Government of Japon"
     },
     {
         "name":"LUCH 5A\u00a0",
@@ -18474,7 +18474,7 @@
     },
     {
         "name":"VESSELSAT 1\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"12/10/2011",
         "status":"in orbit",
         "function":"Automatic Identification System (AIS) data collection"
@@ -18523,10 +18523,10 @@
     },
     {
         "name":"IGS 6A",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"23/9/2011",
         "status":"in orbit",
-        "function":"Satellite conducting missions assigned by the Government of Japan"
+        "function":"Satellite conducting missions assigned by the Government of Japon"
     },
     {
         "name":"China Satellite 1A (CHINASAT 1A)\u00a0",
@@ -18579,14 +18579,14 @@
     },
     {
         "name":"BSAT 3C\u00a0(JCSAT 110R)",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"6/8/2011",
         "status":"in GSO",
         "function":"Domestic direct broadcast service"
     },
     {
         "name":"ASTRA 1N\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"6/8/2011",
         "status":"in GSO",
         "function":"Encrypted and unencrypted transmission of radio, television, multimedia data services, VSAT, and high flow rate services."
@@ -18768,7 +18768,7 @@
     },
     {
         "name":"H-II Transfer Vehicle \u201cKounotori-2\u201d (HTV2)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"22/1/2011",
         "status":"deorbited",
         "function":"HTV2 is an unmanned resupply vehicle used to transport various cargo, including research materials, equipment for replacement and daily commodities, to the International Space Station."
@@ -18866,7 +18866,7 @@
     },
     {
         "name":"BSAT 3B\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"28/10/2010",
         "status":"in GSO",
         "function":"Domestic direct broadcasting service"
@@ -18985,7 +18985,7 @@
     },
     {
         "name":"First Quasi-Zenith Satellite \u201cMichibiki\u201d\u00a0(QZS-1)",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"11/9/2010",
         "status":"in disposal/graveyard orbit",
         "function":"Michibiki\u2019s missions are to develop, experiment with and verify satellite-based pointing, navigation and timing technologies in quasi-zenith orbit."
@@ -19167,7 +19167,7 @@
     },
     {
         "name":"SERVIS 2\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"2/6/2010",
         "status":"in orbit",
         "function":"Technical data acquisition of commercial off-the-shelf parts and technologies for space applications."
@@ -19188,56 +19188,56 @@
     },
     {
         "name":"ASTRA 3B\u00a0",
-        "country":"United Kingdom, Luxembourg",
+        "country":"United Kingdom, Luxemburgo",
         "launch_date":"21/5/2010",
         "status":"in GSO",
         "function":"Telecommunications"
     },
     {
         "name":"ASTRA 3B\u00a0",
-        "country":"Luxembourg, United Kingdom",
+        "country":"Luxemburgo, United Kingdom",
         "launch_date":"21/5/2010",
         "status":"in GSO",
         "function":"Encrypted and unencrypted transmission of radio, television, multimedia data services, VSAT, and high flow rate services."
     },
     {
         "name":"Small Solar Powered Sail Demonstrator \"IKAROS\"\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"20/5/2010",
         "status":"in orbit",
         "function":"The Small Solar Powered Sail Demonstrator \"IKAROS\" is the world's first solar powered sail craft employing both photon propulsion and thin-film solar power generation during its interplanetary cruise."
     },
     {
         "name":"NEGAI\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"20/5/2010",
         "status":"decayed",
         "function":"Space verification of the advanced information processing systems using Field-programmable gate array (FPGA)."
     },
     {
         "name":"WASEDA SAT2\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"20/5/2010",
         "status":"decayed",
         "function":"Display and picture taking of QR codes"
     },
     {
         "name":"Venus Climate Orbiter AKATSUKI (PLANET-C)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"20/5/2010",
         "status":"orbiting Venus",
         "function":"The mission of \u201cAKATSUKI\u201d (PLANET-C) is to elucidate the dynamics of the atmosphere of Venus, in particular its super-rotation, by 3-dimensionally visualising atmospheric motions using multi-wavelength imaging from orbit. It will also measure the surface temperatures and look for evidence of volcanic activity and lightning."
     },
     {
         "name":"UNITEC 1\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"20/5/2010",
         "status":"in orbit",
         "function":"Technology experiment of a deep space probe; technology experiment of onboard computers; low bit-rate communication from deep space; and measurement of the radiation environment."
     },
     {
         "name":"KSAT (HAYATO)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"20/5/2010",
         "status":"decayed",
         "function":"1. Observation of atmospheric water vapor using newly developed methods for the forecasting of heavy downpours. 2. Earth observations via a Ku-band high-speed downlink."
@@ -19366,7 +19366,7 @@
         "country":"Rusia",
         "launch_date":"21/12/2009",
         "status":"recovered",
-        "function":"Delivery to the International Space Station of the crew of Expedition 22, consisting of the commander, Russian cosmonaut Oleg Kotov, onboard engineer, American astronaut Timothy Creamer, and Japanese onboard engineer Soichi Noguchi"
+        "function":"Delivery to the International Space Station of the crew of Expedition 22, consisting of the commander, Russian cosmonaut Oleg Kotov, onboard engineer, American astronaut Timothy Creamer, and Japonese onboard engineer Soichi Noguchi"
     },
     {
         "name":"HELIOS 2B\u00a0",
@@ -19426,10 +19426,10 @@
     },
     {
         "name":"2009-066A\u00a0IGS 5A",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"28/11/2009",
         "status":"in orbit",
-        "function":"Satellite conducting missions assigned by the Government of Japan"
+        "function":"Satellite conducting missions assigned by the Government of Japon"
     },
     {
         "name":"Eutelsat 36B  (Eutelsat W7)\u00a0",
@@ -19475,7 +19475,7 @@
     },
     {
         "name":"THOR 6\u00a0",
-        "country":"Norway",
+        "country":"Noruega",
         "launch_date":"29/10/2009",
         "status":"in GSO",
         "function":"Telecommunications/ television broadcasting"
@@ -19587,7 +19587,7 @@
     },
     {
         "name":"H-II Transfer Vehicle (HTV) 1\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"10/9/2009",
         "status":"deorbited",
         "function":"An unmanned re-supply vehicle to transport various cargo including research materials, equipment for replacement and daily commodities to the International Space Station."
@@ -19608,7 +19608,7 @@
     },
     {
         "name":"JCSAT 12\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"21/8/2009",
         "status":"in GSO",
         "function":"Satellite Telecommunications and Broadcasting"
@@ -19895,56 +19895,56 @@
     },
     {
         "name":"STARS (KUKAI)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"23/1/2009",
         "status":"in orbit",
         "function":"Tether deployment experiment by mother and daughter satellites. technical verification experiment for a tethered space robot."
     },
     {
         "name":"1st Tohoku University Spacecraft SPRITE-SAT \"RISING\"\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"23/1/2009",
         "status":"in orbit",
         "function":"Observations of transient luminous event called \"sprites\" and terrestrial gamma-ray flashes."
     },
     {
         "name":"KAGAYAKI\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"23/1/2009",
         "status":"in orbit",
         "function":"The mission of \"KAGAYAKI\" is to connect the dream of children with incurable diseases or disabilities and their families to space."
     },
     {
         "name":"SOHLA 1 (MAIDO-1)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"23/1/2009",
         "status":"in orbit",
         "function":"Lightning observation equipment"
     },
     {
         "name":"Kouku-Kousen-Satellite \u2018KKS-1\u2019, \u2019KISEKI\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"23/1/2009",
         "status":"in orbit",
         "function":"Micro-thruster experiment and attitude control experiment."
     },
     {
         "name":"SDS 1\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"23/1/2009",
         "status":"in orbit",
         "function":"Demonstration of new technology devices and components such a the multi-mode integrated transponder (MTP), space wire demonstration module (SWIM), and advanced micro-processing in-orbit experiment (AMI) to improve the reliability of operational satellites."
     },
     {
         "name":"IBUKI (GOSAT)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"23/1/2009",
         "status":"in orbit",
         "function":"GOSAT is a satellite that observes the concentration distribution of greenhouse gases from outer space. Its purpose is to contribute to international efforts towards the prevention of global warming, including the monitoring of greenhouse gas absorption and emission states."
     },
     {
         "name":"PRISM (Hitomi)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"23/1/2009",
         "status":"decayed",
         "function":"Earth image capture using an extensible optical system and amateur radio frequency communication experiment"
@@ -20049,7 +20049,7 @@
     },
     {
         "name":"ASTRA 1M\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"5/11/2008",
         "status":"in GSO",
         "function":"Encrypted and unencrypted transmission of analogue and digital radio, television and multimedia data services."
@@ -20231,7 +20231,7 @@
     },
     {
         "name":"SUPERBIRD 7\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"14/8/2008",
         "status":"in GSO",
         "function":"Domestic and international telecommunications"
@@ -20273,7 +20273,7 @@
     },
     {
         "name":"KIBO PM & JEMRMS\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"31/5/2008",
         "status":"in orbit",
         "function":"An experiment module that accommodates core systems for Kibo\u2019s operations."
@@ -20329,7 +20329,7 @@
     },
     {
         "name":"SEEDS\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"28/4/2008",
         "status":"in orbit",
         "function":"Verifying pico-satellite bus technology and conducting amateur radio frequency transmission experiments"
@@ -20350,7 +20350,7 @@
     },
     {
         "name":"CUTE 1.7 + APD II\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"28/4/2008",
         "status":"decayed",
         "function":"Verifying nanosatellite bus technology; demonstrating avalanche photodiode; conducting attitude control experiments using magnetic torquers; conducting amateur radio frequency transmission experiments"
@@ -20406,7 +20406,7 @@
     },
     {
         "name":"JEM KIBO ELM-PS\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"11/3/2008",
         "status":"in orbit",
         "function":"Stowage compartment"
@@ -20420,14 +20420,14 @@
     },
     {
         "name":"WINDS (KIZUNA)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"23/2/2008",
         "status":"in orbit",
-        "function":"Technology development, experimentation and verification to achieve ultra high-speed internet access in Japan and the Asia-Pacific region using the following new technology: multi-port amplifier, active phased-array antenna and onboard high-speed band switching router."
+        "function":"Technology development, experimentation and verification to achieve ultra high-speed internet access in Japon and the Asia-Pacific region using the following new technology: multi-port amplifier, active phased-array antenna and onboard high-speed band switching router."
     },
     {
         "name":"THOR 5\u00a0",
-        "country":"Norway",
+        "country":"Noruega",
         "launch_date":"11/2/2008",
         "status":"in GSO",
         "function":"Telecommunications/ television broadcasting"
@@ -20707,21 +20707,21 @@
     },
     {
         "name":"RSTAR (Okina)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"14/9/2007",
         "status":"on Moon",
         "function":"Global observation of the Moon to provide scientific data to research its origins and evolution"
     },
     {
         "name":"VSTAR (Ouna)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"14/9/2007",
         "status":"on Moon",
         "function":"Global observation of the Moon to provide scientific data to research its origins and evolution"
     },
     {
         "name":"Selenological Engineering Explorer KAGUYA (SELENE)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"14/9/2007",
         "status":"on Moon",
         "function":"Global observation of the Moon to provide scientific data to research its origins and evolution."
@@ -20742,7 +20742,7 @@
     },
     {
         "name":"BSAT 3A\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"14/8/2007",
         "status":"in GSO",
         "function":"Domestic direct satellite broadcasting."
@@ -20882,7 +20882,7 @@
     },
     {
         "name":"ASTRA 1L\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"4/5/2007",
         "status":"in GSO",
         "function":"Encrypted and unencrypted transmission of analogue and digital radio, television and multimedia data services."
@@ -21043,17 +21043,17 @@
     },
     {
         "name":"IGS 4A",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"24/2/2007",
         "status":"decayed",
-        "function":"Satellite conducting missions assigned by the Government of Japan"
+        "function":"Satellite conducting missions assigned by the Government of Japon"
     },
     {
         "name":"IGS 4B",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"24/2/2007",
         "status":"decayed",
-        "function":"Satellite conducting missions assigned by the Government of Japan"
+        "function":"Satellite conducting missions assigned by the Government of Japon"
     },
     {
         "name":"BEIDOU 1D\u00a0",
@@ -21127,7 +21127,7 @@
     },
     {
         "name":"ENGINEERING TEST SATELLITE (ETS-VIII) KIKU VIII\u00a0(ETS 8)",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"18/12/2006",
         "status":"in GSO",
         "function":"Development and verification of the following technologies in geostationary orbit: (a) Advanced 3-ton-class spacecraft bus technology; (b) Large-scale deployable antenna technology; (c) Communications technology to link geostationary satellites with hand-held terminals; (d) Basic technology for geostationary satellite positioning using a high-precision clock system"
@@ -21225,21 +21225,21 @@
     },
     {
         "name":"Large Deployable Reflector Experiment 2 (LDREX-2)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"13/10/2006",
         "status":"decayed",
         "function":"Its  mission  is  to  conduct  an  experiment,  which  is  to  deploy  the  reflector  in  space  for  validating a small-scale and partial model of the  Large  Deployable  Reflector  (LDR)  of  Engineering Test Satellite VIII (ETS-VIII)."
     },
     {
         "name":"SOLAR PHYSICS SATELLITE (SOLAR B) Hinode\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"22/9/2006",
         "status":"in orbit",
         "function":"Obtain data for solar physics observations with three advanced telescopes operating in the visible, X-ray and extreme ultraviolet wavebands; elucidation of fundamental matters in the field of cosmic particle physics"
     },
     {
         "name":"HITSAT\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"22/9/2006",
         "status":"decayed",
         "function":"Amateur radio frequency communications and attitude control"
@@ -21267,10 +21267,10 @@
     },
     {
         "name":"IGS 3A",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"11/9/2006",
         "status":"decayed",
-        "function":"Satellite conducting missions assigned by the Government of Japan"
+        "function":"Satellite conducting missions assigned by the Government of Japon"
     },
     {
         "name":"SHI JIAN 8",
@@ -21288,7 +21288,7 @@
     },
     {
         "name":"JCSAT 10\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"11/8/2006",
         "status":"in GSO",
         "function":"Domestic and international telecommunications and domestic broadcasting"
@@ -21414,14 +21414,14 @@
     },
     {
         "name":"ASTRA 1KR\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"20/4/2006",
         "status":"in GSO",
         "function":"Encrypted and unencrypted transmission of analogue and digital radio, television and multimedia data services."
     },
     {
         "name":"JCSAT 9\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"12/4/2006",
         "status":"in GSO",
         "function":"Domestic and international telecommunications"
@@ -21456,21 +21456,21 @@
     },
     {
         "name":"Cute-1.7 + APD\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"21/2/2006",
         "status":"decayed",
         "function":"Verify pico-satellite bus technology and conduct amateur radio frequency transmission experiment"
     },
     {
         "name":"INFRARED ASTRONOMY SATELLITE (ASTRO-F) Akari\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"21/2/2006",
         "status":"decayed",
         "function":"Obtain data to study the evolution of galaxies and the formation processes of stars and planetary systems"
     },
     {
         "name":"Multi-Functional Transport Satellite (MTSAT-2) Himawari-7\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"18/2/2006",
         "status":"in disposal/graveyard orbit",
         "function":"Its missions are to provide satellite communications between aircraft and air traffic control facilities and to provide a global navigation satellite systems augmentation system, an aircraft surveillance function and a meteorological functions"
@@ -21484,7 +21484,7 @@
     },
     {
         "name":"Advanced Land Observing Satellite (ALOS) Daichi\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"24/1/2006",
         "status":"in orbit",
         "function":"Obtain data useful for topography and land use, as well as land information to produce global 1:25,000 scale maps"
@@ -21575,7 +21575,7 @@
     },
     {
         "name":"Pico-Satellite (XI-V)\u00a0CUBESAT XI-V",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"27/10/2005",
         "status":"in orbit",
         "function":"Pico satellite bus functions, amateur radio frequency communication, solar cell experiment and image acquisition and downlink"
@@ -21680,14 +21680,14 @@
     },
     {
         "name":"INDEX\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"23/8/2005",
         "status":"in orbit",
         "function":"In-orbit demonstration of advanced satellite technologies"
     },
     {
         "name":"OICETS\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"23/8/2005",
         "status":"in orbit",
         "function":"Verification of communications technology"
@@ -21708,7 +21708,7 @@
     },
     {
         "name":"ASTRO EII ( SUZAKU )\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"10/7/2005",
         "status":"in orbit",
         "function":"Observation of cosmic X-ray sources and international space observatory."
@@ -21785,7 +21785,7 @@
     },
     {
         "name":"MTSAT 1R (Himawari-6)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"26/2/2005",
         "status":"in GSO",
         "function":"Aeronautical and meteorological services"
@@ -22149,7 +22149,7 @@
     },
     {
         "name":"SUPERBIRD A2\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"16/4/2004",
         "status":"in disposal/graveyard orbit",
         "function":"Domestic telecommunications. National telecommunications"
@@ -22261,7 +22261,7 @@
     },
     {
         "name":"SERVIS 1\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"30/10/2003",
         "status":"in orbit",
         "function":"Acquistion of technical data on the use of commercial off-the-shelf parts and technology for space applications"
@@ -22422,7 +22422,7 @@
     },
     {
         "name":"CUTE 1\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"30/6/2003",
         "status":"in orbit",
         "function":"Verifying pico-satellite bus technology"
@@ -22436,7 +22436,7 @@
     },
     {
         "name":"Pico-Satellite X1\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"30/6/2003",
         "status":"in orbit",
         "function":"Verifying pico-satellite bus functions, amateur radio frequency communication, and image acquisition and downlink."
@@ -22471,7 +22471,7 @@
     },
     {
         "name":"BSAT 2C\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"11/6/2003",
         "status":"in GSO",
         "function":"Domestic direct satellite broadcasting"
@@ -22541,7 +22541,7 @@
     },
     {
         "name":"MUSES C (HAYABUSA)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"9/5/2003",
         "status":"recovered",
         "function":"Verifying sample and return technology"
@@ -22590,17 +22590,17 @@
     },
     {
         "name":"INFORMATION-GATHERING SATELLITE 1A (IGS 1A)",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"28/3/2003",
         "status":"decayed",
-        "function":"Satellite conducting missions assigned by the Government of Japan"
+        "function":"Satellite conducting missions assigned by the Government of Japon"
     },
     {
         "name":"INFORMATION-GATHERING SATELLITE 1B (IGS 1B)",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"28/3/2003",
         "status":"decayed",
-        "function":"Satellite conducting missions assigned by the Government of Japan"
+        "function":"Satellite conducting missions assigned by the Government of Japon"
     },
     {
         "name":"PROGRESS M-47\u00a0",
@@ -22709,14 +22709,14 @@
     },
     {
         "name":"MICRO LABSAT\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"14/12/2002",
         "status":"in orbit",
         "function":"Bus system feasibility for 50kg-class satellites"
     },
     {
         "name":"Whale Ecology Observation Satellite (WEOS, Kantakun)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"14/12/2002",
         "status":"in orbit",
         "function":"Obtain data on whale ecology and the ocean environment"
@@ -22730,7 +22730,7 @@
     },
     {
         "name":"Advanced Earth Observing Satellite 2 (ADEOS 2, MIDORI 2)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"14/12/2002",
         "status":"in orbit",
         "function":"Development and advancement of earth observation technologies"
@@ -22751,7 +22751,7 @@
     },
     {
         "name":"ASTRA 1K",
-        "country":"(for Luxembourg)",
+        "country":"Luxemburgo",
         "launch_date":"25/11/2002",
         "status":"deorbited",
         "function":null
@@ -22807,21 +22807,21 @@
     },
     {
         "name":"Data Relay Test Satellite (DRTS, KODAMA)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"10/9/2002",
         "status":"in GSO",
         "function":"Inter-satellite communications experiment to relay data between the target spacecraft and ground stations (90.75 degrees East)"
     },
     {
         "name":"USERS (REENTRY MODULE)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"10/9/2002",
         "status":"recovered",
         "function":"The USERS spacecraft missions are to establish self reentry and return Unmanned Space Experiment Recovery System; to process High Temperature Super Conductor Material mircrogravity on orbit; and to verify commercial parts in the space environment"
     },
     {
         "name":"USERS (SERVICE MODULE)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"10/9/2002",
         "status":"decayed",
         "function":"The USERS spacecraft missions are to establish self reentry and return Unmanned Space Experiment Recovery System; to process High Temperature Super Conductor Material mircrogravity on orbit; and to verify commercial parts in the space environment"
@@ -22891,7 +22891,7 @@
     },
     {
         "name":"N-STAR C\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"5/7/2002",
         "status":"in disposal/graveyard orbit",
         "function":"Domestic Telecommunications"
@@ -23003,14 +23003,14 @@
     },
     {
         "name":"ASTRA 3A\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"29/3/2002",
         "status":"in disposal/graveyard orbit",
         "function":"Transmission, encrypted and unencrypted, of analog and digital radio, television and multimedia data services. Frequency usage rights for this satellite are held by Deutsche Telekom (formerly DFS Kopernikus)."
     },
     {
         "name":"JCSAT 8\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"29/3/2002",
         "status":"in disposal/graveyard orbit",
         "function":"Domestic/international telecommunications. Domestic broadcasting."
@@ -23087,14 +23087,14 @@
     },
     {
         "name":"Demonstrator of Atmospheric Flight with Hyper Speed (DASH)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"4/2/2002",
         "status":"in orbit",
         "function":"Verifying high-speed re-entry technology"
     },
     {
         "name":"Mission Demonstration Test Satellite (Tsubasa)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"4/2/2002",
         "status":"in orbit",
         "function":"The objectives of Mission Demonstration Test Satellite 1 (MDS-1) are to verify the function of commercial parts in orbit, to verify minimization technology for components and to measure space environment data (radiation, and so forth)."
@@ -23290,7 +23290,7 @@
     },
     {
         "name":"Laser Ranging Equipment LRE\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"29/8/2001",
         "status":"in orbit",
         "function":"LRE is the vehicle evaluation payload developed to estimate the injection accuracy of H-IIA Launch Vehicle F1 (H-IIA.F1)."
@@ -23311,7 +23311,7 @@
     },
     {
         "name":"BSAT-2B",
-        "country":"(for Japan)",
+        "country":"(for Japon)",
         "launch_date":"12/7/2001",
         "status":"decayed",
         "function":null
@@ -23332,7 +23332,7 @@
     },
     {
         "name":"ASTRA 2C\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"16/6/2001",
         "status":"in GSO",
         "function":"Encrypted and unencrypted transmission of radio, television and multimedia data services"
@@ -23395,7 +23395,7 @@
     },
     {
         "name":"B-SAT 2A\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"8/3/2001",
         "status":"in GSO",
         "function":"Domestic direct broadcasting"
@@ -23472,14 +23472,14 @@
     },
     {
         "name":"Large Deployable Reflector Experiment LDREX\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"20/12/2000",
         "status":"decayed",
         "function":"The LDREX is a small-scale and partial model of the LDR of ETS-VII, which is under development and to be launched in 2003..."
     },
     {
         "name":"ASTRA 2D\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"20/12/2000",
         "status":"in disposal/graveyard orbit",
         "function":"Transmission, encrypted and unencrypted, of analog and digital radio, television and multimedia data services."
@@ -23619,7 +23619,7 @@
     },
     {
         "name":"N-SAT-110\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"6/10/2000",
         "status":"in disposal/graveyard orbit",
         "function":"Domestic communications and domestic broad-casting"
@@ -23682,7 +23682,7 @@
     },
     {
         "name":"ASTRA 2B\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"14/9/2000",
         "status":"in GSO",
         "function":"Transmission, encrypted and unencrypted, of analog and digital radio, television and multimedia data services."
@@ -23913,7 +23913,7 @@
     },
     {
         "name":"SUPERBIRD B2\u00a0SUPERBIRD 4",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"18/2/2000",
         "status":"in disposal/graveyard orbit",
         "function":"Domestic and international communications"
@@ -24137,7 +24137,7 @@
     },
     {
         "name":"ASTRA 1H\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"18/6/1999",
         "status":"in GSO",
         "function":"Transmission, encrypted and unencrypted, of analog and digital radio, television and multimedia data services."
@@ -24347,7 +24347,7 @@
     },
     {
         "name":"JCSAT 6\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"16/2/1999",
         "status":"in disposal/graveyard orbit",
         "function":"Domestic communications and domestic broadcasting."
@@ -24529,7 +24529,7 @@
     },
     {
         "name":"ASTRA 2A\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"30/8/1998",
         "status":"in GSO",
         "function":"Distribution of digital television and radio signals, encrypted and unencrypted and multimedia services. Operated at 28.2E (second orbital slot) (see also A/AC.105/INF.412)"
@@ -24627,7 +24627,7 @@
     },
     {
         "name":"PLANET B (NOZOMI)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"3/7/1998",
         "status":"heliocentric",
         "function":"Interaction between solar wind and martian atmosphere. Note: The orbit is to be changed to perform Earth swingbys."
@@ -24697,7 +24697,7 @@
     },
     {
         "name":"THOR 3\u00a0",
-        "country":"Norway",
+        "country":"Noruega",
         "launch_date":"10/6/1998",
         "status":"in disposal/graveyard orbit",
         "function":"Telecommunications/ television broadcasting"
@@ -24746,7 +24746,7 @@
     },
     {
         "name":"BSAT-1B\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"28/4/1998",
         "status":"in GSO",
         "function":"Domestic direct broadcasting"
@@ -24795,7 +24795,7 @@
     },
     {
         "name":"Communications and Broadcasting Engineering Test Satellite (COMETS, KAKEHASHI)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"21/2/1998",
         "status":"in orbit",
         "function":"Experiments on advanced mobile satellite communications, inter-orbit communications, advanced satellite broadcasting, etc. Note: Injection into the geostationary orbit was not successful because of the shortage of 2nd burning period of the upper-stage eng"
@@ -24893,28 +24893,28 @@
     },
     {
         "name":"ASTRA 1G\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"2/12/1997",
         "status":"in disposal/graveyard orbit",
         "function":"Distribution of digital television and radio signals, encrypted and unencrypted and multimedia services. Also provides backup capacity for ASTRA 1E, ASTRA 1F. (see also A/AC.105/INF.412)"
     },
     {
         "name":"JCSAT 5\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"2/12/1997",
         "status":"in disposal/graveyard orbit",
         "function":"Domestic and international communications"
     },
     {
         "name":"ETS 7 (HIKOBOSHI)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"27/11/1997",
         "status":"in orbit",
         "function":"ETS-VII consists of two satellites named \"Chaser\" (Hikoboshi) and \"Target\" (Orihime). After launching, the Chaser will release the Target satellite on orbit...(see reg. document for full text)"
     },
     {
         "name":"ETS 7 TARGET (ORIHIME)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"27/11/1997",
         "status":"in orbit",
         "function":"ETS-VII consists of two satellites named \"Chaser\" (Hikoboshi) and \"Target\" (Orihime). After launching, the Chaser will release the Target satellite on orbit...(see reg. document for full text)"
@@ -25110,7 +25110,7 @@
     },
     {
         "name":"SUPERBIRD C\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"28/7/1997",
         "status":"in disposal/graveyard orbit",
         "function":"Domestic and international communications"
@@ -25243,7 +25243,7 @@
     },
     {
         "name":"BSAT 1A\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"16/4/1997",
         "status":"in disposal/graveyard orbit",
         "function":"Domestic direct broadcasting"
@@ -25271,7 +25271,7 @@
     },
     {
         "name":"JCSAT 4\u00a0Intelsat 26",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"17/2/1997",
         "status":"in disposal/graveyard orbit",
         "function":"Domestic and international communication and broadcasting"
@@ -25320,7 +25320,7 @@
     },
     {
         "name":"MUSES B/VSOP (HALCA)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"12/2/1997",
         "status":"in orbit",
         "function":"Technical Experiment including Large Antenna Deployment and Radio Astronomy using Space VLBI"
@@ -25495,14 +25495,14 @@
     },
     {
         "name":"JAS 2 (FUJI 3)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"17/8/1996",
         "status":"in orbit",
         "function":"Amateur satellite communications. Development of amateur radio communications satellite technology."
     },
     {
         "name":"Advanced Earth Observing Satellite (ADEOS, MIDORI)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"17/8/1996",
         "status":"in orbit",
         "function":"The purposes of ADEOS are to verify functions and performance of two NASDA sensors: Ocean Color and Temperature Scanner (OCTS) and Advanced Visible and Near-Infrared Radiometer (AVNIR), and to provide the Earth observation data. (see reg. document for ful"
@@ -25607,7 +25607,7 @@
     },
     {
         "name":"ASTRA 1F\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"8/4/1996",
         "status":"in disposal/graveyard orbit",
         "function":"Distribution of digital television and radio signals, encrypted and unencrypted. ASTRA 1F also provides backup capacity for ASTRA 1A and 1E. see also A/AC.105/INF.401 & 412"
@@ -25691,7 +25691,7 @@
     },
     {
         "name":"N-STARb\u00a0N-STAR B",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"5/2/1996",
         "status":"in disposal/graveyard orbit",
         "function":"Domestic telecommunications"
@@ -25831,7 +25831,7 @@
     },
     {
         "name":"ASTRA 1E\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"19/10/1995",
         "status":"in disposal/graveyard orbit",
         "function":"Distribution of digital television and radio signals, encrypted and unencrypted. ASTRA 1E also provides backup capacity for ASTRA 1B, 1C and 1D. see also A/AC.105/INF.401 & 412"
@@ -25873,14 +25873,14 @@
     },
     {
         "name":"JCSAT 3\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"29/8/1995",
         "status":"in disposal/graveyard orbit",
         "function":"Domestic communications/International telecommunications. Entrusted domestic broadcasting/Entrusted domestic and overseas broadcasting"
     },
     {
         "name":"N-STARa\u00a0N-STAR 1",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"29/8/1995",
         "status":"in disposal/graveyard orbit",
         "function":"Domestic communications"
@@ -25978,14 +25978,14 @@
     },
     {
         "name":"Geostationary Meteorological Satellite 5 (GMS 5, HIMAWARI 5)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"18/3/1995",
         "status":"in GSO",
         "function":"GMS-5 is to continue GMS1-4 meteorological satellite service and contribute not only to improvement of meteorological satellite service, but also to development of related technology (see reg. document for full text)"
     },
     {
         "name":"SPACE FLYER UNIT (SFU)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"18/3/1995",
         "status":"recovered",
         "function":"The SFU is unmanned, reusable and free flying space platform for multiple use. After conducting various space observations and experiments in orbit, it is planned to be retrieved by the United States of America's Space Shuttle"
@@ -26034,7 +26034,7 @@
     },
     {
         "name":"ASTRA 1D\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"31/10/1994",
         "status":"in GSO",
         "function":"Distribution of analogue television and radio signals, encrypted and unencrypted (like ASTRA 1C). ASTRA 1D also provides backup capacity for ASTRA 1B, 1C and 1E. see also A/AC.105/INF.401, 412 & 432"
@@ -26062,7 +26062,7 @@
     },
     {
         "name":"Engineering Test Satellite VI (ETS 6, KIKU 6)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"28/8/1994",
         "status":"in orbit",
         "function":"The purpose of the Engineering Test Satellite VI is to establish bus technology for large-scale geostationary 3-axis stabilized satellites (see reg. document for full text)"
@@ -26111,7 +26111,7 @@
     },
     {
         "name":"Broadcastind Satellite-3N (BS-3N)\u00a0YURI",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"8/7/1994",
         "status":"in GSO",
         "function":"Back-up of Broadcasting Satellite-3 (BS-3)"
@@ -26307,7 +26307,7 @@
     },
     {
         "name":"ASTRA 1C\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"12/5/1993",
         "status":"in disposal/graveyard orbit",
         "function":"Distribution of analogue television and radio signals, encrypted and unencrypted (like ASTRA 1A). ASTRA 1C also provides backup capacity for ASTRA 1A. see also A/AC.105/INF.401 & 412"
@@ -26447,7 +26447,7 @@
     },
     {
         "name":"ASTRO D ASCA\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"20/2/1993",
         "status":"decayed",
         "function":"Imaging and spectroscopic observation of various astronomical objects (stars and galaxies) in the X-ray band"
@@ -26587,7 +26587,7 @@
     },
     {
         "name":"SUPERBIRD A1\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"1/12/1992",
         "status":"in disposal/graveyard orbit",
         "function":"Domestic communications"
@@ -26755,14 +26755,14 @@
     },
     {
         "name":"SUPERBIRD B\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"26/2/1992",
         "status":"in GSO",
         "function":"Domestic communication"
     },
     {
         "name":"JERS 1 FUYO 1\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"11/2/1992",
         "status":"decayed",
         "function":"To verify functions and performance of optical sensors and a Synthetic Aperture Radar and to establish an integrated system for observing the earth resources;land survey, agriculture, forestry,fishery.. (see reg. doc for full text)"
@@ -26818,7 +26818,7 @@
     },
     {
         "name":"SOLAR A ( YOHKOH)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"30/8/1991",
         "status":"decayed",
         "function":"Observation of solar flares during periods of maximum solar activity, mainly in the X-ray band with high spatial, spectral and temporal resolution"
@@ -26832,7 +26832,7 @@
     },
     {
         "name":"BS-3B (YURI 3B)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"25/8/1991",
         "status":"in GSO",
         "function":"Succession of broadcasting services provided by BS-2 satellites.Accommodate increasing and diversifying demands for broadcasting.Establishment of common technology for broadcasting satellites."
@@ -26895,7 +26895,7 @@
     },
     {
         "name":"ASTRA 1B\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"2/3/1991",
         "status":"in disposal/graveyard orbit",
         "function":"Distribution of analogue television and radio signals, encrypted and unencrypted (like ASTRA 1A). see also A/AC.105/INF.402 & 412"
@@ -27000,7 +27000,7 @@
     },
     {
         "name":"BS 3A (YURI 3A)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"28/8/1990",
         "status":"in GSO",
         "function":"Continuation of broadcasting services by BS-2; accommodations to increasing and diversifying demands for broadcasting; establishment of common technology necessary for broadcasting satellite"
@@ -27112,7 +27112,7 @@
     },
     {
         "name":"JCSAT 2\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"1/1/1990",
         "status":"in disposal/graveyard orbit",
         "function":"Domestic communications"
@@ -27168,7 +27168,7 @@
     },
     {
         "name":"GMS 4 (HIMAWARI 4)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"5/9/1989",
         "status":"in GSO",
         "function":"Improvement of meteorological observation. Development of meteorological satellite technology"
@@ -27238,7 +27238,7 @@
     },
     {
         "name":"SUPERBIRD A\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"5/6/1989",
         "status":"in disposal/graveyard orbit",
         "function":"Satellite telecommunications"
@@ -27273,14 +27273,14 @@
     },
     {
         "name":"JCSAT 1\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"6/3/1989",
         "status":"in disposal/graveyard orbit",
         "function":"Domestic communications"
     },
     {
         "name":"EXOS D (AKEBONO)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"21/2/1989",
         "status":"decayed",
         "function":"Observation in high precision of behaviour and acceleration mechanism of aurora particles in Earth magnetosphere"
@@ -27322,7 +27322,7 @@
     },
     {
         "name":"ASTRA 1A\u00a0",
-        "country":"Luxembourg",
+        "country":"Luxemburgo",
         "launch_date":"11/12/1988",
         "status":"in disposal/graveyard orbit",
         "function":"Distribution of analogue television and radio signals, encrypted and unencrypted. see also A/AC.105/INF.401"
@@ -27343,7 +27343,7 @@
     },
     {
         "name":"CS-3B (SAKURA 3B)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"16/9/1988",
         "status":"in GSO",
         "function":"Continue communication services provided by the communications satellite 2 (CS-2) (see reg. document for full text)"
@@ -27441,7 +27441,7 @@
     },
     {
         "name":"CS-3A (SAKURA 3A)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"19/2/1988",
         "status":"in GSO",
         "function":"To continue communications services provided by the communications satellite 2 (CS-2) (see reg. document for full text)"
@@ -27609,7 +27609,7 @@
     },
     {
         "name":"ETS 5 (KIKU 5)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"27/8/1987",
         "status":"in GSO",
         "function":"Accumulation of key technologies required for high performance in the next generation of applications satellite (see reg. document for full text)"
@@ -27721,7 +27721,7 @@
     },
     {
         "name":"JAS 1A (FUJI 1)\u00a0Oscar 12",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"12/8/1986",
         "status":"in orbit",
         "function":"Amateur satellite communications (see reg. document for full text)"
@@ -27777,7 +27777,7 @@
     },
     {
         "name":"BS-2B (YURI 2B)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"12/2/1986",
         "status":"in GSO",
         "function":"Domestic satellite broadcasting. Development of broadcasting satellite technology"
@@ -27945,7 +27945,7 @@
     },
     {
         "name":"GMS 3 (HIMAWARI 3)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"2/8/1984",
         "status":"in GSO",
         "function":"Improvement of meteorological observation. Development of meteorological satellite technology"
@@ -27973,7 +27973,7 @@
     },
     {
         "name":"EXOS C (OHZORA)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"14/2/1984",
         "status":"decayed",
         "function":"Optical study of the stratosphere and middle atmosphere, study of the specific phenomena of the ionospheric plasma over southern Atlantic geomagnetic anomaly zone which was discovered by the third scientific satellite Taiyo"
@@ -27987,7 +27987,7 @@
     },
     {
         "name":"BS-2A (YURI 2A)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"23/1/1984",
         "status":"in GSO",
         "function":"Domestic satellite broadcasting; development of broadcasting satellite technology"
@@ -28022,7 +28022,7 @@
     },
     {
         "name":"CS-2B (SAKURA-2B)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"5/8/1983",
         "status":"in GSO",
         "function":"Domestic satellite communications; development of communications satellite technology"
@@ -28092,7 +28092,7 @@
     },
     {
         "name":"CS-2A (SAKURA 2-A)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"4/2/1983",
         "status":"in GSO",
         "function":"Establishment of domestic satellite telecommunication network mainly for natural disaster, emergency and for remote islands using submillimetre wavelength and microwavelength signals; development of the technology of communications satellite."
@@ -28330,7 +28330,7 @@
     },
     {
         "name":"Geostationary meteorological satellite 2 (GMS-2, HIMAWARI 2)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"10/8/1981",
         "status":"in GSO",
         "function":"Observation of meteorological phenomena by the visible and infra-red spin scan radiometer; collection of weather data from various stations; distribution of weather data to earth stations; monitoring of solar particles"
@@ -28365,7 +28365,7 @@
     },
     {
         "name":"KIKU 3 (ETS-IV)\u00a0ETS-4",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"11/2/1981",
         "status":"in orbit",
         "function":"Acquisition of the technology to handle a large-scale heavy satellite and test of the functions of on-board equipment and devices, as well as confirmation of the launching capacity of the N-II launch vehicle"
@@ -28435,7 +28435,7 @@
     },
     {
         "name":"TANSEI 4 (MST-4)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"17/2/1980",
         "status":"decayed",
         "function":null
@@ -28519,7 +28519,7 @@
     },
     {
         "name":"Experimental Communications Satellite (ECS, AYAME)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"6/2/1979",
         "status":"in GSO",
         "function":"Communications and propagation experiments of satellite communication systems in the quasi-millimetre wave band as well as in the microwave band operation and control experiment for geostationary satellites"
@@ -28575,14 +28575,14 @@
     },
     {
         "name":"Medium-scale broadcasting satellite for experimental purposes (BSE, YURI 1)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"7/4/1978",
         "status":"in GSO",
         "function":"TV signal transmission tests; 12 GHz radio wave propagation; equipment and ground terminal evaluation; frequency sharing experiments with terrestrial systems; satellite control technologies; satellite broadcasting experiment; (see reg. document for full t"
     },
     {
         "name":"Ionosphere Sounding Satellite (UME-2 ISS b ISS 2)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"16/2/1978",
         "status":"in orbit",
         "function":"Observation of global distribution of critical frequencies of the ionosphere by means of radio waves. The results are to be utilized for radio propagation prediction and radio disturbance warning for effective SW radio communication (see reg. document fo"
@@ -28603,7 +28603,7 @@
     },
     {
         "name":"Medium-capacity Communications Satellite for Experimental Purposes (SAKURA CS)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"15/12/1977",
         "status":"in GSO",
         "function":"Measurement of onboard mission equipment; measurement and evaluation of propagation, in quasi-millimetric waves; signal transmission; satellite communication system operation; satellite operation and control (see reg. document for full text)"
@@ -28652,7 +28652,7 @@
     },
     {
         "name":"Engineering Test Satellite Type II (KIKU 2 ETS 2)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"23/2/1977",
         "status":"in GSO",
         "function":"Preliminary experiments to acquire technologies to launch geostationary satellites, acquire the geostationary satellite tracking and control technologies, for testing attitude control functions; propagation experiment of mm and quasi-millimeter waves"
@@ -28722,10 +28722,10 @@
     },
     {
         "name":"KIKU 1 (ETS 1)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"9/9/1975",
         "status":"in orbit",
-        "function":"JETS-1 (Japanese Engineering Test Satellite -1) is intended for preliminary experiments for confirmation of the launching technologies, acquiring the satellite tracking and control technologies (see reg document for full text)"
+        "function":"JETS-1 (Japonese Engineering Test Satellite -1) is intended for preliminary experiments for confirmation of the launching technologies, acquiring the satellite tracking and control technologies (see reg document for full text)"
     },
     {
         "name":"SYMPHONIE (flying model No. 2)\u00a0SYMPHONIE B",
@@ -28834,10 +28834,10 @@
     },
     {
         "name":"TAIYO (SRATS)\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"24/2/1975",
         "status":"decayed",
-        "function":"SRATS (Solar and Thermospheric Radiation Satellite) is the third Japanese scientific satellite to study the intereffects of solar radiation and the thermosphere of the earth."
+        "function":"SRATS (Solar and Thermospheric Radiation Satellite) is the third Japonese scientific satellite to study the intereffects of solar radiation and the thermosphere of the earth."
     },
     {
         "name":"STARLETTE\u00a0",
@@ -28897,7 +28897,7 @@
     },
     {
         "name":"TANSEI 2 (MS-T2)",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"16/2/1974",
         "status":"decayed",
         "function":"Attitude control satellite (performance test of launch vehicle)."
@@ -28939,7 +28939,7 @@
     },
     {
         "name":"DENPA\u00a0(REX)",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"19/8/1972",
         "status":"decayed",
         "function":"Scientific observations in the ionosphere and magnetosphere. Interjection point 31 deg 15' N 11 deg 05' E."
@@ -29051,7 +29051,7 @@
     },
     {
         "name":"OSUMI MS-T1\u00a0",
-        "country":"Japan",
+        "country":"Japon",
         "launch_date":"11/2/1970",
         "status":"decayed",
         "function":"Engineering test for the launching of scientific satellites. Injection point 29.7 N, 145.8 E"
@@ -29205,7 +29205,7 @@
     },
     {
         "name":"INTELSAT 1 (EARLY BIRD)",
-        "country":"USA (for Intelsat)",
+        "country":"USA",
         "launch_date":"6/4/1965",
         "status":"in GSO",
         "function":"Practical applications of space based technology."
