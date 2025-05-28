@@ -1,5 +1,8 @@
-import matplotlib.pyplot as plt
 import json
+import plotly.express as px
+import plotly.io as pio
+pio.renderers.default = "browser"
+
 
 ruta_archivo = "./json/per_year.json"
 year = []
@@ -11,13 +14,9 @@ with open (ruta_archivo,"r",encoding='utf8') as f:
         year.append(i['year'])
         satellite.append(i['launchs'])
 
-plt.plot(year,satellite,marker='o', linestyle='-', color='orange')
-plt.xlabel('Years')
-plt.ylabel('Launches')
-plt.title('Releases by year')
-plt.xticks(rotation=90)
-plt.grid(True)
-plt.show()
+import pandas as pd
+df = pd.DataFrame({"Year": year, "Launches": satellite})
+fig = px.line(df, x="Year", y="Launches", title="Release by year")
+fig.show()
 
 
-    
