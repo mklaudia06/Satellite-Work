@@ -16,7 +16,7 @@ with open (ruta_archivo,"r",encoding='utf8') as f:
 
 import pandas as pd
 df = pd.DataFrame({"Year": year, "Launches": satellite})
-fig = px.line(df, x="Year", y="Launches", title="Release by year")
+fig = px.line(df, x="Year", y="Launches", title="Releases per year")
 fig.show()
 
 
