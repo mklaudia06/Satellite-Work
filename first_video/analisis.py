@@ -54,9 +54,8 @@ status_count.columns = ["status", "count"]
 fig = px.pie(status_count,
              values='count',
              names='status',
-             title='Distribucion de satelites orbitantes y desorbitados',
+             title='Orbiting and deorbiting satellites distribution',
              color='status',
              color_discrete_map={'in orbit': 'lightblue', 'deorbited': 'lightcoral'})
 
-fig.add_pie(customdata=status_count)
 fig.show()
