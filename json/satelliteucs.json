@@ -3160,7 +3160,7 @@
         "orbit_class":"LEO",
         "orbit_kind":"Non-Polar Inclined",
         "inclination_degrees":null,
-        "date_launch":null,
+        "date_launch":"3/24/2023",
         "expected_lifetime_years":null,
         "launch_site":"Rocket Lab Launch Complex 1"
     },
