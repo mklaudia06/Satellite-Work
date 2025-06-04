@@ -24703,7 +24703,7 @@
         "owner":"Satellogic S.A.",
         "users":"Commercial",
         "purpose":"Earth Observation",
-        "orbit_class":"LEo",
+        "orbit_class":"LEO",
         "orbit_kind":"Sun-Synchronous",
         "inclination_degrees":"97,5",
         "date_launch":"5/25/22",
