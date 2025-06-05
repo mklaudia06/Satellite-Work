@@ -1,5 +1,7 @@
 import streamlit as st
-from src.utils import readJson
+import plotly.express as px
+import pandas as pd
+from src.utils import readJson, selectColor
 from collections import Counter
 
 st.markdown("# DataProduct de [Satellite-Work](https://github.com/mklaudia06/Satellite-Work)")
@@ -29,8 +31,16 @@ for i in range(len(sucs_data)):
     
 counted_orbit_class = Counter(orbit_class)
 
-st.bar_chart(
-    data=counted_orbit_class,
-    x_label="Tipo de Orbita",
-    y_label="Cantidad",
-)
+st.html("<h1 style='text-align: center; padding-top: 20px;'>Cantidad de satélites por tipo de órbita</h1>")
+fig = px.pie(names=counted_orbit_class.keys(), values=counted_orbit_class.values())
+
+st.plotly_chart(fig)
+
+countries = []
+
+for i in range(len(sucs_data)):
+    countries.append(sucs_data[i]["owner_country"])
+    
+counted_countries = Counter(countries)
+
+countries_box = st.selectbox("Selecciona uno o varios Paises:", counted_countries.keys(), on_change=print())
