@@ -3160,7 +3160,7 @@
         "orbit_class":"LEO",
         "orbit_kind":"Non-Polar Inclined",
         "inclination_degrees":null,
-        "date_launch":null,
+        "date_launch":"3/24/2023",
         "expected_lifetime_years":null,
         "launch_site":"Rocket Lab Launch Complex 1"
     },
@@ -24703,7 +24703,7 @@
         "owner":"Satellogic S.A.",
         "users":"Commercial",
         "purpose":"Earth Observation",
-        "orbit_class":"LEo",
+        "orbit_class":"LEO",
         "orbit_kind":"Sun-Synchronous",
         "inclination_degrees":"97,5",
         "date_launch":"5/25/22",
