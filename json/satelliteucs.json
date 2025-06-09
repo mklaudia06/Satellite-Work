@@ -2893,7 +2893,7 @@
     },
     {
         "sat_name":"Beijing-3",
-        "owner_country":"China ",
+        "owner_country":"China",
         "owner":"21st Century Aerospace Technology (21AT)",
         "users":"Commercial",
         "purpose":"Earth Observation",
@@ -23620,7 +23620,7 @@
     },
     {
         "sat_name":"NeR",
-        "owner_country":"Sinapore",
+        "owner_country":"Singapore",
         "owner":"Unknown",
         "users":"Commercial",
         "purpose":"Earth Observation",
