@@ -1,12 +1,16 @@
 import pandas as pd
 import streamlit as st
+import json
 
-def readJson(path: str) -> pd.DataFrame:
-    json = pd.read_json(path)
+
+def readJson(path: str, pandas: bool = False) -> pd.DataFrame:
     
-    return json
+    if pandas:
+        json_pandas = pd.read_json(path)
+        
+        return json_pandas
+    else:
+        with open(path, "r", encoding="utf-8") as file:
+            json_norm = json.load(file)
 
-def selectColor(graph: str):
-    color = st.color_picker(f"Selecciona un color para {graph}", value="#FF9B45")
-
-    return color
+        return json_norm
