@@ -2,46 +2,16 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 from streamlit_folium import st_folium
 from src.utils import readJson
+from src.schemas import Texts
 from collections import Counter
 import folium
 import plotly.express as px
-import pandas as pd
 import glob
-import random
 
 st.set_page_config(page_title="Our DataProduct", layout="wide")
 
-st.html(
-    """
-    <style>
-    a {
-        text-decoration: None;
-        color: #7F55B1;
-    }
-    h1 {
-        text-align: center;
-        font-size: xx-large;
-    }
-    </style>
-
-
-    <h1>DataProduct de <a href='https://github.com/mklaudia06/Satellite-Work'>Satellite-Work</a></h1>
-    """)
-st.html(
-    """
-    <style>
-    h2 {
-        text-align: center;
-    }
-
-    .quiz-link {
-        text-decoration:None; 
-        color: #7F55B1;
-    }
-    </style>
-
-    <h2>¿Acaso ya te probaste ante nuestro <a class='quiz-link' href='https://satellite-quiz.vercel.app/' target=_blank>Satellite Quiz</a>?</h2>
-    """)
+st.html(Texts.dataproduct_header)
+st.html(Texts.satelliteQuiz_header)
 
 satelliteucs = readJson("./json/satelliteucs.json", pandas=True)
 
@@ -69,20 +39,20 @@ for i in range(len(sucs_data)):
     
 counted_countries = Counter(countries)
 
-print(counted_countries)
-
 # countries_box = st.selectbox("Selecciona uno o varios Paises:", counted_countries.keys(), on_change=print())
 
 selected = option_menu(None, 
-                       ["General", "Paises", "Satelites", "Agencia", "Tipo de orbita"],
+                       ["Inicio", "Paises", "Satelites", "Agencia", "Tipo de orbita"],
                        icons=["back", "flag", "rocket", "person-workspace"],
                        menu_icon="cast",
                        orientation="horizontal",
                        key="my_menu")
 
-if selected == "General":
-    st.write("xddddd")
+if selected == "Inicio":
+    st.html(Texts.start_text)
 elif selected == "Paises":
+
+    st.html("<h1 style='text-align: center;'>Todos los paises que han lanzado satelites desde 1957 hasta 2024</h1>")
     m = folium.Map(location=[0, 0], zoom_start=1.5, min_zoom=2)
     
     
