@@ -8,7 +8,6 @@ tls.for_titles_centered("Desde la antigua Unión Soviética hasta la actual Rusi
 st.divider()
 st.subheader("Competencia de lanzamientos")
 
-st.divider()
 st.markdown("Cada lanzamiento era una demostración de poder, una victoria ideológica y un hito tecnológico que repercutía en todo el mundo. La competencia no era solo por quién llegaba primero, sino por quién demostraba tener la tecnología y la ciencia superiores.El espacio, un lugar donde una nación podía demostrar su superioridad tecnológica y su visión del futuro.Antes de 1957, la órbita terrestre estaba vacía, un lienzo en blanco esperando ser reclamado.")
 st.markdown("**4 de octubre de 1957**, un simple pitido resonó desde el cielo. La Unión Soviética lanzó el Sputnik 1, el primer satélite artificial de la historia. El sonido del **Sputnik 1**fue el llamado de atención que Estados Unidos necesitaba. La nación se movilizó con urgencia, impulsando la creación de la NASA. Estados Unidos lanzó su propia respuesta el **Explore 1**, y desde 1957 estas dos superpotencias se han visto en una competencia constante con el lanzamiento de satélites artificiales.")
 
@@ -26,3 +25,5 @@ st.markdown("Ambos países se esforzaron por demostrar su dominio tecnológico y
 " vigilancia, comunicación, navegación o defensa. La densidad orbital no es casualidad: " \
 "es geopolítica codificada en trayectorias.")
 
+fig = tls.orbit_map()
+st.plotly_chart(fig)
