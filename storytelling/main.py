@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 st.set_page_config(layout="wide", page_title= "Story about satellites", page_icon="imagen.png")
 tls.for_titles_centered("La competencia espacial entre dos superpotencias", level="h1",color="#1E90FF")
 tls.for_titles_centered("Desde la antigua Unión Soviética hasta la actual Rusia VS Estados Unidos", level="h3", color="	#1E90FF")
+st.divider()
+st.subheader("Competencia de lanzamientos")
 
 st.divider()
 st.markdown("Cada lanzamiento era una demostración de poder, una victoria ideológica y un hito tecnológico que repercutía en todo el mundo. La competencia no era solo por quién llegaba primero, sino por quién demostraba tener la tecnología y la ciencia superiores.El espacio, un lugar donde una nación podía demostrar su superioridad tecnológica y su visión del futuro.Antes de 1957, la órbita terrestre estaba vacía, un lienzo en blanco esperando ser reclamado.")
@@ -16,5 +18,11 @@ st.plotly_chart(fig)
 st.divider()
 st.subheader("Batalla por la superioridad espacial")
 
-st.markdown("Ambos países se esforzaron por demostrar su dominio tecnológico y la capacidad de usar el espacio para fines estratégicos")
+st.markdown("Ambos países se esforzaron por demostrar su dominio tecnológico y la capacidad de " \
+"usar el espacio para fines estratégicos." \
+"Cada tipo de órbita representa una táctica en la batalla por el dominio espacial. " \
+"Ambas naciones posicionan sus satélites en los distintos tipos órbitas segun sus objetivos y pueden llegar a dominar alguna de ellas por su predominio de satélites lanzados a estas  " \
+"—en órbitas bajas (LEO), medias (MEO), geoestacionarias (GEO), y más allá— según sus objetivos:" \
+" vigilancia, comunicación, navegación o defensa. La densidad orbital no es casualidad: " \
+"es geopolítica codificada en trayectorias.")
 

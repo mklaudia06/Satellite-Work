@@ -26,5 +26,6 @@ def graph_per_year ():
         fig = go.Figure()
         fig.add_trace(go.Scatter(x = years,y=satellites_rus,mode="lines+markers", name = "Russian Launches"))
         fig.add_trace(go.Scatter(x = years,y =satellites_usa,mode= "lines+markers",name="United Stated Launches"))
+        fig.update_layout(title="Launches by year and country (Russia and the United States)",xaxis_title="Years",yaxis_title="Number of launches",legend_title="Country")
     return fig
 
