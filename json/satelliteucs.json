@@ -156,19 +156,6 @@
         "launch_site":"Baikonur Cosmodrome"
     },
     {
-        "sat_name":"ADLER-2",
-        "owner_country":"Austria",
-        "owner":"Austrian Space Forum (OEWF)/Spire",
-        "users":"Civil",
-        "purpose":"Earth Science",
-        "orbit_class":"LEO",
-        "orbit_kind":"Sun-Synchronous",
-        "inclination_degrees":"97,4",
-        "date_launch":"4/15/23",
-        "expected_lifetime_years":null,
-        "launch_site":"Vandenberg AFB"
-    },
-    {
         "sat_name":"Advanced Orion 10 (Mentor, NRO L-44, USA 311)",
         "owner_country":"USA",
         "owner":"National Reconnaissance Office (NRO)",
@@ -999,19 +986,6 @@
         "date_launch":"12/18/19",
         "expected_lifetime_years":null,
         "launch_site":"Guiana Space Center"
-    },
-    {
-        "sat_name":"Angosat-2",
-        "owner_country":"Angola",
-        "owner":"AngoSat",
-        "users":"Government",
-        "purpose":"Communications",
-        "orbit_class":"LEO",
-        "orbit_kind":null,
-        "inclination_degrees":"0,02",
-        "date_launch":"10/12/2022",
-        "expected_lifetime_years":null,
-        "launch_site":"Baikonur Cosmodrome"
     },
     {
         "sat_name":"Anik F1 ",
@@ -2058,19 +2032,6 @@
         "date_launch":"11/10/2015",
         "expected_lifetime_years":"15",
         "launch_site":"Guiana Space Center"
-    },
-    {
-        "sat_name":"Bangabandhu 1 ",
-        "owner_country":"Bangladesh",
-        "owner":"Bangladesh Telecommunication Regulatory Commission (BTRC)",
-        "users":"Government",
-        "purpose":"Communications",
-        "orbit_class":"GEO",
-        "orbit_kind":null,
-        "inclination_degrees":"0",
-        "date_launch":"5/11/2018",
-        "expected_lifetime_years":"15",
-        "launch_site":"Cape Canaveral"
     },
     {
         "sat_name":"Baoyun",
@@ -3637,19 +3598,6 @@
         "date_launch":"6/19/14",
         "expected_lifetime_years":null,
         "launch_site":"Dombarovsky Air Base"
-    },
-    {
-        "sat_name":"BulgariaSat-1",
-        "owner_country":"Bulgaria",
-        "owner":"Bulsatcom",
-        "users":"Commercial",
-        "purpose":"Communications",
-        "orbit_class":"GEO",
-        "orbit_kind":null,
-        "inclination_degrees":"0",
-        "date_launch":"6/23/17",
-        "expected_lifetime_years":"15",
-        "launch_site":"Cape Canaveral"
     },
     {
         "sat_name":"CACTUS-1 (Coordinated Applied Capitol Technology University Satellite 1)",
@@ -18484,19 +18432,6 @@
         "launch_site":"Taiyuan Launch Center"
     },
     {
-        "sat_name":"JYISat (JO 97)",
-        "owner_country":"Jordan",
-        "owner":"Crown Prince Foundation",
-        "users":"Civil",
-        "purpose":"Communications",
-        "orbit_class":"LEO",
-        "orbit_kind":"Sun-Synchronous",
-        "inclination_degrees":"97,7",
-        "date_launch":"12/3/2018",
-        "expected_lifetime_years":null,
-        "launch_site":"Vandenberg AFB"
-    },
-    {
         "sat_name":"Kaituo-1A (Xinyan-2)",
         "owner_country":"China",
         "owner":"China Aerospace Science and Technology Corp. (CASC)",
@@ -19524,19 +19459,6 @@
         "launch_site":"Jiuquan Satellite Launch Center"
     },
     {
-        "sat_name":"KuwaitSat-1",
-        "owner_country":"Kuwait",
-        "owner":"Kuwait University",
-        "users":"Civil",
-        "purpose":"Technology Development",
-        "orbit_class":"LEO",
-        "orbit_kind":"Sun-Synchronous",
-        "inclination_degrees":"97,5",
-        "date_launch":"1/3/2023",
-        "expected_lifetime_years":null,
-        "launch_site":"Cape Canaveral"
-    },
-    {
         "sat_name":"KX-09",
         "owner_country":"China",
         "owner":"Chinese Academy of Sciences",
@@ -19743,19 +19665,6 @@
         "date_launch":"9/27/21",
         "expected_lifetime_years":"5",
         "launch_site":"Vandenberg AFB"
-    },
-    {
-        "sat_name":"LaoSat-1",
-        "owner_country":"Laos",
-        "owner":"Laos National Authority for Science and Technology",
-        "users":"Government",
-        "purpose":"Communications",
-        "orbit_class":"GEO",
-        "orbit_kind":null,
-        "inclination_degrees":"0,1",
-        "date_launch":"11/20/15",
-        "expected_lifetime_years":"15",
-        "launch_site":"Xichang Satellite Launch Center"
     },
     {
         "sat_name":"LAPAN A2",
@@ -34474,19 +34383,6 @@
         "launch_site":"Wenchang Satellite Launch Center"
     },
     {
-        "sat_name":"QMR-KWT (Moon of Kuwait)",
-        "owner_country":"Kuwait",
-        "owner":"Orbital Space",
-        "users":"Civil",
-        "purpose":"Communications",
-        "orbit_class":"LEO",
-        "orbit_kind":"Sun-Synchronous",
-        "inclination_degrees":"97,5",
-        "date_launch":"6/30/21",
-        "expected_lifetime_years":null,
-        "launch_site":"Cape Canaveral"
-    },
-    {
         "sat_name":"QPS-SAR 1 (Izanagi)",
         "owner_country":"Japan",
         "owner":"iQPS",
@@ -35371,19 +35267,6 @@
         "launch_site":"Plesetsk Cosmodrome"
     },
     {
-        "sat_name":"RoseyCubesat-1   ",
-        "owner_country":"Monaco",
-        "owner":"Orbital Solutions Monaco",
-        "users":"Civil",
-        "purpose":"Technology Development",
-        "orbit_class":"LEO",
-        "orbit_kind":"Sun-Synchronous",
-        "inclination_degrees":"97,4",
-        "date_launch":"4/15/23",
-        "expected_lifetime_years":null,
-        "launch_site":"Vandenberg AFB"
-    },
-    {
         "sat_name":"RSW-1 01 (Ronghe Shiyan Weixing 1)",
         "owner_country":"China",
         "owner":"Unknown",
@@ -35525,19 +35408,6 @@
         "date_launch":"7/16/00",
         "expected_lifetime_years":"4",
         "launch_site":"Baikonur Cosmodrome"
-    },
-    {
-        "sat_name":"Sanosat-1",
-        "owner_country":"Nepal",
-        "owner":"AMSAT/Nepal",
-        "users":"Civil",
-        "purpose":"Communications",
-        "orbit_class":"LEO",
-        "orbit_kind":"Sun-Synchronous",
-        "inclination_degrees":"97,5",
-        "date_launch":"1/13/22",
-        "expected_lifetime_years":null,
-        "launch_site":"Cape Canaveral"
     },
     {
         "sat_name":"SAOCOM-1A (Sat\u00e9lite Argentino de Observaci\u00f3n Con Microondas)",
@@ -39687,19 +39557,6 @@
         "launch_site":"Jiuquan Satellite Launch Center"
     },
     {
-        "sat_name":"SPARTAN",
-        "owner_country":"Bulgaria",
-        "owner":"Endurosat",
-        "users":"Commercial",
-        "purpose":"Technology Development",
-        "orbit_class":"LEO",
-        "orbit_kind":"Sun-Synchronous",
-        "inclination_degrees":"97,5",
-        "date_launch":"6/30/21",
-        "expected_lifetime_years":null,
-        "launch_site":"Cape Canaveral"
-    },
-    {
         "sat_name":"Spektr-R/RadioAstron",
         "owner_country":"Multinational",
         "owner":"Astro Space Center of Moscow/Russian Academy of Sciences",
@@ -39789,19 +39646,6 @@
         "date_launch":"10/12/2011",
         "expected_lifetime_years":"1",
         "launch_site":"Satish Dhawan Space Centre"
-    },
-    {
-        "sat_name":"SRSS-1 (Sudan Remote Sensing Satellite 1)",
-        "owner_country":"Sudan",
-        "owner":"Government of Sudan",
-        "users":"Government",
-        "purpose":"Earth Observation",
-        "orbit_class":"LEO",
-        "orbit_kind":"Sun-Synchronous",
-        "inclination_degrees":"97,5",
-        "date_launch":"11/3/2019",
-        "expected_lifetime_years":null,
-        "launch_site":"Taiyuan Launch Center"
     },
     {
         "sat_name":"SSOT (Sistema Satelital para la Observaci\u00f3n de la Tierra)",
@@ -92480,19 +92324,6 @@
         "launch_site":"Vandenberg AFB"
     },
     {
-        "sat_name":"Taifa-1",
-        "owner_country":"Kenya",
-        "owner":"Kenya Space Agency",
-        "users":"Government",
-        "purpose":"Earth Observation",
-        "orbit_class":"LEO",
-        "orbit_kind":"Sun-Synchronous",
-        "inclination_degrees":"97,4",
-        "date_launch":"4/15/23",
-        "expected_lifetime_years":null,
-        "launch_site":"Vandenberg AFB"
-    },
-    {
         "sat_name":"Taijing 2-01",
         "owner_country":"China",
         "owner":"Beijing MinoSpace Technology Co., Ltd.",
@@ -94118,19 +93949,6 @@
         "launch_site":"Guiana Space Center"
     },
     {
-        "sat_name":"TIGRISat",
-        "owner_country":"Iraq",
-        "owner":"La Sapienza University of Rome",
-        "users":"Civil",
-        "purpose":"Earth Observation",
-        "orbit_class":"LEO",
-        "orbit_kind":"Sun-Synchronous",
-        "inclination_degrees":"97,98",
-        "date_launch":"6/19/14",
-        "expected_lifetime_years":null,
-        "launch_site":"Dombarovsky Air Base"
-    },
-    {
         "sat_name":"TIMED (Thermosphere \u2022 Ionosphere \u2022 Mesosphere \u2022 Energetics and Dynamics)",
         "owner_country":"USA",
         "owner":"National Aeronautics and Space Administration (NASA)/Applied Physics Laboratory, Johns Hopkins",
@@ -94375,32 +94193,6 @@
         "inclination_degrees":"97,5",
         "date_launch":"6/30/21",
         "expected_lifetime_years":null,
-        "launch_site":"Cape Canaveral"
-    },
-    {
-        "sat_name":"TUGSat-1\u00a0\u00a0(Technische Universit\u00e4t Graz Satellit, CanX-3b, BRITE-Austria)",
-        "owner_country":"Austria",
-        "owner":"Technical University of Graz",
-        "users":"Civil",
-        "purpose":"Technology Development",
-        "orbit_class":"LEO",
-        "orbit_kind":"Sun-Synchronous",
-        "inclination_degrees":"98,6",
-        "date_launch":"2/25/13",
-        "expected_lifetime_years":null,
-        "launch_site":"Satish Dhawan Space Centre"
-    },
-    {
-        "sat_name":"Turkmen Alem 52E/MonacoSAT",
-        "owner_country":"Turkmenistan/Monaco",
-        "owner":"Turkmenistan Ministry of Communications/SSI-Monaco",
-        "users":"Government/Commercial",
-        "purpose":"Communications",
-        "orbit_class":"GEO",
-        "orbit_kind":null,
-        "inclination_degrees":"0",
-        "date_launch":"4/27/15",
-        "expected_lifetime_years":"15",
         "launch_site":"Cape Canaveral"
     },
     {

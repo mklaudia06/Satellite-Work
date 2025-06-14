@@ -1,15 +1,15 @@
 import streamlit as st
-from src.utils import readJson, loadData
+from src.utils import readJson, loadSatUCSData
 
 satelliteucs = readJson("./json/satelliteucs.json", pandas=True)
-data = loadData(satelliteucs)
+data = loadSatUCSData(satelliteucs)
 
 pg = st.navigation([
-    st.Page("pages/Start.py", title="Inicio"),
-    st.Page("pages/Countries.py", title="Paises"),
-    st.Page("pages/Satellites.py", title="Satelites"),
-    st.Page("pages/Agency.py", title="Agencias"),
-    st.Page("pages/Orbit_kind.py", title="Tipo de Orbita")
+    st.Page("pages/Start.py", title="Inicio", icon=":material/home:"),
+    st.Page("pages/Countries.py", title="Paises", icon=":material/flag:"),
+    st.Page("pages/Satellites.py", title="Satelites", icon=":material/satellite_alt:"),
+    st.Page("pages/Agency.py", title="Agencias", icon=":material/real_estate_agent:"),
+    st.Page("pages/Orbit_kind.py", title="Tipo de Orbita", icon=":material/category:")
 ])
 
 pg.run()
