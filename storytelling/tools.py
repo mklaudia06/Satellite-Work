@@ -29,7 +29,7 @@ def graph_per_year ():
             satellites_usa.append(i['launches'])
         fig = go.Figure()
         fig.add_trace(go.Scatter(x = years,y=satellites_rus,mode="lines+markers", name = "Russian Launches"))
-        fig.add_trace(go.Scatter(x = years,y =satellites_usa,mode= "lines+markers",name="United Stated Launches"))
+        fig.add_trace(go.Scatter(x = years,y =satellites_usa,mode= "lines+markers",name="United States Launches"))
         fig.update_layout(title="Launches by year and country (Russia and the United States)",xaxis_title="Years",yaxis_title="Number of launches",legend_title="Country")
     return fig
 
@@ -56,17 +56,21 @@ def orbit_map():
     for orbit in all_orbits:
         if orbit in rusia_count:
             count = rusia_count[orbit]
+        else:
+            count = 0
         rusia_orbits.append(count)
 
     usa_orbits = []
     for orbit in all_orbits:
         if orbit in usa_count:
             count = usa_count[orbit]
+        else:
+            count = 0
         usa_orbits.append(count)
     
     countries = ["Russia", "United States"]
     satellite_counts = [rusia_orbits, usa_orbits]
-    fig = go.Figure(data=go.Heatmap(z=satellite_counts,
+    fig = go.Figure(go.Heatmap(z=satellite_counts,
     x=all_orbits,
     y=countries,
     colorscale='Viridis',
@@ -79,6 +83,78 @@ def orbit_map():
     xaxis_title="Type of Orbit",
     yaxis_title="Country")
     return fig
+
+data = open_json("./json/satelliteucs.json")
+agencias_rusia = set()
+agencias_usa = set()
+for i in data:
+    agency = i.get("owner")
+    if i['owner_country'] == "Russia":
+        if agency:  
+            agencias_rusia.add(agency)
+    elif i['owner_country'] == "USA":
+        if agency :
+            agencias_usa.add(agency)
+print(f"Agencias de Rusia: {agencias_rusia}")
+print(f"Agencias de USA: {agencias_usa}")
+
+
+def graph_agency ():
+    data = open_json("./json/satelliteucs.json")
+    agency_rusia_count = {}
+    agency_usa_count = {}
+    for i in data:
+        agency = i['owner']
+        country = i['owner_country']
+        if country == 'Russia' and agency in ['Military Space Forces (VKS)','Roscosmos State Corporation']: 
+            if agency in agency_rusia_count:
+                agency_rusia_count[agency] += 1
+            else:
+                agency_rusia_count[agency] = 1
+        elif country == 'USA':
+            if agency == 'SpaceX':
+                if agency in agency_usa_count:
+                    agency_usa_count[agency] += 1
+                else:
+                    agency_usa_count[agency] = 1
+            if 'NASA' in agency:
+                if 'NASA' in agency_usa_count:
+                    agency_usa_count['NASA'] += 1
+                else:
+                    agency_usa_count['NASA'] = 1
+    agency_usa = []
+    agency_rusia = []
+    value_usa = []
+    value_rusia = []
+    for agency,number in agency_usa_count.items():
+        agency_usa.append(agency)
+        value_usa.append(number)
+    for agency, number in agency_rusia_count.items():
+        agency_rusia.append(agency)
+        value_rusia.append(number)
+    
+    fig = go.Figure([
+    go.Bar(name='Russia', x = agency_rusia, y=value_rusia, marker_color='green'),
+    go.Bar(name='United States', x=agency_usa, y=value_usa, marker_color='blue')
+    ])
+
+    fig.update_layout(
+        barmode='group',
+        title='Comparison of the main satellite launch agencies: Russia vs the United States',
+        xaxis_title='Agencies',
+        yaxis_title='Satellites launched',
+        legend_title='Country'
+    )
+    return fig
+
+
+
+
+
+
+
+                
+
 
 
     
