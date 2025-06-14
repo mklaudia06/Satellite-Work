@@ -1,4 +1,4 @@
-from streamlit_folium import st_folium, folium_static
+from streamlit_folium import folium_static
 from typing import List
 from streamlit.delta_generator import DeltaGenerator
 import pandas as pd
@@ -16,7 +16,7 @@ def readJson(path: str, pandas: bool = False) -> pd.DataFrame:
 
         return json_norm
 
-def loadData(df: pd.DataFrame):
+def loadSatUCSData(df: pd.DataFrame):
     sucs_data = []
 
     for data in df.iterrows():

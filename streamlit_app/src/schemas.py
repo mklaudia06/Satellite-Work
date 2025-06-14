@@ -1,173 +1,148 @@
 class Texts:
     start_text = """
-
     <style>
-        
-        li {
+        .start-page li {
             font-size: xx-large;
             text-align: center;
             list-style: none;
         }
         
-        .first-header {
+        .start-page .first-header {
             text-align: center;
         }
 
-        .who-we-are-header {
+        .start-page .who-we-are-header {
             text-align: center;
             font-size: xxx-large;
         }
 
-        .start {
-            color: #F97A00;
-        }
+        .start-page .start { color: #F97A00; }
+        .start-page .countries { color: #129990; }
+        .start-page .satellites { color: #E50046; }
+        .start-page .agency { color: #E83F25; }
+        .start-page .orbit-kind { color: #3674B5; }
 
-        .countries {
-            color: #129990;
-        }
-
-        .satellites {
-            color: #E50046;
-        }
-
-        .agency {
-            color: #E83F25;
-        }
-
-        .orbit-kind {
-            color: #3674B5;
-        }
-
-        .us-info {
+        .start-page .us-info {
             text-align: center;
             font-size: x-large;
         }
-
     </style>
 
-    <h1 class='first-header'>Para Navegar por el sitio, hagalo por las diferentes pestañas:</h1>
-    <ul>
-        <li class='start'>Inicio</li>
-        <li class='countries'>Paises</li>
-        <li class='satellites'>Satelites</li>
-        <li class='agency'>Agencia</li>
-        <li class='orbit-kind'>Tipo de orbita</li>
-    </ul>
-    
-    <h2 class='who-we-are-header'>¿Quiénes somos?</h3>
-    <p class='us-info'>Somos dos estudiantes entusiastas y amantes por la programacion y por la Ciencia de Datos, que dicho sea de paso, estudiamos esta maravillosa y hermosa carrera en la Universidad de La Habana.</p>
-    <br>
-    <h2 class='who-we-are-header'>¿Qué es esto?</h2>
-    <p class='us-info'>Pues esto es nuestro proyecto de la asignatura Comunicacion en la Ciencia de Datos, donde nos toco el tema de Los Satelites.<br>Analizaremos y te comunicaremos de forma eficiente y divertida, la increible relacion entre los satelites y los datos.</p>
-"""
+    <div class="start-page">
+        <h1 class='first-header'>Para Navegar por el sitio, hágalo por las diferentes pestañas:</h1>
+        <ul>
+            <li class='start'>Inicio</li>
+            <li class='countries'>Países</li>
+            <li class='satellites'>Satélites</li>
+            <li class='agency'>Agencia</li>
+            <li class='orbit-kind'>Tipo de órbita</li>
+        </ul>
+        
+        <h2 class='who-we-are-header'>¿Quiénes somos?</h3>
+        <p class='us-info'>Somos dos estudiantes entusiastas y amantes por la programación y por la Ciencia de Datos, que dicho sea de paso, estudiamos esta carrera en la Universidad de La Habana.</p>
+        <br>
+        <h2 class='who-we-are-header'>¿Qué es esto?</h2>
+        <p class='us-info'>Pues esto es nuestro proyecto de la asignatura Comunicación en la Ciencia de Datos, donde nos tocó el tema de Los Satélites.<br>Analizaremos y te comunicaremos de forma eficiente y divertida, la increíble relación entre los satélites y los datos.</p>
+    </div>
+    """
 
     dataproduct_header = """
     <style>
-    a {
-        text-decoration: None;
-        color: #7F55B1;
-    }
-    .dataproduct {
-        text-align: center;
-        font-size: xx-large;
-    }
+        .start-page a {
+            text-decoration: None;
+            color: #7F55B1;
+        }
+        .start-page .dataproduct {
+            text-align: center;
+            font-size: xx-large;
+        }
     </style>
 
-
-    <h1 class='dataproduct'>DataProduct de <a href='https://github.com/mklaudia06/Satellite-Work'>Satellite-Work</a></h1>
+    <div class="start-page">
+        <h1 class='dataproduct'>DataProduct de <a href='https://github.com/mklaudia06/Satellite-Work'>Satellite-Work</a></h1>
+    </div>
     """
 
     satelliteQuiz_header = """
     <style>
-    h2 {
-        text-align: center;
-    }
-
-    .quiz-link {
-        text-decoration:None; 
-        color: #7F55B1;
-    }
+        .start-page h2 {
+            text-align: center;
+        }
+        .start-page .quiz-link {
+            text-decoration:None; 
+            color: #7F55B1;
+        }
     </style>
 
-    <h2>¿Acaso ya te probaste ante nuestro <a class='quiz-link' href='https://satellite-quiz.vercel.app/' target=_blank>Satellite Quiz</a>?</h2>
+    <div class="start-page">
+        <h2>¿Acaso ya te probaste ante nuestro <a class='quiz-link' href='https://satellite-quiz.vercel.app/' target=_blank>Satellite Quiz</a>?</h2>
+    </div>
     """
     
-    h1_country_map = "<h1 style='text-align: center;'>Todos los paises que han lanzado satelites desde 1957 hasta 2024</h1>"
+    h1_country_map = "<h1 style='text-align: center;'>Todos los paises que han lanzado satélites desde 1957 hasta 2024</h1>"
     
 
 class Countries:
     countries = {
-        'Algeria': 'Algeria', 
-        'Angola': 'Angola', 
+        'Alemania': 'Germany',
+        'Algeria': 'Algeria',
+        'Arabia Saudita': 'Saudi Arabia',
         'Argentina': 'Argentina', 
-        'Australia': 'Australia', 
-        'Austria': 'Austria', 
-        'Azerbaiyán': 'Azerbaijan', 
-        'Bangladesh': 'Bangladesh', 
+        'Australia': 'Australia',
+        'Azerbaiyán': 'Azerbaijan',
         'Bielorrusia': 'Belarus',
         'Bélgica': 'Belgium',
         'Bolivia': 'Bolivia',
         'Brasil': 'Brazil',
-        'Bulgaria': 'Bulgaria',
         'Canadá': 'Canada',
         'Chile': 'Chile',
         'China': 'China',
-        'Colombua': 'Colombia', 
-        'República Checa': 'Czech Republic',
+        'Colombia': 'Colombia', 
         'Dinamarca': 'Denmark',
         'Ecuador': 'Ecuador',
         'Egipto': 'Egypt',
+        'Estados Unidos': 'USA',
         'Estonia': 'Estonia',
+        'Eslovenia': 'Slovenia',
+        'España': 'Spain',
         'Etiopía': 'Ethiopia',
         'Finlandia': 'Finland',
         'Francia': 'France',
-        'Alemania': 'Germany',
         'Grecia': 'Greece',
         'Hungría': 'Hungary',
         'India': 'India',
         'Indonesia': 'Indonesia',
         'Irán': 'Iran',
-        'Iraq': 'Iraq',
         'Israel': 'Israel',
         'Italia': 'Italy',
         'Japón': 'Japan',
-        'Jordania': 'Jordan',
         'Kazajistán': 'Kazakhstan',
-        'Kenia': 'Kenya',
-        'Kuwait': 'Kuwait',
-        'Laos': 'Laos',
+        'Korea del Sur': 'South Korea',
         'Lituania': 'Lithuania',
         'Luxemburgo': 'Luxembourg',
         'Malasia': 'Malaysia',
         'México': 'Mexico',
-        'Mónaco': 'Monaco',
         'Marruecos': 'Morocco',
-        'Nepal': 'Nepal',
-        'Países Bajos (Holanda)': 'Netherlands',
         'Nueva Zelanda': 'New Zealand',
         'Nigeria': 'Nigeria',
-        'Noruega': 'Norway',
+        'Países Bajos (Holanda)': 'Netherlands',
         'Pakistán': 'Pakistan', 
         'Perú': 'Peru',
+        'Emiratos Árabes Unidos': 'United Arab Emirates',
         'Polonia': 'Poland',
+        'Reino Unido': 'UK',
+        'República Checa': 'Czech Republic',
         'Rusia': 'Russia',
-        'Arabia Saudita': 'Saudi Arabia',
         'Singapur': 'Singapore',
-        'Eslovenia': 'Slovenia',
         'Sudáfrica': 'South Africa',
-        'Korea del Sur': 'South Korea',
-        'España': 'Spain',
-        'Sudán': 'Sudan',
         'Suecia': 'Sweden', 
         'Suiza': 'Switzerland',
         'Taiwán': 'Taiwan',
         'Tailandia': 'Thailand',
         'Túnez': 'Tunisia',
         'Turquía': 'Turkey',
-        'Estados Unidos': 'USA',
         'Ucrania': 'Ukraine',
-        'Emiratos Árabes Unidos': 'United Arab Emirates',
-        'Reino Unido': 'United Kingdom',
+        'URSS': 'USSR',
         'Venezuela': 'Venezuela',
-        'Vietnam': 'Vietnam'
+        'Vietnam': 'Vietnam',
     }

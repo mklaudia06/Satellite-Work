@@ -1,4 +1,4 @@
-import streamlit as st, folium
+import streamlit as st, folium, pandas as pd, plotly.express as px
 from collections import Counter
 from main import data
 from src.utils import showMapDetails
@@ -23,5 +23,58 @@ for i in range(len(data)):
 
 countries.sort()
 counted_countries = Counter(countries)
-countries_box = st.selectbox("Selecciona uno o varios Paises:", Countries.countries.keys())
-print(Countries.countries[countries_box])
+countries_box = st.selectbox("Selecciona uno o varios Países:", Countries.countries.keys())
+
+sat_list = []
+
+df = pd.read_json("./json/satellite_list.json")
+
+for index, satellites in df.iterrows():
+    sat_list.append({
+        "name": satellites["name"],
+        "country": satellites["country"],
+        "year_launch": satellites["launch_date"].split("/")[-1],
+        "month_launch": satellites["launch_date"].split("/")[1],
+        "day_launch": satellites["launch_date"].split("/")[0],
+        "status":satellites["status"],
+        "function": satellites["function"]
+    })
+    
+selected_country = []
+
+for sel in sat_list:
+    if sel["country"] == Countries.countries[countries_box]:
+        selected_country.append(sel)
+
+country_df = pd.DataFrame(selected_country)
+if len(selected_country) == 1:
+    if selected_country[0]["status"] == "in orbit":
+        status = "se encuentra orbitando normalmente"
+    elif selected_country[0]["status"] == "in GSO":
+        status = "se encuentra en la órbita geostacionaria (GSO)"
+    elif selected_country[0]["status"] == "deorbited":
+        status = "se encuentra desorbitado"
+    elif selected_country[0]["status"] == "recovered":
+        status = "fue recuperado"
+    else:
+        status = "decaído"
+
+    st.html(f"""
+<h3>Este país solo ha lanzado un satélite, el cual:</h3>
+<ul>
+    <li style='list-style: None; text-align:center; font-size: larger;'>Se nombra {selected_country[0]["name"]}</li>
+    <li style='list-style: None; text-align:center; font-size: larger;'>Fue lanzado en {selected_country[0]["year_launch"]}</li>
+    <li style='list-style: None; text-align:center; font-size: larger;'>Actualmente {status}</li>
+</ul>
+""")
+else:
+    figure = px.bar(country_df,
+                    y="year_launch",
+                    title=f"Cantidad de Sátelites lanzados durante años en {countries_box}")
+    figure.update_layout(
+        xaxis_title="Cantidad",
+        yaxis_title="Años"
+    )
+
+    st.plotly_chart(figure)
+    st.html(f"<h3>Total de sátelites lanzados: {len(selected_country)}</h3>")
