@@ -59,22 +59,20 @@ if len(selected_country) == 1:
     else:
         status = "decaído"
 
-    st.html(f"""
-<h3>Este país solo ha lanzado un satélite, el cual:</h3>
-<ul>
-    <li style='list-style: None; text-align:center; font-size: larger;'>Se nombra {selected_country[0]["name"]}</li>
-    <li style='list-style: None; text-align:center; font-size: larger;'>Fue lanzado en {selected_country[0]["year_launch"]}</li>
-    <li style='list-style: None; text-align:center; font-size: larger;'>Actualmente {status}</li>
-</ul>
-""")
+    st.html(Texts.satellite.format(selected_country[0]["name"], selected_country[0]["year_launch"], status))
 else:
-    figure = px.bar(country_df,
-                    y="year_launch",
-                    title=f"Cantidad de Sátelites lanzados durante años en {countries_box}")
-    figure.update_layout(
-        xaxis_title="Cantidad",
-        yaxis_title="Años"
-    )
-
-    st.plotly_chart(figure)
+    st.title(f"Cantidad de Sátelites lanzados durante años en {countries_box if countries_box != "URSS" else "la Unión Soviética"}")
+    
+    st.bar_chart(country_df,
+                 y="year_launch",
+                 y_label="Años",
+                 x_label="Cantidad de satélites")
+    
+    # df2 = pd.DataFrame(sat_list)
+    # day = df2["day_launch"].mode()
+    # month = df2["month_launch"].mode()
+    # year = df2["year_launch"].mode()
+    # print(day)
+    # print(month)
+    # print(year)
     st.html(f"<h3>Total de sátelites lanzados: {len(selected_country)}</h3>")

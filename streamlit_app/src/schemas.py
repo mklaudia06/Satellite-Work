@@ -81,7 +81,14 @@ class Texts:
     
     h1_country_map = "<h1 style='text-align: center;'>Todos los paises que han lanzado satélites desde 1957 hasta 2024</h1>"
     
-
+    satellite = """
+    <h3>Este país solo ha lanzado un satélite, el cual:</h3>
+    <ul>
+        <li style='list-style: none; text-align:center; font-size: larger;'>Se nombra {}</li>
+        <li style='list-style: none; text-align:center; font-size: larger;'>Fue lanzado en {}</li>
+        <li style='list-style: none; text-align:center; font-size: larger;'>Actualmente {}</li>
+    </ul>
+"""
 class Countries:
     countries = {
         'Alemania': 'Germany',
