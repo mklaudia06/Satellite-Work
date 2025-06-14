@@ -67,12 +67,4 @@ else:
                  y="year_launch",
                  y_label="Años",
                  x_label="Cantidad de satélites")
-    
-    # df2 = pd.DataFrame(sat_list)
-    # day = df2["day_launch"].mode()
-    # month = df2["month_launch"].mode()
-    # year = df2["year_launch"].mode()
-    # print(day)
-    # print(month)
-    # print(year)
     st.html(f"<h3>Total de sátelites lanzados: {len(selected_country)}</h3>")
