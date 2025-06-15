@@ -1,12 +1,39 @@
 import streamlit as st
+from datetime import datetime as dt
+import src.utils as util
+import pandas as pd
 
 st.title("Buscador de satélites según su fecha de lanzamiento")
+st.subheader("🛰️ Descubre qué satélites fueron lanzados en la fecha que elijas")
+st.markdown("Cada día, el cielo se llena un poco más y más. Satélites de todo el mundo son enviados al espacio para explorar, comunicar, observar o proteger." \
+" ¿Cuál es el tuyo? Descubre si se lanzaron satélites el día que naciste o que comenzaron su viaje en una fecha especial para ti." \
+" El espacio guarda historias todos los días, el cielo siempre tiene algo que contar.")
 
-# "que permita buscar satelites por fecha, que muestre el nombre, "
-# "País/organización responsable,"
-# "Misión del satélite (comunicaciones, observación, etc.)"
-# "Un satélite para cada fecha. ¿Cuál es el tuyo? Descubre que satélites fueron lanzados el día que naciste"
-# "Filtra por país, misión o tipo de satélite, y accedé a detalles sobre cada lanzamiento: cohete, agencia, órbita y más."
-# "El espacio guarda historias todos los días. Descubrí qué satélites comenzaron su viaje en una fecha especial para vos. "
-# "Desde misiones científicas hasta exploraciones lejanas, el cielo siempre tiene algo que contar."
-# "acompañar con un botón: Elegí una fecha para empezar"
+
+df = util.json_to_df("./json/satelliteucs.json")
+min_date = dt(1957,1,1)
+max_date = dt(2024,12,31) 
+date = st.date_input("📅 Elige una fecha y comienza a explorar el espacio por día",min_value=min_date, max_value=max_date) 
+formatted_date = f'{date.month}/{date.day}/{date.year}'
+columnas_a_mostrar = ['sat_name', 'owner_country', 'owner','purpose','orbit_class','launch_site']
+
+fila_filtrada = []
+for _,fila in df.iterrows():
+    date_lauch = fila['date_launch']
+    if date_lauch == formatted_date:
+           fila_filtrada.append(fila[columnas_a_mostrar])
+
+if fila_filtrada:
+    resultado = pd.DataFrame(fila_filtrada)
+    st.dataframe(resultado,
+                hide_index=True, width=1000,
+                column_config={
+                    'sat_name':'Name of the satellite',
+                    'owner_country':'Country',
+                    'owner':'Agency',
+                    'purpose':'Objective',
+                    'orbit_class':'Orbit',
+                    'launch_site': 'Launch Site'
+                })
+else:
+    st.write("🚫 No se lanzaron satélites en esa fecha.")
