@@ -10,7 +10,7 @@ st.markdown("Cada día, el cielo se llena un poco más y más. Satélites de tod
 " El espacio guarda historias todos los días, el cielo siempre tiene algo que contar.")
 
 
-df = util.json_to_df("./json/satelliteucs.json")
+df = pd.read_json("./json/satelliteucs.json")
 min_date = dt(1957,1,1)
 max_date = dt(2024,12,31) 
 date = st.date_input("📅 Elige una fecha y comienza a explorar el espacio por día",min_value=min_date, max_value=max_date) 
@@ -21,19 +21,27 @@ fila_filtrada = []
 for _,fila in df.iterrows():
     date_lauch = fila['date_launch']
     if date_lauch == formatted_date:
-           fila_filtrada.append(fila[columnas_a_mostrar])
+        fila_filtrada.append(fila[columnas_a_mostrar])
 
 if fila_filtrada:
     resultado = pd.DataFrame(fila_filtrada)
-    st.dataframe(resultado,
-                hide_index=True, width=1000,
-                column_config={
-                    'sat_name':'Name of the satellite',
-                    'owner_country':'Country',
-                    'owner':'Agency',
-                    'purpose':'Objective',
-                    'orbit_class':'Orbit',
-                    'launch_site': 'Launch Site'
-                })
+    country_select = st.selectbox('Elige un país', options=set(resultado['owner_country']))
+    new_filter = []
+    for _,fila in resultado.iterrows():
+        country =  fila['owner_country']
+        if country == country_select:
+            new_columnas_a_mostrar = ['sat_name', 'owner','purpose','orbit_class','launch_site']
+            new_filter.append(fila[new_columnas_a_mostrar])
+    if new_filter:
+        st.dataframe(new_filter,
+                    hide_index=True, width=1000,
+                    column_config={
+                        'sat_name':'Name of the satellites',
+                        'owner_country':'Country',
+                        'owner':'Owner',
+                        'purpose':'Objective',
+                        'orbit_class':'Orbit',
+                        'launch_site': 'Launch Site'
+                    })
 else:
-    st.write("🚫 No se lanzaron satélites en esa fecha.")
+    st.write("🚫 No se lanzaron satélites en esa fecha 🚫 ")

@@ -68,6 +68,3 @@ def showMapDetails(map: folium.Map, column: List[DeltaGenerator]) -> None:
         folium_static(map)
 
 
-def json_to_df(route):
-    df = pd.read_json(route)
-    return df
