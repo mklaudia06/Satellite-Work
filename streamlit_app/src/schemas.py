@@ -89,6 +89,8 @@ class Texts:
         <li style='list-style: none; text-align:center; font-size: larger;'>Actualmente {}</li>
     </ul>
 """
+
+
 class Countries:
     countries = {
         'Alemania': 'Germany',
