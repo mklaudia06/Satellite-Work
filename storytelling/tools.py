@@ -18,7 +18,7 @@ def open_json(route):
 
 def graph_per_year ():
     route = "./json/total_launches_by_country_and_year.json"
-    with open (route,"r",encoding='utf8') as f:
+    with open (route,"r",encoding='utf-8') as f:
         data = json.load(f)
         years = [i for i in range(1957,2025)]
         satellites_usa = []
@@ -28,9 +28,9 @@ def graph_per_year ():
         for i in data['United_States']:
             satellites_usa.append(i['launches'])
         fig = go.Figure()
-        fig.add_trace(go.Scatter(x = years,y=satellites_rus,mode="lines+markers", name = "Russian Launches"))
-        fig.add_trace(go.Scatter(x = years,y =satellites_usa,mode= "lines+markers",name="United States Launches"))
-        fig.update_layout(title="Launches by year and country (Russia and the United States)",xaxis_title="Years",yaxis_title="Number of launches",legend_title="Country")
+        fig.add_trace(go.Scatter(x = years,y=satellites_rus,mode="lines+markers", name = "Lanzamientos rusos"))
+        fig.add_trace(go.Scatter(x = years,y =satellites_usa,mode= "lines+markers",name="Lanzamientos estadounidenses"))
+        fig.update_layout(title="Lanzamientos por año y pais (Rusia y Estados Unidos)",xaxis_title="Años",yaxis_title="Numero de lanzamientos",legend_title="Pais")
     return fig
 
 def orbit_map():
@@ -68,7 +68,7 @@ def orbit_map():
             count = 0
         usa_orbits.append(count)
     
-    countries = ["Russia", "United States"]
+    countries = ["Rusia", "Estados Unidos"]
     satellite_counts = [rusia_orbits, usa_orbits]
     fig = go.Figure(go.Heatmap(z=satellite_counts,
     x=all_orbits,
@@ -76,12 +76,12 @@ def orbit_map():
     colorscale='Viridis',
     zmin=0,
     zmax=max(max(element) for element in satellite_counts),
-    colorbar=dict(title='Number of satellites'))
+    colorbar=dict(title='Cantidad de satelites'))
     )
     fig.update_layout(
-    title="🛰️ Distribution of satellites by type of orbit and by country ",
-    xaxis_title="Type of Orbit",
-    yaxis_title="Country")
+    title="🛰️ Distribucion de satelites por tipo de orbita y por pais",
+    xaxis_title="Tipo de Orbita",
+    yaxis_title="Pais")
     return fig
 
 data = open_json("./json/satelliteucs.json")
@@ -95,8 +95,8 @@ for i in data:
     elif i['owner_country'] == "USA":
         if agency :
             agencias_usa.add(agency)
-print(f"Agencias de Rusia: {agencias_rusia}")
-print(f"Agencias de USA: {agencias_usa}")
+# print(f"Agencias de Rusia: {agencias_rusia}")
+# print(f"Agencias de USA: {agencias_usa}")
 
 
 def graph_agency ():
@@ -134,16 +134,16 @@ def graph_agency ():
         value_rusia.append(number)
     
     fig = go.Figure([
-    go.Bar(name='Russia', x = agency_rusia, y=value_rusia, marker_color='green'),
-    go.Bar(name='United States', x=agency_usa, y=value_usa, marker_color='blue')
+    go.Bar(name='Rusia', x = agency_rusia, y=value_rusia, marker_color='green'),
+    go.Bar(name='Estados Unidos', x=agency_usa, y=value_usa, marker_color='blue')
     ])
 
     fig.update_layout(
         barmode='group',
-        title='Comparison of the main satellite launch agencies: Russia vs the United States',
-        xaxis_title='Agencies',
-        yaxis_title='Satellites launched',
-        legend_title='Country'
+        title='Comparacion de las principales agencias de lanzamiento de satelites: Rusia vs Estados Unidos',
+        xaxis_title='Agencias',
+        yaxis_title='Satelites lanzados',
+        legend_title='Pais'
     )
     return fig
 
