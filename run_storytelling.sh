@@ -1,0 +1,1 @@
+streamlit run storytelling/main.py

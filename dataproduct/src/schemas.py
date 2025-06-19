@@ -155,3 +155,11 @@ class Countries:
         'Venezuela': 'Venezuela',
         'Vietnam': 'Vietnam',
     }
+    
+class Satellites:
+    orbit_kind_info = {
+        "GEO": "Órbita geoestacionaria, perfecta para telecomunicaciones fijas.",
+        "LEO": "Baja órbita terrestre, ideal para observación y comunicación rápida.",
+        "MEO": "Órbita terrestre media, usada en navegación como GPS.",
+        "Elliptical": "Órbita ovalada, útil para cubrir altas latitudes."
+    }
