@@ -20,7 +20,7 @@ def graph_per_year ():
     route = "./json/total_launches_by_country_and_year.json"
     with open (route,"r",encoding='utf8') as f:
         data = json.load(f)
-        years = [i for i in range(1957,2025)]
+        years = list(range(1957,2025))
         satellites_usa = []
         satellites_rus = []
         for i in data['Russia']:

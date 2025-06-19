@@ -37,7 +37,6 @@ if fila_filtrada:
                     hide_index=True, width=1000,
                     column_config={
                         'sat_name':'Name of the satellites',
-                        'owner_country':'Country',
                         'owner':'Owner',
                         'purpose':'Objective',
                         'orbit_class':'Orbit',
