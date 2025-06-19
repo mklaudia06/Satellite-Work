@@ -19891,7 +19891,7 @@
         "country":"Russia",
         "launch_date":"10/2/2009",
         "status":"deorbited",
-        "function":"Delivery to the International Space Station of fuel, water, oxygen, air, food and other expendable materials required for operation of the Station"
+        "function":"Delivery to ISS"
     },
     {
         "name":"STARS (KUKAI)\u00a0",
@@ -20024,7 +20024,7 @@
         "country":"Russia",
         "launch_date":"26/11/2008",
         "status":"deorbited",
-        "function":"Delivery to the International Space Station of fuel, water, oxygen, air, food and other expendable materials required for operation of the Station"
+        "function":"Delivery to ISS"
     },
     {
         "name":"COSMOS 2445\u00a0",
@@ -20108,7 +20108,7 @@
         "country":"Russia",
         "launch_date":"12/10/2008",
         "status":"recovered",
-        "function":"Delivery to the International Space Station of the crew of Expedition 18, consisting of Y. Lonchakov and M. Fincke, and Visiting Crew 15, consisting of P. Garriott (United States of America)"
+        "function":"Delivery to the International Space Station"
     },
     {
         "name":"THEOS (Thaichote)\u00a0",
@@ -20171,7 +20171,7 @@
         "country":"Russia",
         "launch_date":"10/9/2008",
         "status":"deorbited",
-        "function":"Delivery to the International Space Station of fuel, water, oxygen, air, food and other expendable materials required for operation of the Station during piloted flight"
+        "function":"Delivery to ISS during piloted flight"
     },
     {
         "name":"HUAN JING 1A\u00a0",
@@ -20290,7 +20290,7 @@
         "country":"Russia",
         "launch_date":"15/5/2008",
         "status":"deorbited",
-        "function":"Delivery to the International Space Station of fuel, water, oxygen, air, food and other expendable materials required for operation of the Station during the piloted flight"
+        "function":"Delivery to ISS during the piloted flight"
     },
     {
         "name":"CAN X2\u00a0",
@@ -20444,7 +20444,7 @@
         "country":"Russia",
         "launch_date":"5/2/2008",
         "status":"deorbited",
-        "function":"Delivery to the International Space Station of fuel, water, oxygen, air, food and other expendable materials required for operation of the Station during piloted flights"
+        "function":"Delivery to ISS during piloted flights"
     },
     {
         "name":"EKPRESS AM-33\u00a0(EXPRESS AM33)",
@@ -20493,7 +20493,7 @@
         "country":"Russia",
         "launch_date":"23/12/2007",
         "status":"deorbited",
-        "function":"Delivery to the International Space Station of fuel, water, oxygen, air, food and other expendable materials required for operation of the Station during the piloted flight"
+        "function":"Delivery to ISS during the piloted flight"
     },
     {
         "name":"HORIZONS 2\u00a0",
@@ -20759,7 +20759,7 @@
         "country":"Russia",
         "launch_date":"2/8/2007",
         "status":"deorbited",
-        "function":"Delivery to the International Space Station of fuel, water, oxygen, air, food and other expendable materials required for operation of the Station during the piloted flight"
+        "function":"Delivery to ISS during the piloted flight"
     },
     {
         "name":"DIRECTV 10\u00a0",
@@ -20871,7 +20871,7 @@
         "country":"Russia",
         "launch_date":"12/5/2007",
         "status":"deorbited",
-        "function":"Delivery to the International Space Station of fuel, water, oxygen, air, food and other expendable materials required for operation of the Station during the piloted flight"
+        "function":"Delivery to ISS during the piloted flight"
     },
     {
         "name":"GALAXY 17\u00a0",
@@ -21200,7 +21200,7 @@
         "country":"Russia",
         "launch_date":"23/10/2006",
         "status":"deorbited",
-        "function":"Delivery to the International Space Station of fuel, water, oxygen, air, food and other expendable materials required for operation of the Station during the piloted flight"
+        "function":"Delivery to ISS during the piloted flight"
     },
     {
         "name":"METOP A\u00a0",
@@ -21340,7 +21340,7 @@
         "country":"Russia",
         "launch_date":"24/6/2006",
         "status":"deorbited",
-        "function":"Delivery to the International Space Station of fuel, water, oxygen, air, food and other expendable materials required for operation of the Station during the piloted flight"
+        "function":"Delivery to ISS during the piloted flight"
     },
     {
         "name":"KAZSAT\u00a0",
