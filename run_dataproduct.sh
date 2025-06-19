@@ -1,1 +1,1 @@
-streamlit run streamlit_app/main.py
+streamlit run dataproduct/main.py
