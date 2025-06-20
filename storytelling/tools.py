@@ -147,14 +147,33 @@ def graph_agency ():
     )
     return fig
 
-
-
-
-
-
-
-                
-
-
-
+def graph_satellite_est_life():
+    data = open_json("./json/satelliteucs.json")
     
+    df = pd.DataFrame(data)
+    df["expected_lifetime_years"].dropna()
+    
+    
+    xd = {}
+    # if df["owner_country"] == "USA":
+    #     xd["USA"] = df["expected_lifetime_years"].mean()
+    # elif df["owner_country"] == "Russia":
+    #     xd["Russia"] = df["expected_lifetime_years"].mean()
+    
+    for index, d in df.iterrows():
+        if d["owner_country"] == "USA":
+            xd["USA"] = df["expected_lifetime_years"].mean()
+    
+    # country_info = []
+    # for index, d in df.iterrows():
+    #     if d["owner_country"] in ["USA", "Russia"]:
+    #         country_info.append({
+    #             "country": d["owner_country"],
+    #             "expected_sat_life": d["expected_lifetime_years"]
+    #         })
+    
+    # fig = px.bar(country_info,
+    #              x="country",
+    #              y="expected_sat_life")
+    # # fig.update_layout()
+    # return fig

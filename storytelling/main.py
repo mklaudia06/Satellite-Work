@@ -54,3 +54,7 @@ st.markdown("SpaceX (EE.UU.) domina el número de satélites lanzados, ha lanzad
 "El enfoque de agencias gubernamentales (como Roscosmos y NASA) no es la cantidad, sino la calidad y la finalidad de sus misiones." \
 "La diferencia también refleja el liderazgo del sector privado estadounidense en la nueva era espacial comercial.")
 st.divider()
+
+# life_estimation_fig = tls.graph_satellite_est_life()
+# # st.plotly_chart(life_estimation_fig)
+# life_estimation_fig
