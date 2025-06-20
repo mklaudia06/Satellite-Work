@@ -17,9 +17,9 @@ if toggle:
 countries = []
 
 for i in range(len(data)):
-    if "/" not in data[i]["owner_country"] and "Multinational" not in data[i]["owner_country"] \
-        and "ESA" not in data[i]["owner_country"]:
-        countries.append(data[i]["owner_country"])
+    if "/" not in data[i]["country"] and "Multinational" not in data[i]["country"] \
+        and "ESA" not in data[i]["country"]:
+        countries.append(data[i]["country"])
 
 countries.sort()
 counted_countries = Counter(countries)
