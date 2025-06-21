@@ -54,7 +54,7 @@ fig.update_layout(
 st.plotly_chart(fig)
 
 
-select_agency = st.selectbox("Seleccione una agencia que pertence a ese país",options = agency_count_df['Agencies'])
+select_agency = st.selectbox("Seleccione una agencia que pertence a ese país",options = sorted(set(agency_count_df['Agencies'])))
 
 filter_agencia =[]
 for _, fila in filter_data.iterrows():
