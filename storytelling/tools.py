@@ -95,9 +95,6 @@ for i in data:
     elif i['owner_country'] == "USA":
         if agency :
             agencias_usa.add(agency)
-# print(f"Agencias de Rusia: {agencias_rusia}")
-# print(f"Agencias de USA: {agencias_usa}")
-
 
 def graph_agency ():
     data = open_json("./json/satelliteucs.json")
@@ -147,33 +144,26 @@ def graph_agency ():
     )
     return fig
 
-def graph_satellite_est_life():
+def satellite_est_life():
     data = open_json("./json/satelliteucs.json")
     
     df = pd.DataFrame(data)
-    df["expected_lifetime_years"].dropna()
-    
-    
-    xd = {}
-    # if df["owner_country"] == "USA":
-    #     xd["USA"] = df["expected_lifetime_years"].mean()
-    # elif df["owner_country"] == "Russia":
-    #     xd["Russia"] = df["expected_lifetime_years"].mean()
-    
+
+    USA = []
+    Russia = []
     for index, d in df.iterrows():
-        if d["owner_country"] == "USA":
-            xd["USA"] = df["expected_lifetime_years"].mean()
+        if d["expected_lifetime_years"] is not None:
+            if d["owner_country"] == "USA":
+                USA.append(float(d["expected_lifetime_years"].replace(",", ".")))
+            elif d["owner_country"] == "Russia":
+                Russia.append(float(d["expected_lifetime_years"].replace(",", ".")))
     
-    # country_info = []
-    # for index, d in df.iterrows():
-    #     if d["owner_country"] in ["USA", "Russia"]:
-    #         country_info.append({
-    #             "country": d["owner_country"],
-    #             "expected_sat_life": d["expected_lifetime_years"]
-    #         })
+    usa_mean = round(pd.Series(USA).mean(), 2)
+    russia_mean = round(pd.Series(Russia).mean(), 2)
+
+    categories = ["Satelites Estadounidenses", "Satelites Rusos"]
+    life_sat_mean = [usa_mean, russia_mean]
+
+    fig = px.bar(x=categories, y=life_sat_mean, labels={'x': 'Satelites', 'y': 'Promedio de vida'}, color=["blue", "red"])
     
-    # fig = px.bar(country_info,
-    #              x="country",
-    #              y="expected_sat_life")
-    # # fig.update_layout()
-    # return fig
+    return fig

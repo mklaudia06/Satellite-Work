@@ -55,6 +55,10 @@ st.markdown("SpaceX (EE.UU.) domina el número de satélites lanzados, ha lanzad
 "La diferencia también refleja el liderazgo del sector privado estadounidense en la nueva era espacial comercial.")
 st.divider()
 
-# life_estimation_fig = tls.graph_satellite_est_life()
-# # st.plotly_chart(life_estimation_fig)
-# life_estimation_fig
+st.subheader("¿Quien muere más rápido?")
+st.markdown("Se ha decidido tomar 100 satelites de cada país, ya hemos visto que Estados Unidos supera en casi todos los aspectos a Rusia, pero si algo bueno nos ha enseñado el pais Belo es que muchas veces prefieren calidad antes que cantidad")
+
+fig = tls.satellite_est_life()
+st.plotly_chart(fig)
+
+st.markdown("Y si, esta vez Rusia nos muestra lo que estamos acostumbrados, a ser demoledor y audaz en cuanto a calidad se refiere; los satelites rusos tienen un promedio de vida casi hasta 4 veces por encima de los satelites americanos, demostrando que no importa cuantos golpes des, el importante es ese que llega con mas fuerza")
