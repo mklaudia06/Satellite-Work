@@ -61,4 +61,4 @@ st.markdown("Se ha decidido tomar 100 satelites de cada país, ya hemos visto qu
 fig = tls.satellite_est_life()
 st.plotly_chart(fig)
 
-st.markdown("Y si, esta vez Rusia nos muestra lo que estamos acostumbrados, a ser demoledor y audaz en cuanto a calidad se refiere; los satelites rusos tienen un promedio de vida casi hasta 4 veces por encima de los satelites americanos, demostrando que no importa cuantos golpes des, el importante es ese que llega con mas fuerza")
+st.markdown("Y si, esta vez Rusia nos muestra lo que estamos acostumbrados, a ser demoledor y audaz en cuanto a calidad se refiere; los satelites rusos tienen un promedio de vida casi hasta 4 veces por encima de los satelites americanos, demostrando que no importa cuantos golpes des, el importante es ese que llega con mas fuerza.")

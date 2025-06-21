@@ -164,6 +164,6 @@ def satellite_est_life():
     categories = ["Satelites Estadounidenses", "Satelites Rusos"]
     life_sat_mean = [usa_mean, russia_mean]
 
-    fig = px.bar(x=categories, y=life_sat_mean, labels={'x': 'Satelites', 'y': 'Promedio de vida'}, color=["blue", "red"])
+    fig = px.bar(x=categories, y=life_sat_mean, labels={'x': 'Satelites', 'y': 'Promedio de vida'}, color=["USA", "Rusia"])
     
     return fig
