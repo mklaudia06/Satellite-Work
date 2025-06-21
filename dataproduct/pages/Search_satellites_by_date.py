@@ -1,6 +1,5 @@
 import streamlit as st
 from datetime import datetime as dt
-import src.utils as util
 import pandas as pd
 
 st.title("Buscador de satélites según su fecha de lanzamiento")
