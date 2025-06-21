@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
-import plotly_express as px
+import plotly.express as px
 
 st.title("Análisis por agencias")
 st.markdown("Descubre cuántos satélites orbitan actualmente la Tierra, " \
