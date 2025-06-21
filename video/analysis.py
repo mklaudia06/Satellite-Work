@@ -83,27 +83,51 @@ for index, row in df.iterrows():
 
 ################### China Experiment #########################
 
-total_particles = 50000
-detected = 3438
-desintegrated = 571
-still_orbiting = 2867
+# total_particles = 50000
+# detected = 3438
+# desintegrated = 571
+# still_orbiting = 2867
 
-data2 = {
-    "total": total_particles,
-    "detectado": detected,
-    "orbitando": still_orbiting,
-    "desintegrado": desintegrated
-}
+# data2 = {
+#     "total": total_particles,
+#     "detectado": detected,
+#     "orbitando": still_orbiting,
+#     "desintegrado": desintegrated
+# }
 
-df2 = pd.DataFrame(data2, index=[0])
+# df2 = pd.DataFrame(data2, index=[0])
 
-ax = df2.plot(kind='bar', rot=0, figsize=(12, 6), color=["#483AA0", "#F564A9", "#FB9E3A", "#16610E"])
+# ax = df2.plot(kind='bar', rot=0, figsize=(12, 6), color=["#483AA0", "#F564A9", "#FB9E3A", "#16610E"])
 
-plt.title("Experimento Antisatélite de China")
-plt.ylabel("Numero de partículas")
-plt.xticks([])
+# plt.title("Experimento Antisatélite de China")
+# plt.ylabel("Numero de partículas")
+# plt.xticks([])
 
-for container in ax.containers:
-    ax.bar_label(container, label_type='edge')
+# for container in ax.containers:
+#     ax.bar_label(container, label_type='edge')
 
-plt.show()
+# plt.show()
+
+############################################
+
+sat_deorbit_funct = []
+for sat in data:
+    if sat["status"] == "deorbited" or sat["status"] == "decayed":
+        if sat["function"] is not None:
+            if "communications" in sat["function"].lower():
+                sat_deorbit_funct.append("Comunicación")
+            elif "earth observation" in sat["function"].lower():
+                sat_deorbit_funct.append("Observación a la Tierra")
+            elif "navigation" in sat["function"].lower():
+                sat_deorbit_funct.append("Navegación")
+            elif "astronomy" in sat["function"].lower():
+                sat_deorbit_funct.append("Astronomía")
+
+counted_sats = Counter(sat_deorbit_funct)
+
+colors = ["#D50B8B", "#093FB4", "#725CAD", "#FF3F33"]
+
+fig = px.pie(names=counted_sats.keys(), values=counted_sats.values())
+fig.update_traces(textinfo='percent', textfont_size=20,
+                  marker=dict(colors=colors, line=dict(color='#000000', width=3)))
+fig.show()
