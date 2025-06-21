@@ -108,7 +108,7 @@ for index, row in df.iterrows():
 
 # plt.show()
 
-############################################
+################### Deorbited and decayed by functionalities #########################
 
 sat_deorbit_funct = []
 for sat in data:
