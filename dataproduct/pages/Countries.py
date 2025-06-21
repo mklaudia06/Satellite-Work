@@ -5,13 +5,14 @@ from src.utils import showMapDetails
 from src.schemas import Texts, Countries
 
 st.html(Texts.h1_country_map)
-m = folium.Map(location=[0, 0], zoom_start=-5, min_zoom=2, width=1000, height=550)
-
-columns = st.columns([1, 2, 1])
 
 toggle = st.toggle("Mostrar mapa")
 
 if toggle:
+    m = folium.Map(location=[0, 0], zoom_start=-5, min_zoom=2, width=1000, height=550)
+
+    columns = st.columns([1, 2, 1])
+
     showMapDetails(m, columns[1])
     
 countries = []
