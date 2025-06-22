@@ -3,7 +3,7 @@ from datetime import datetime as dt
 import pandas as pd
 
 st.title("Buscador de satélites según su fecha de lanzamiento")
-st.subheader("🛰️ Descubre qué satélites fueron lanzados en la fecha que elijas")
+st.subheader("🛰️ Descubre qué satélites fueron lanzados en la fecha que elijas y que países fueron los responsables.")
 st.markdown("Cada día, el cielo se llena un poco más y más. Satélites de todo el mundo son enviados al espacio para explorar, comunicar, observar o proteger." \
 " ¿Cuál es el tuyo? Descubre si se lanzaron satélites el día que naciste o que comenzaron su viaje en una fecha especial para ti." \
 " El espacio guarda historias todos los días, el cielo siempre tiene algo que contar.")
