@@ -62,3 +62,11 @@ fig = tls.satellite_est_life()
 st.plotly_chart(fig)
 
 st.markdown("Y si, esta vez Rusia nos muestra lo que estamos acostumbrados, a ser demoledor y audaz en cuanto a calidad se refiere; los satelites rusos tienen un promedio de vida casi hasta 4 veces por encima de los satelites americanos, demostrando que no importa cuantos golpes des, el importante es ese que llega con mas fuerza.")
+
+st.markdown("""
+La competencia entre Rusia y Estados Unidos por el dominio del espacio ha sido una constante desde los primeros lanzamientos hasta la era moderna. Sin embargo, a medida que avanzamos hacia el futuro, surge una pregunta crucial: ¿cómo se redefinirá esta competencia en un mundo cada vez más interconectado y comercializado?
+La creciente participación del sector privado, liderado por empresas como SpaceX, ha desafiado el papel tradicional de las agencias gubernamentales, mientras que Roscosmos se enfrenta a un desafío constante para mantenerse relevante en un ámbito cada vez más globalizado.
+Con la aceleración de los avances tecnológicos, los satélites del mañana no solo estarán destinados a la observación y la comunicación, sino a tareas más ambiciosas, desde la exploración interplanetaria hasta la conexión global de la humanidad.
+
+Así que, aunque la batalla por la supremacía espacial entre dos grandes potencias sigue siendo fascinante, lo que está por venir promete ser aún más emocionante. El espacio ya no es solo un campo de lucha ideológica y científica, sino un lugar donde, tarde o temprano, las fronteras se diluirán, y quizás, los verdaderos ganadores sean aquellos que logren colaborar en lugar de competir.
+""")
