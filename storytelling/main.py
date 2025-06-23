@@ -32,7 +32,7 @@ st.markdown("Tanto Estados Unidos como Rusia tienen la mayoría de los satélite
 " presenta baja latencia lo que mejora las comunicaciones modernas, es ideal para observaciones terrestres y permite el monitoreo frecuente y amplia cobertura. " \
 "Pero también tiene una desventaja importante que al llenarse  rápidamente, aumenta el riesgo de colisiones y genera más basura espacial. ")
 st.markdown("Si te interesa conocer más sobre el tema de la basura espacial puedes pulsar el siguiente botón para ver nuestro video sobre ello.")
-st.link_button("Ver video", "https://www.youtube.com/@mk_data_sciece_beginner")
+st.link_button("Ver video", "https://youtu.be/J3Dl7k2JuxE?si=kf3hZh_5RpQXBnmd")
 
 st.divider()
 st.subheader("Carrera espacial moderna: Principales agencias lanzadoras de satélites en Rusia y EE. UU.")
