@@ -30,7 +30,7 @@ def graph_per_year ():
         fig = go.Figure()
         fig.add_trace(go.Scatter(x = years,y=satellites_rus,mode="lines+markers", name = "Lanzamientos rusos"))
         fig.add_trace(go.Scatter(x = years,y =satellites_usa,mode= "lines+markers",name="Lanzamientos estadounidenses"))
-        fig.update_layout(title="Lanzamientos por año y pais (Rusia y Estados Unidos)",xaxis_title="Años",yaxis_title="Numero de lanzamientos",legend_title="Pais")
+        fig.update_layout(title="Lanzamientos por año y país (Rusia y Estados Unidos)",xaxis_title="Años",yaxis_title="Número de lanzamientos",legend_title="Pais")
     return fig
 
 def orbit_map():
@@ -76,12 +76,12 @@ def orbit_map():
     colorscale='Viridis',
     zmin=0,
     zmax=max(max(element) for element in satellite_counts),
-    colorbar=dict(title='Cantidad de satelites'))
+    colorbar=dict(title='Cantidad de satélites'))
     )
     fig.update_layout(
-    title="🛰️ Distribucion de satelites por tipo de orbita y por pais",
-    xaxis_title="Tipo de Orbita",
-    yaxis_title="Pais")
+    title="🛰️ Distribución de satélites por tipo de órbita y por país",
+    xaxis_title="Tipo de órbita",
+    yaxis_title="País")
     return fig
 
 data = open_json("./json/satelliteucs.json")
@@ -137,7 +137,7 @@ def graph_agency ():
 
     fig.update_layout(
         barmode='group',
-        title='Comparacion de las principales agencias de lanzamiento de satelites: Rusia vs Estados Unidos',
+        title='Comparación de las principales agencias de lanzamiento de satélites: Rusia vs Estados Unidos',
         xaxis_title='Agencias',
         yaxis_title='Satelites lanzados',
         legend_title='Pais'
@@ -161,9 +161,9 @@ def satellite_est_life():
     usa_mean = round(pd.Series(USA).mean(), 2)
     russia_mean = round(pd.Series(Russia).mean(), 2)
 
-    categories = ["Satelites Estadounidenses", "Satelites Rusos"]
+    categories = ["Satélites Estadounidenses", "Satélites Rusos"]
     life_sat_mean = [usa_mean, russia_mean]
 
-    fig = px.bar(x=categories, y=life_sat_mean, labels={'x': 'Satelites', 'y': 'Promedio de vida'}, color=["USA", "Rusia"])
+    fig = px.bar(x=categories, y=life_sat_mean, labels={'x': 'Satélites', 'y': 'Promedio de vida'}, color=["USA", "Rusia"])
     
     return fig
